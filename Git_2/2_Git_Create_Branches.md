@@ -10,3 +10,9 @@ Nautilus developers are actively working on one of the project repositories, `/u
 `ssh natasha@ststor01`
 
 `sudo su -`
+
+`cd /usr/src/kodekloudrepos/ecommerce`
+
+`git checkout master`
+
+`git checkout -b xfusioncorp_ecommerce`
