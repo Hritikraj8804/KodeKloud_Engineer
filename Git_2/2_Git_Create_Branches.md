@@ -4,3 +4,9 @@ Nautilus developers are actively working on one of the project repositories, `/u
 
 1. On `Storage server` in Stratos DC create a new branch `xfusioncorp_ecommerce` from `master` branch in `/usr/src/kodekloudrepos/ecommerce` git repo. 
 2. Please do not try to make any changes in the code.
+
+# Solution
+
+`ssh natasha@ststor01`
+
+`sudo su -`
