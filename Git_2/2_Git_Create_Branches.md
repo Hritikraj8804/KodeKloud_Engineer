@@ -16,3 +16,7 @@ Nautilus developers are actively working on one of the project repositories, `/u
 `git checkout master`
 
 `git checkout -b xfusioncorp_ecommerce`
+
+`git status`
+
+`git branch -a`
