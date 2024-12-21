@@ -25,3 +25,7 @@ Create a new branch `xfusion` in `/usr/src/kodekloudrepos/news` repo from `maste
 `git commit -m "add index.html”`
 
 `git checkout master`
+
+This command merges the changes from the xfusion branch into the current branch (which is assumed to be master in this case): `git merge xfusion`
+
+This command pushes the local xfusion branch to the remote repository specified by origin. The -u flag is used to set the upstream branch, so that in the future, you can simply run git push without specifying the branch name. This command sends the commits made on the local xfusion branch to the remote repository, making them available to other collaborators: `git push -u origin xfusion`
