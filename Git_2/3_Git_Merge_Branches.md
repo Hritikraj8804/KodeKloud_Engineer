@@ -31,3 +31,5 @@ This command merges the changes from the xfusion branch into the current branch 
 This command pushes the local xfusion branch to the remote repository specified by origin. The -u flag is used to set the upstream branch, so that in the future, you can simply run git push without specifying the branch name. This command sends the commits made on the local xfusion branch to the remote repository, making them available to other collaborators: `git push -u origin xfusion`
 
 This command pushes the local master branch to the remote repository specified by origin. Similar to the previous command, the -u flag sets the upstream branch, allowing you to use git push without specifying the branch name in the future. By running this command, the commits made on the local master branch are sent to the remote repository, making them accessible to other team members: `git push -u origin master`
+
+`git status`
