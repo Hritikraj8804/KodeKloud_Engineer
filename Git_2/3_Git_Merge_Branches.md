@@ -17,3 +17,11 @@ Create a new branch `xfusion` in `/usr/src/kodekloudrepos/news` repo from `maste
 `git status`
 
 `git branch`
+
+`cp /tmp/index.html /usr/src/kodekloudrepos/news/`
+
+`git add index.html`
+
+`git commit -m "add index.html”`
+
+`git checkout master`
