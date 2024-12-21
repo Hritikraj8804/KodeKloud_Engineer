@@ -5,3 +5,15 @@ The Nautilus application development team has been working on a project reposito
 Create a new branch `xfusion` in `/usr/src/kodekloudrepos/news` repo from `master` and copy the `/tmp/index.html` file (present on `storage server` itself) into the repo. Further, `add/commit` this file in the new branch and merge back that branch into `master` branch. Finally, push the changes to the origin for both of the branches.
 
 # Solution
+
+`sudo su -`
+
+`cd /usr/src/kodekloudrepos/news`
+
+`git status`
+
+`git checkout -b xfusion`
+
+`git status`
+
+`git branch`
