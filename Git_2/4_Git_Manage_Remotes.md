@@ -7,3 +7,9 @@ a.  In `/usr/src/kodekloudrepos/demo` repo add a new remote `dev_demo`  and poin
 b. There is a file `/tmp/index.html` on same server; copy this file to the repo and add/commit to master branch.
 
 c. Finally push `master` branch to this new remote origin.
+
+# Solution
+
+`ssh natasha@ststor01`
+
+`sudo su -`
