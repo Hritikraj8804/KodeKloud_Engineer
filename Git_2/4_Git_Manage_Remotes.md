@@ -13,3 +13,9 @@ c. Finally push `master` branch to this new remote origin.
 `ssh natasha@ststor01`
 
 `sudo su -`
+
+`cd /usr/src/kodekloudrepos/demo`
+
+`git remote add dev_demo /opt/xfusioncorp_demo.git`
+
+`cp /tmp/index.html .`
