@@ -19,3 +19,11 @@ c. Finally push `master` branch to this new remote origin.
 `git remote add dev_demo /opt/xfusioncorp_demo.git`
 
 `cp /tmp/index.html .`
+
+`git init`
+
+`git add index.html`
+
+`git commit -m "add index.html”`
+
+`git push -u dev_demo  master`
