@@ -24,3 +24,5 @@ commit. Below are more details about the task:
 `git add .`
 
 `git commit -m "revert apps”`
+
+`git log`
