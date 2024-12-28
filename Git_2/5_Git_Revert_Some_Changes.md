@@ -12,3 +12,9 @@ commit. Below are more details about the task:
 `ssh natasha@ststor01`
 
 `sudo su -`
+
+`cd /usr/src/kodekloudrepos/apps`
+
+`git status`
+
+`git log`
