@@ -18,3 +18,9 @@ commit. Below are more details about the task:
 `git status`
 
 `git log`
+
+`git revert HEAD`
+
+`git add .`
+
+`git commit -m "revert apps”`
