@@ -7,3 +7,8 @@ commit. Below are more details about the task:
 1. In `/usr/src/kodekloudrepos/apps`  git repository, revert the latest commit `( HEAD )` to the previous commit (JFYI the previous commit hash should be with `initial commit` message ).
 2. Use `revert apps` message (please use all small letters for commit message) for the new revert commit.
 
+# Solution
+
+`ssh natasha@ststor01`
+
+`sudo su -`
