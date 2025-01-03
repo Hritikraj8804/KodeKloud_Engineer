@@ -11,3 +11,12 @@ Infra: `https://kodekloudhub.github.io/kodekloud-engineer/docs/projects/nautilus
 
 
 Check the file location
+
+
+Copy file: `sudo scp /tmp/index.html natasha@ststor01:/tmp`
+
+ssh into the Storage server: `ssh natasha@ststor01`
+
+Copy file to the destination: `cp index.html /usr/src/kodekloudrepos/demo`
+
+Go to `cd /usr/src/kodekloudrepos/demo`
