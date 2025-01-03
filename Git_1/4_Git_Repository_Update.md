@@ -20,3 +20,11 @@ ssh into the Storage server: `ssh natasha@ststor01`
 Copy file to the destination: `cp index.html /usr/src/kodekloudrepos/demo`
 
 Go to `cd /usr/src/kodekloudrepos/demo`
+
+`git status`
+
+`git add index.html`
+
+`git commit -m "add index.html"`
+
+`git push origin master`
