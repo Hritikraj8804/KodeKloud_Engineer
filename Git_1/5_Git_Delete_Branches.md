@@ -23,3 +23,5 @@ Change the permissions:
 `sudo chown -R natasha /usr/src/kodekloudrepos/apps`
 
 `sudo chmod -R u+rwx /usr/src/kodekloudrepos/apps`
+
+Delete the branch `git branch -D xfusioncorp_apps`
