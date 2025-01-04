@@ -9,3 +9,11 @@ On `Storage server` in Stratos DC delete a branch named `xfusioncorp_apps` from 
 ssh into the Storage server: `ssh natasha@ststor01`
 
 `cd /usr/src/kodekloudrepos/apps`
+
+`git config --global --add safe.directory /usr/src/kodekloudrepos/apps`
+
+Check if this branch is there `git branch --list xfusioncorp_apps`
+
+Check the branches `git branch`
+
+Change to the master `sudo git checkout master`
