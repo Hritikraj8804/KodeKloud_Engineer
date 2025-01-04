@@ -4,3 +4,8 @@ Nautilus developers are actively working on one of the project repositories, `/u
 
 On `Storage server` in Stratos DC delete a branch named `xfusioncorp_apps` from `/usr/src/kodekloudrepos/apps` git repo.
 
+# Solution
+
+ssh into the Storage server: `ssh natasha@ststor01`
+
+`cd /usr/src/kodekloudrepos/apps`
