@@ -17,3 +17,9 @@ Check if this branch is there `git branch --list xfusioncorp_apps`
 Check the branches `git branch`
 
 Change to the master `sudo git checkout master`
+
+Change the permissions:
+
+`sudo chown -R natasha /usr/src/kodekloudrepos/apps`
+
+`sudo chmod -R u+rwx /usr/src/kodekloudrepos/apps`
