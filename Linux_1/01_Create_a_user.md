@@ -14,5 +14,4 @@ This command creates a new user with the username "jim", sets the UID to 1582, c
 
 To check if the user "jim" was created successfully, you can use the following command: `id jim`
 
-Running this command will display information about the user "jim", including the UID, GID (group ID), and the groups the user belongs to. If the user was created successfully, you will see output similar to the following:
-
+Running this command will display information about the user "jim", including the UID, GID (group ID), and the groups the user belongs to. If the user was created successfully.
