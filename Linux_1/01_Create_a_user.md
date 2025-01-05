@@ -13,3 +13,6 @@ ssh into the App Server 2: `ssh steve@172.16.238.11`
 This command creates a new user with the username "jim", sets the UID to 1582, creates the home directory `/var/www/jim`, and the `-m` option ensures that the home directory is created: `sudo useradd -u 1582 -d /var/www/jim -m jim` 
 
 To check if the user "jim" was created successfully, you can use the following command: `id jim`
+
+Running this command will display information about the user "jim", including the UID, GID (group ID), and the groups the user belongs to. If the user was created successfully, you will see output similar to the following:
+
