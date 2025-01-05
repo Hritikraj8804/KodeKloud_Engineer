@@ -5,3 +5,7 @@ For security reasons the `xFusionCorp Industries` security team has decided to u
 a. Create a user named `jim` on the `App server 2` in Stratos Datacenter.
 
 b. Set its UID to `1582` and home directory to `/var/www/jim`.
+
+# Solution
+
+ssh into the App Server 2: `ssh steve@172.16.238.11`
