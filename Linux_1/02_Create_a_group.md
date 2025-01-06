@@ -6,4 +6,7 @@ individual user, the team has decided to create groups with required
 access levels and add users to that groups as needed. See the following 
 requirements:
 
+a. Create a group  named `nautilus_developers` in all App servers in `Stratos Datacenter`.
+
+b. Add the user `mohammed` to  `nautilus_developers` group in all App servers. (create the user if doesn't exist).
 
