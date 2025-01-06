@@ -17,3 +17,11 @@ ssh into the App Server 1: `ssh tony@172.16.238.10`
 ssh into the App Server 2: `ssh steve@172.16.238.11`
 
 ssh into the App Server 3: `ssh banner@172.16.238.12`
+
+To list all existing groups, you can run the command: `cat /etc/group`
+
+Create the group "nautilus_developers" by running the following command on each App server:  `sudo groupadd nautilus_developers`
+
+To check if the "nautilus_developers" group was created, you can use the following command: `grep -E "^nautilus_developers:" /etc/group`
+
+To list all existing users, you can run the command: `cat /etc/passwd`
