@@ -29,3 +29,8 @@ To list all existing users, you can run the command: `cat /etc/passwd`
 Create the user "mohammed" if they don't already exist. Run the following command on each App server: `sudo useradd mohammed`
 
 To check if the user "mohammed" exists, you can use the following command: `grep -E "^mohammed:" /etc/passwd` This command searches for a line that starts with "mohammed:" in the `/etc/passwd` file. If the user exists, it will display information about the user, including the username, UID, home directory, and shell.
+
+Add the user "mohammed" to the "nautilus_developers" group on each App server by running the following command: `sudo usermod -aG nautilus_developers mohammed`
+
+- `a`: This option stands for "append" or "add". It is used to add the user to the specified group(s) without removing them from any existing groups. It ensures that the user's current group memberships are preserved while adding the new group.
+- `G`: This option specifies the group(s) to which the user should be added. Multiple groups can be specified by separating them with commas. In this case, the group `nautilus_developers` is specified.
