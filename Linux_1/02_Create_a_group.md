@@ -10,3 +10,10 @@ a. Create a group  named `nautilus_developers` in all App servers in `Stratos Da
 
 b. Add the user `mohammed` to  `nautilus_developers` group in all App servers. (create the user if doesn't exist).
 
+# Solution
+
+ssh into the App Server 1: `ssh tony@172.16.238.10`
+
+ssh into the App Server 2: `ssh steve@172.16.238.11`
+
+ssh into the App Server 3: `ssh banner@172.16.238.12`
