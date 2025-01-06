@@ -25,3 +25,7 @@ Create the group "nautilus_developers" by running the following command on each 
 To check if the "nautilus_developers" group was created, you can use the following command: `grep -E "^nautilus_developers:" /etc/group`
 
 To list all existing users, you can run the command: `cat /etc/passwd`
+
+Create the user "mohammed" if they don't already exist. Run the following command on each App server: `sudo useradd mohammed`
+
+To check if the user "mohammed" exists, you can use the following command: `grep -E "^mohammed:" /etc/passwd` This command searches for a line that starts with "mohammed:" in the `/etc/passwd` file. If the user exists, it will display information about the user, including the username, UID, home directory, and shell.
