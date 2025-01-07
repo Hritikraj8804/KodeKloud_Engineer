@@ -7,3 +7,5 @@ Therefore, create a user named `mariyam` with a non-interactive shell on the `Ap
 # Solution
 
 ssh into the App Server 1: `ssh tony@172.16.238.10`
+
+Run the following command to create the user "mariyam" with a non-interactive shell: `sudo useradd --shell /bin/false mariyam`
