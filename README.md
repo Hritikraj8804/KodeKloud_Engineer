@@ -15,7 +15,7 @@ Each task folder contains:
 
 ---
 
-## DevOps Tools Covered
+## DevOps Tools
 
 This repository includes tasks related to the following tools and concepts:
 
