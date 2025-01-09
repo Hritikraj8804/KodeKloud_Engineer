@@ -13,3 +13,5 @@ Run the following command to create the user "anita" without a home directory: `
 This command creates a user named "anita" without creating a home directory for the user. The `--no-create-home` option ensures that a home directory is not created during the user creation process.
 
 To check if the user was created: `grep "anita:" /etc/passwd`
+
+To remove user: `sudo userdel --remove anita`
