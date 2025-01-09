@@ -7,3 +7,5 @@ Create a user named `anita` in `App Server 2` without a home directory.
 # Solution
 
 ssh into the App Server 2: `ssh steve@172.16.238.11`
+
+Run the following command to create the user "anita" without a home directory: `sudo useradd --no-create-home anita`
