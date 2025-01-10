@@ -7,3 +7,5 @@ Therefore, create a user named `kirsty` on the `App Server 1` in `Stratos Datace
 # Solution
 
 ssh into the App Server 1: `ssh tony@172.16.238.10`
+
+Run the following command to create the user "kirsty" with a lowercase username: `sudo useradd --expiredate 2021-02-17 --create-home --shell /bin/bash kirsty`
