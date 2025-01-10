@@ -15,3 +15,5 @@ To check if the user "kirsty" was created, you can use the `grep` command to sea
 If the user was created successfully, you should see output similar to the following: `kirsty:x:1001:1001::/home/kirsty:/bin/bash`
 
 To check the expiry date of the user "kirsty", you can use the `chage` command: `sudo chage -l kirsty`
+
+This command displays the current aging information for the user "kirsty", including the expiry date. If the user has an expiry date set, you will see output similar to the following:
