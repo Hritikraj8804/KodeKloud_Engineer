@@ -31,3 +31,8 @@ Minimum number of days between password change          : 0
 Maximum number of days between password change          : 99999
 
 Number of days of warning before password expires       : 7
+
+
+Or this option:
+
+`sudo useradd --expiredate 2021-02-17 --create-home --user-group --shell /bin/bash --password $(openssl passwd -1) kirsty`
