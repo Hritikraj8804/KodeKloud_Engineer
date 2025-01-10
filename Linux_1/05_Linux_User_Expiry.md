@@ -13,3 +13,5 @@ Run the following command to create the user "kirsty" with a lowercase username:
 To check if the user "kirsty" was created, you can use the `grep` command to search for the username in the `/etc/passwd` file: `grep "^kirsty:" /etc/passwd`
 
 If the user was created successfully, you should see output similar to the following: `kirsty:x:1001:1001::/home/kirsty:/bin/bash`
+
+To check the expiry date of the user "kirsty", you can use the `chage` command: `sudo chage -l kirsty`
