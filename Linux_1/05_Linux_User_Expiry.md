@@ -36,3 +36,14 @@ Number of days of warning before password expires       : 7
 Or this option:
 
 `sudo useradd --expiredate 2021-02-17 --create-home --user-group --shell /bin/bash --password $(openssl passwd -1) kirsty`
+
+This command creates a user named "kirsty" with the specified options:
+
+- `--expiredate 2021-02-17`: Sets the expiry date for the user account to 2021-02-17.
+- `--create-home`: Creates a home directory for the user.
+- `--user-group`: Creates a group with the same name as the user and assigns it as the primary group.
+- `--shell /bin/bash`: Sets the user's default shell to `/bin/bash`.
+- `--password $(openssl passwd -1)`: Generates an encrypted password for the user. This is an optional step, and you can set the password manually using the `passwd` command later if desired.
+- `kirsty`: Specifies the username as "kirsty".
+
+Make sure to replace `--password $(openssl passwd -1)` with `--password <encrypted_password>` if you have a specific password in mind. However, note that it is generally recommended to set the password using the `passwd` command after creating the user.
