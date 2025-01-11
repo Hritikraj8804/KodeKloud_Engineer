@@ -10,3 +10,7 @@ On `App Server 1` find all files (not directories) owned by user `javed` inside 
 ssh into the App Server 1: `ssh tony@172.16.238.10`
 
 Check files: `ls -la | grep javed`
+
+Run this command: `find /home/usersdata -type f -user javed -exec cp --parents {} /blog \;`
+
+Let's break down the command:
