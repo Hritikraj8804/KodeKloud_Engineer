@@ -14,3 +14,10 @@ Check files: `ls -la | grep javed`
 Run this command: `find /home/usersdata -type f -user javed -exec cp --parents {} /blog \;`
 
 Let's break down the command:
+
+
+- `find`: The command used to search for files and directories.
+- `/home/usersdata`: The directory where the search will be performed.
+- `type f`: Specifies that only files should be considered, excluding directories.
+- `user javed`: Filters the search to files owned by the user "javed".
+- `exec cp --parents {} /blog \;`: Executes the `cp` command to copy the found files to the "/blog" directory while preserving the directory structure. The `{}` represents the found files, and `-parents` ensures that the directories' path structure is maintained during the copy.
