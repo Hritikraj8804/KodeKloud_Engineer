@@ -9,3 +9,7 @@ Disable direct SSH root login on all app servers in `Stratos Datacenter`.
 ssh into the App Server 1: `ssh tony@172.16.238.10`
 
 ssh into the App Server 2: `ssh steve@172.16.238.11`
+
+ssh into the App Server 3: `ssh banner@172.16.238.12`
+
+Open the SSH server configuration file (usually located at `/etc/ssh/sshd_config`) using a text editor such as `vi:` `sudo vi /etc/ssh/sshd_config`
