@@ -18,3 +18,8 @@ Modify the value of `PermitRootLogin` to `no` or `without-password`. This disabl
 
 - Setting it to `no` will completely disable root login.
 - Setting it to `without-password` will allow root login only with public key authentication.
+
+
+Restart the SSH server daemon (`sshd`)  `sudo systemctl restart sshd`
+
+When you run `sudo systemctl restart sshd`, it will stop the SSH server daemon if it is currently running and then start it again. This command is often used after making changes to the SSH server configuration file (`sshd_config`) to apply the new configuration without requiring a system reboot. Restarting the SSH server ensures that the changes take effect and that the updated configuration is loaded.
