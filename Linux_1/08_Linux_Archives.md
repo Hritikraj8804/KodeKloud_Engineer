@@ -20,3 +20,7 @@ tar -czvf yousuf.tar.gz /data/yousuf: This command creates a compressed tar arch
     -z: Compress the archive using gzip.
     -v: Verbose mode, display the progress and details of the archiving process.
     -f: Specify the name of the archive file.
+
+`sudo mv yousuf.tar.gz /home`
+
+Check files in /home: `cd /home`
