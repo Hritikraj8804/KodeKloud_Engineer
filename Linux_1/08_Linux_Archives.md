@@ -9,3 +9,7 @@ a. Make a `yousuf.tar.gz` compressed archive of `/data/yousuf` directory and mov
 ssh into the Nautilus Storage Server: `ssh natasha@172.16.238.15`
 
 Check the files: `cd /data/yousuf`
+
+To create a compressed archive named "yousuf.tar.gz" of the "/data/yousuf" directory and move it to the "/home" directory on the Storage Server, you can use the following commands: 
+
+`tar -czvf yousuf.tar.gz /data/yousuf`
