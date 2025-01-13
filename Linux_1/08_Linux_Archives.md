@@ -5,3 +5,7 @@ On `Nautilus` storage server in `Stratos DC`, there is a storage location named 
 a. Make a `yousuf.tar.gz` compressed archive of `/data/yousuf` directory and move the archive to `/home` directory on Storage Server.
 
 # Solution
+
+ssh into the Nautilus Storage Server: `ssh natasha@172.16.238.15`
+
+Check the files: `cd /data/yousuf`
