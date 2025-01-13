@@ -13,3 +13,10 @@ Check the files: `cd /data/yousuf`
 To create a compressed archive named "yousuf.tar.gz" of the "/data/yousuf" directory and move it to the "/home" directory on the Storage Server, you can use the following commands: 
 
 `tar -czvf yousuf.tar.gz /data/yousuf`
+
+tar -czvf yousuf.tar.gz /data/yousuf: This command creates a compressed tar archive named "yousuf.tar.gz" of the "/data/yousuf" directory. Here's what each option does:
+
+    -c: Create a new archive.
+    -z: Compress the archive using gzip.
+    -v: Verbose mode, display the progress and details of the archiving process.
+    -f: Specify the name of the archive file.
