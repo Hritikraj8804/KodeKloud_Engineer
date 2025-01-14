@@ -9,3 +9,6 @@ Please give executable permissions to `/tmp/xfusioncorp.sh` script on `App Serve
 
 ssh into the App Server 1: `ssh tony@172.16.238.10`
 
+Check files: `cd /tmp`
+
+Change permissions: `sudo chmod +rx xfusioncorp.sh`
