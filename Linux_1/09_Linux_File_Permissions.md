@@ -18,3 +18,5 @@ Change permissions: `sudo chmod +rx xfusioncorp.sh`
 - `file_name`: The name of the file you want to modify the permissions for.
 
 Note: To make a file executable, it must also be readable.
+
+Check the result: `ls -l xfusioncorp.sh`
