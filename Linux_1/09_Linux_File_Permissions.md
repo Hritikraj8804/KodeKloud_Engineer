@@ -20,3 +20,6 @@ Change permissions: `sudo chmod +rx xfusioncorp.sh`
 Note: To make a file executable, it must also be readable.
 
 Check the result: `ls -l xfusioncorp.sh`
+
+
+In this case, the owner has read and execute permissions, while the group and other users have read and execute permissions as well. This means that all users (owner, group, and others) can read and execute the file.
