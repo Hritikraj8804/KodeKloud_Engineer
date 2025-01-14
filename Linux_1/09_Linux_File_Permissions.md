@@ -4,3 +4,8 @@ There are new requirements to automate a backup process that was performed manua
 they did not make it executable on one the app server i.e `App Server 1` in `Stratos Datacenter`.
 
 Please give executable permissions to `/tmp/xfusioncorp.sh` script on `App Server 1`.  Also make sure every user can execute it.
+
+# Solution
+
+ssh into the App Server 1: `ssh tony@172.16.238.10`
+
