@@ -31,3 +31,9 @@ Check ACL of the file: `getfacl /etc/hosts`
     - `other`: Refers to other users.
     - `::`: Separates the user/group specification from the permissions.
     - `r--`: Indicates that other users have read (`r`) permission, but no write (``) or execute (``) permission.
+
+To ensure that others have read-only permissions on a file, you can use the `chmod` command with the appropriate permissions: `sudo chmod o=r /etc/hosts`
+
+To modify the access control list (ACL) and set permissions for the user "yousuf" to have no access on a file, you can use the following command: `sudo setfacl -m u:yousuf:--- /etc/hosts`
+
+In this command, `-m` specifies the modification of the access control list (ACL), `u:eric` indicates the user "eric" whose permissions should be modified, and `r` grants read-only permission: `sudo setfacl -m u:eric:r /etc/hosts`
