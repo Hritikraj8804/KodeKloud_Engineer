@@ -10,3 +10,9 @@ having the wrong permissions as per security standards. Once the report was shar
 3. User `yousuf` must not have any permission on the file.
 
 4. User `eric` should have `read only` permission on the file.
+
+# Solution
+
+ssh into the App Server 1: `ssh tony@172.16.238.10`
+
+Check ACL of the file: `getfacl /etc/hosts`
