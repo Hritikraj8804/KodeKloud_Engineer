@@ -13,3 +13,9 @@ To check if the file exists, run this: `sudo bash -c 'if [ -f /root/nautilus.xml
 Or become the root: `sudo su -`
 
 Check all the lines in the "/root/nautilus.xml" file that include the word "About”: `cat /root/nautilus.xml  |grep About`
+
+Use the following command to replace all occurrences of the string "About" with "Marine" in the XML file "/root/nautilus.xml": `sed -i 's/About/Marine/g' nautilus.xml`
+
+- `sed`: A command-line tool for stream editing.
+- `i`: Modifies the file in-place (i.e., edits the file directly).
+- `'s/About/Marine/g'`: The `s` command in `sed` is used for substitution. It replaces all occurrences of "About" with "Marine" in each line of the file. The `g` flag ensures that all occurrences are replaced, not just the first occurrence.
