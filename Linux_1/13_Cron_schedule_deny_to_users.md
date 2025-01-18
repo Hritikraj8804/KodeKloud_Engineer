@@ -11,3 +11,7 @@ ssh into the App Server 2: `ssh steve@172.16.238.11`
 `sudo su`
 
 By executing this command with root privileges, the "rose" user will be allowed to use crontab: `echo rose >> /etc/cron.allow`
+
+By executing this command, the "jerome" user will be denied crontab access: `echo jerome >> /etc/cron.deny`
+
+check results with `cat`:
