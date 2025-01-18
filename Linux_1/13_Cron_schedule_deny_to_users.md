@@ -17,3 +17,5 @@ By executing this command, the "jerome" user will be denied crontab access: `ech
 check results with `cat`:
 
 `sudo systemctl restart crond.service`
+
+`sudo systemctl status crond.service`
