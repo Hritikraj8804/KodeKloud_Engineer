@@ -19,3 +19,5 @@ check results with `cat`:
 `sudo systemctl restart crond.service`
 
 `sudo systemctl status crond.service`
+
+This command will display the crontab entries for the "rose" user. If the user has any cron jobs set up, you will see them listed in the output: `sudo crontab -u rose -l` (in our case no cron jobs)
