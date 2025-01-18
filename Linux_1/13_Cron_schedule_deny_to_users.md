@@ -15,3 +15,5 @@ By executing this command with root privileges, the "rose" user will be allowed 
 By executing this command, the "jerome" user will be denied crontab access: `echo jerome >> /etc/cron.deny`
 
 check results with `cat`:
+
+`sudo systemctl restart crond.service`
