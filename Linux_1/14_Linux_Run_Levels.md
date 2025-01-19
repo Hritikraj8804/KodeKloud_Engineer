@@ -20,4 +20,7 @@ By changing the default target to `graphical.target`, the system will boot into 
 
 It will display the updated default target, which should now be `graphical.target` if the previous command was executed successfully: `systemctl get-default`
 
+I got an error with App Server 3 :
+
+`Failed to set default target: The name org.freedesktop.PolicyKit1 was not provided by any .service files`
 
