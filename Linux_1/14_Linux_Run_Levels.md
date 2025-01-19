@@ -13,3 +13,11 @@ ssh into the App Server 2: `ssh steve@172.16.238.11`
 ssh into the App Server 3: `ssh banner@172.16.238.12`
 
 Switch to the root user: `sudo su -`
+
+The command will display the current default target, which can be `graphical.target` for GUI mode or `multi-user.target` for non-GUI mode: `systemctl get-default`
+
+By changing the default target to `graphical.target`, the system will boot into the graphical user interface (GUI) by default when it starts up: `systemctl set-default graphical.target`
+
+It will display the updated default target, which should now be `graphical.target` if the previous command was executed successfully: `systemctl get-default`
+
+
