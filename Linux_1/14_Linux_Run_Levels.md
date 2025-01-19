@@ -24,3 +24,6 @@ I got an error with App Server 3 :
 
 `Failed to set default target: The name org.freedesktop.PolicyKit1 was not provided by any .service files`
 
+By starting the `polkit` service, you activate it and allow it to handle authorization requests: `sudo systemctl start polkit`
+
+If that didn’t work install the `polkit` package using the `dnf`:`sudo dnf install polkit`
