@@ -27,3 +27,9 @@ I got an error with App Server 3 :
 By starting the `polkit` service, you activate it and allow it to handle authorization requests: `sudo systemctl start polkit`
 
 If that didn’t work install the `polkit` package using the `dnf`:`sudo dnf install polkit`
+
+This command is useful when you want to find packages related to a specific functionality or library: `sudo dnf search polkit`
+
+`sudo systemctl set-default graphical.target`
+
+`systemctl get-default`
