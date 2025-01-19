@@ -9,3 +9,7 @@ On all App servers in `Stratos Datacenter`, change the `default runlevel` so tha
 ssh into the App Server 1: `ssh tony@172.16.238.10`
 
 ssh into the App Server 2: `ssh steve@172.16.238.11`
+
+ssh into the App Server 3: `ssh banner@172.16.238.12`
+
+Switch to the root user: `sudo su -`
