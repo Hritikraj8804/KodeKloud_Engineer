@@ -9,3 +9,7 @@ Correct the mismatch.
 ssh into the App Server 1: `ssh tony@172.16.238.10`
 
 ssh into the App Server 2: `ssh steve@172.16.238.11`
+
+ssh into the App Server 3: `ssh banner@172.16.238.12`
+
+Check the current timezone configuration: `timedatectl show`
