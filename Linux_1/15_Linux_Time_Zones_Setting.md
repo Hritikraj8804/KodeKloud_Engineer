@@ -15,3 +15,5 @@ ssh into the App Server 3: `ssh banner@172.16.238.12`
 Check the current timezone configuration: `timedatectl show`
 
 Update the timezone setting: `sudo timedatectl set-timezone America/Bogota`
+
+Verify the timezone synchronization: `timedatectl show | grep Timezone`
