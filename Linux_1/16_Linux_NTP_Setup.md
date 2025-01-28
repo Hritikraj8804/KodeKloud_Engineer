@@ -15,3 +15,7 @@ ssh into the App Server 2: `ssh steve@172.16.238.11`
 Install the NTP server software. The specific package and installation method may vary depending on the operating system you are using. This one worked for me:`sudo yum install ntp`
 
 Check the status: `sudo systemctl list-unit-files | grep ntp`
+
+Enable the service:
+
+`sudo systemctl enable ntpd.service`
