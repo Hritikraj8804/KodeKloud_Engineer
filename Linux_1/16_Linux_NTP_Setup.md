@@ -7,3 +7,7 @@ The system admin team of `xFusionCorp Industries` has noticed an issue with some
 2. Add NTP `server 1.sg.pool.ntp.org` in NTP configuration on `App Server 2`.
 
 3. Please do not try to start/restart/stop `ntp` service, as we already have a restart for this service scheduled for tonight and we don't want these changes to be applied right now.
+
+# Solution
+
+ssh into the App Server 2: `ssh steve@172.16.238.11`
