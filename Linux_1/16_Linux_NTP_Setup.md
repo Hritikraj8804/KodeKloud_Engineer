@@ -21,3 +21,6 @@ Enable the service:
 `sudo systemctl enable ntpd.service`
 
 `sudo systemctl enable ntpdate.service`
+
+Add NTP server 1.sg.pool.ntp.org in NTP configuration on App Server 2:`sudo vi /etc/ntp.conf`
+
