@@ -27,3 +27,5 @@ Add NTP server 1.sg.pool.ntp.org in NTP configuration on App Server 2:`sudo vi /
 Add the following line to the server configuration section: `server 1.sg.pool.ntp.org`
 
 `systemctl status ntpd`
+
+`sudo systemctl start ntpd`
