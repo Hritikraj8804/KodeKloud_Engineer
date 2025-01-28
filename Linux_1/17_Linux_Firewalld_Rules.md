@@ -13,3 +13,6 @@ Run the following command to open port 8089/tcp and set the zone to public: `sud
 Reload the firewalld configuration for the changes to take effect: `sudo firewall-cmd --reload`
 
 To check if the firewall rule allowing incoming connections on port 8089/tcp has been successfully applied, you can perform the following steps:
+
+- `curl http://172.16.238.16:8089` If you receive a response or see the web UI, it indicates that the firewall rule is allowing incoming connections on port 8089/tcp.
+-
