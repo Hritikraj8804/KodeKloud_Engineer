@@ -19,3 +19,5 @@ Check the status: `sudo systemctl list-unit-files | grep ntp`
 Enable the service:
 
 `sudo systemctl enable ntpd.service`
+
+`sudo systemctl enable ntpdate.service`
