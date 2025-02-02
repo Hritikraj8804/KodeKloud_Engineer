@@ -12,3 +12,8 @@ b. hard_limit = `2025`
 ssh into the Storage server: `ssh natasha@172.16.238.15`
 
 Edit the system limits configuration file: `sudo vi /etc/security/limits.conf`
+
+This sets the soft limit to 1027 and the hard limit to 2025 for the maximum number of processes:
+
+`nfsuser soft nproc 1027`
+`nfsuser hard nproc 2025`
