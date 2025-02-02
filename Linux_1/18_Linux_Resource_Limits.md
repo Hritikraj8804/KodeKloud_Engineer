@@ -17,3 +17,7 @@ This sets the soft limit to 1027 and the hard limit to 2025 for the maximum numb
 
 `nfsuser soft nproc 1027`
 `nfsuser hard nproc 2025`
+
+Check the result:
+
+To determine the hard limit for the maximum number of userprocesses, you can run the following command: `sudo su -c "su -c 'ulimit -Hu' -s /bin/sh nfsuser"`
