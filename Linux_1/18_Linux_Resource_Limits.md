@@ -6,3 +6,9 @@ performance of the server. Therefore, we have a requirement to limit its maximum
 a. soft limit = `1027`
 
 b. hard_limit = `2025`
+
+# Solution
+
+ssh into the Storage server: `ssh natasha@172.16.238.15`
+
+Edit the system limits configuration file: `sudo vi /etc/security/limits.conf`
