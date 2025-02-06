@@ -7,3 +7,5 @@ Install the required packages of SElinux on `App server 2` in `Stratos Datacente
 # Solution
 
 ssh into the App Server 2: `ssh steve@172.16.238.11`
+
+Run the following command to update the package manager and ensure you have the latest package information: `sudo yum update`
