@@ -11,3 +11,6 @@ ssh into the App Server 2: `ssh steve@172.16.238.11`
 Run the following command to update the package manager and ensure you have the latest package information: `sudo yum update`
 
 Install the required SELinux packages by running the following command: `sudo yum install selinux-policy selinux-policy-targeted`
+
+
+To disable SELinux permanently, you need to modify the SELinux configuration file: `sudo vi /etc/selinux/config`
