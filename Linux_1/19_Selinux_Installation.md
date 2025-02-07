@@ -12,7 +12,8 @@ Run the following command to update the package manager and ensure you have the 
 
 Install the required SELinux packages by running the following command: `sudo yum install selinux-policy selinux-policy-targeted`
 
-
 To disable SELinux permanently, you need to modify the SELinux configuration file: `sudo vi /etc/selinux/config`
 
 Change `SELINUX=enforcing` to `SELINUX=disabled`
+
+Check the status: `sestatus`
