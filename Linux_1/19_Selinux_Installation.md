@@ -17,3 +17,5 @@ To disable SELinux permanently, you need to modify the SELinux configuration fil
 Change `SELINUX=enforcing` to `SELINUX=disabled`
 
 Check the status: `sestatus`
+
+You should see: `SELinux status: disabled`
