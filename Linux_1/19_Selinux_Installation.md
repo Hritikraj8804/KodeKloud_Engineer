@@ -14,3 +14,5 @@ Install the required SELinux packages by running the following command: `sudo yu
 
 
 To disable SELinux permanently, you need to modify the SELinux configuration file: `sudo vi /etc/selinux/config`
+
+Change `SELINUX=enforcing` to `SELINUX=disabled`
