@@ -36,3 +36,8 @@ This command starts the Jenkins service using systemd: `systemctl start jenkins`
 
 This command installs OpenJDK 17, which is the Java Development Kit required by Jenkins. Jenkins is a Java-based application and requires Java to be installed on the system.
 `yum install java-17-openjdk`
+
+This command starts the Jenkins service again after Java has been installed to ensure that Jenkins runs with the correct Java version: `systemctl start jenkins`
+
+This command displays the current status of the Jenkins service: `systemctl status jenkins`
+
