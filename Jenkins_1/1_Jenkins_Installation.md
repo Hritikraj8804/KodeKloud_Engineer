@@ -29,3 +29,7 @@ This command imports the GPG key for the Jenkins repository. GPG keys are used t
 `rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key`
 
 This command uses yum to install the Jenkins package: `yum install jenkins`
+
+This command reloads the systemd configuration: `systemctl daemon-reload`
+
+This command starts the Jenkins service using systemd: `systemctl start jenkins`
