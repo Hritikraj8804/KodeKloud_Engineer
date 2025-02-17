@@ -12,3 +12,7 @@ The DevOps team of xFusionCorp Industries is planning to setup some CI/CD pipeli
 1. For this task, ssh into the `jenkins` server using user `root` and password `S3curePass` from `jump host`.
 
 2. After installing the Jenkins server, please click on the `Jenkins` button on the top bar to access Jenkins UI and follow the on-screen instructions to create an admin user.
+
+# Solution
+
+ssh into the Jenkins server: `ssh root@jenkins`
