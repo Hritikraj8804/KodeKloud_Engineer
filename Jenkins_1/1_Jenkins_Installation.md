@@ -23,3 +23,9 @@ This command uses wget to download the Jenkins repository configuration file and
 `wget -O /etc/yum.repos.d/jenkins.repo \
 
 This command lists the files in the /etc/yum.repos.d/ directory. It is used to verify that the jenkins.repo file was successfully downloaded and saved in the correct location: `ls -l /etc/yum.repos.d/`
+
+This command imports the GPG key for the Jenkins repository. GPG keys are used to verify the authenticity and integrity of software packages. Importing the key ensures that the packages obtained from the Jenkins repository are trusted.
+
+`rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key`
+
+This command uses yum to install the Jenkins package: `yum install jenkins`
