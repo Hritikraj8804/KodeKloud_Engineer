@@ -33,3 +33,6 @@ This command uses yum to install the Jenkins package: `yum install jenkins`
 This command reloads the systemd configuration: `systemctl daemon-reload`
 
 This command starts the Jenkins service using systemd: `systemctl start jenkins`
+
+This command installs OpenJDK 17, which is the Java Development Kit required by Jenkins. Jenkins is a Java-based application and requires Java to be installed on the system.
+`yum install java-17-openjdk`
