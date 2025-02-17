@@ -16,3 +16,7 @@ The DevOps team of xFusionCorp Industries is planning to setup some CI/CD pipeli
 # Solution
 
 ssh into the Jenkins server: `ssh root@jenkins`
+
+This command uses the yum package manager to install the wget utility. wget is a command-line tool used for downloading files from the web: `yum install wget -y`
+
+This command uses wget to download the Jenkins repository configuration file and save it as /etc/yum.repos.d/jenkins.repo:
