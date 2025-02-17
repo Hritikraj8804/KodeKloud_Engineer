@@ -41,3 +41,5 @@ This command starts the Jenkins service again after Java has been installed to e
 
 This command displays the current status of the Jenkins service: `systemctl status jenkins`
 
+
+This command displays the initial administrator password for Jenkins: `cat /var/lib/jenkins/secrets/initialAdminPassword`
