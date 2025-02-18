@@ -15,3 +15,4 @@ Click on the Jenkins button on the top bar to access the Jenkins UI. Login using
 # Solution
  
 Open Jenkins link, install plugins there
+![j_1_2](https://github.com/user-attachments/assets/4fefcfd2-3875-42fd-9c41-c50eb4a64bc6)
