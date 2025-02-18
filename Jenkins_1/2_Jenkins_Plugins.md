@@ -7,3 +7,5 @@ Click on the Jenkins button on the top bar to access the Jenkins UI. Login using
 1. Once logged in, install `Git` and `GitLab` plugins. You might need to restart Jenkins service to install these plugins, so we recommend clicking on `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`.
 
 `Note:`
+
+1. Once you restart Jenkins service it will go down for some time so please wait for the Jenkins login page to come back before clicking on the `Check` button.
