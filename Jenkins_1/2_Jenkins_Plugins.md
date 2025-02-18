@@ -11,3 +11,7 @@ Click on the Jenkins button on the top bar to access the Jenkins UI. Login using
 1. Once you restart Jenkins service it will go down for some time so please wait for the Jenkins login page to come back before clicking on the `Check` button.
 
 2. For these scenarios requiring changes to be done in a web UI, please take screenshots so you can share them with us for review in case your task is marked incomplete. You may also consider using screen recording software like [loom.com](http://loom.com/) to record and share your work.
+
+# Solution
+ 
+Open Jenkins link, install plugins there
