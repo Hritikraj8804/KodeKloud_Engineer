@@ -21,3 +21,7 @@ It has only a sample job for now. A new developer has joined the Nautilus applic
 2. Do not immediately click on `Finish` button if you have restarted the Jenkins service, please wait for Jenkins login page to come back before finishing your task.
 
 3. For these kind of scenarios that required changes to be done from a web UI, please take screenshots of your work so that you can share the same with us for review purpose (in case your task is marked incomplete or failed). You may also consider using a screen recording software such as `loom.com` to record and share your work.
+
+# Solution
+
+Create the user
