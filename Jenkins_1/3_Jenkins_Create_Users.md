@@ -25,3 +25,4 @@ It has only a sample job for now. A new developer has joined the Nautilus applic
 # Solution
 
 Create the user
+![j_1_3 1](https://github.com/user-attachments/assets/d87d96a7-946c-45f5-a6a6-e70eaf03835e)
