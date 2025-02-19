@@ -17,3 +17,7 @@ It has only a sample job for now. A new developer has joined the Nautilus applic
 `Note:`
 
 1. You might need to install some plugins and restart Jenkins service. So, we recommend clicking on `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`. Also, in case Jenkins UI gets stuck when Jenkins service restarts in the back end, please make sure to refresh the UI page.
+
+2. Do not immediately click on `Finish` button if you have restarted the Jenkins service, please wait for Jenkins login page to come back before finishing your task.
+
+3. For these kind of scenarios that required changes to be done from a web UI, please take screenshots of your work so that you can share the same with us for review purpose (in case your task is marked incomplete or failed). You may also consider using a screen recording software such as `loom.com` to record and share your work.
