@@ -29,3 +29,6 @@ Create the user
 
 Check for Matrix Authorization Strategy in Plugins and install it
 ![j_1_3 2](https://github.com/user-attachments/assets/0517c570-4265-4263-b642-4657eca25e5f)
+
+Changes permissions, at the end click on Apply/Save
+![j_1_3 3](https://github.com/user-attachments/assets/801fe28a-fb8b-4c49-89ed-df532a0a343b)
