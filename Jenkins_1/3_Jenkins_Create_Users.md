@@ -28,3 +28,4 @@ Create the user
 ![j_1_3 1](https://github.com/user-attachments/assets/d87d96a7-946c-45f5-a6a6-e70eaf03835e)
 
 Check for Matrix Authorization Strategy in Plugins and install it
+![j_1_3 2](https://github.com/user-attachments/assets/0517c570-4265-4263-b642-4657eca25e5f)
