@@ -32,3 +32,7 @@ Check for Matrix Authorization Strategy in Plugins and install it
 
 Changes permissions, at the end click on Apply/Save
 ![j_1_3 3](https://github.com/user-attachments/assets/801fe28a-fb8b-4c49-89ed-df532a0a343b)
+
+Connect as James and check if you can see the job
+![j_1_3 4](https://github.com/user-attachments/assets/f2c4c7ec-70c0-448b-bbd1-88e8c7ff7319)
+
