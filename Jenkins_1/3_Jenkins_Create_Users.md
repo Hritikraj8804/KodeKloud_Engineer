@@ -9,3 +9,7 @@ It has only a sample job for now. A new developer has joined the Nautilus applic
 1. Create a jenkins user named `james` with `BruCStnMT5` password, their full name should be `James` (it is case sensitive).
 
 2. Using `Project-based Matrix Authorization Strategy` assign `overall read` permission to `james` user.
+
+3. Remember to remove all permissions for `Anonymous` users (if given) and make sure `admin` user has overall `Administer` permissions.
+
+4. There is one existing job, make sure `james` only has `read` permissions to that job (we are not worried about other permissions like Agent, SCM, etc.).
