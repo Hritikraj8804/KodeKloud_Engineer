@@ -13,3 +13,7 @@ It has only a sample job for now. A new developer has joined the Nautilus applic
 3. Remember to remove all permissions for `Anonymous` users (if given) and make sure `admin` user has overall `Administer` permissions.
 
 4. There is one existing job, make sure `james` only has `read` permissions to that job (we are not worried about other permissions like Agent, SCM, etc.).
+
+`Note:`
+
+1. You might need to install some plugins and restart Jenkins service. So, we recommend clicking on `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`. Also, in case Jenkins UI gets stuck when Jenkins service restarts in the back end, please make sure to refresh the UI page.
