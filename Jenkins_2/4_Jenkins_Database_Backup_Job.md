@@ -47,3 +47,7 @@ ssh-copy-id clint@stbkp01
 
 ssh clint@stbkp01
 ![12](https://github.com/user-attachments/assets/a438f3f5-d4dd-4c34-9bf8-1ad4b2c61c8d)
+
+Click on Build Now
+![13](https://github.com/user-attachments/assets/af929338-681a-4c24-b856-71563d1e12a4)
+![14](https://github.com/user-attachments/assets/3a250c18-7dc8-49da-b495-500e455fe340)
