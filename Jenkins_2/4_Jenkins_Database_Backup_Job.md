@@ -22,3 +22,10 @@ Install these plugins
 ![1](https://github.com/user-attachments/assets/cb24c700-a035-4b07-9486-bf0444b78307)
 
 Follow the screenshots
+![2](https://github.com/user-attachments/assets/7f850d5a-6da0-4fb7-aeba-d06f8c806567)
+![3](https://github.com/user-attachments/assets/1b4ccbd9-1250-47d7-bf83-d4d1306c8f5f)
+![4](https://github.com/user-attachments/assets/1ad0ef26-bc34-4e1f-8f96-bd6cb4167113)
+![5](https://github.com/user-attachments/assets/8256097e-9721-4da5-80ed-c42871442e51)
+
+
+
