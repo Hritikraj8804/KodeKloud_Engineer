@@ -27,5 +27,7 @@ Follow the screenshots
 ![4](https://github.com/user-attachments/assets/1ad0ef26-bc34-4e1f-8f96-bd6cb4167113)
 ![5](https://github.com/user-attachments/assets/8256097e-9721-4da5-80ed-c42871442e51)
 
+Create a new job
+![6](https://github.com/user-attachments/assets/b15d2075-3126-4e23-a253-0b2e5119d16c)
 
 
