@@ -16,3 +16,6 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 2. Please make sure to define you cron expression like this `*/10 * * * *` (this is just an example to run job every 10 minutes).
 3. For these kind of scenarios requiring changes to be done in a web UI, please take screenshots so that you can share it with us for review in case your task is marked incomplete. You may also consider using a screen recording software such as [loom.com](http://loom.com/) to record and share your work.
 
+ # Solution
+
+Install these plugins
