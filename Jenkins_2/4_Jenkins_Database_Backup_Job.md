@@ -43,3 +43,4 @@ ssh peter@172.16.239.10
 ssh-keygen -t rsa
 
 ssh-copy-id clint@stbkp01
+![9](https://github.com/user-attachments/assets/976962ea-0404-4d5c-9128-c110df9205cd)
