@@ -38,3 +38,8 @@ scp -o StrictHostKeyChecking=no db_$(date +%F).sql clint@stbkp01:/home/clint/db_
 ![7](https://github.com/user-attachments/assets/00d6ed07-db51-4348-8e40-0ea2c1653efe)
 ![8](https://github.com/user-attachments/assets/103f344f-f206-4777-b721-6dbd28bc7420)
 
+ssh peter@172.16.239.10
+
+ssh-keygen -t rsa
+
+ssh-copy-id clint@stbkp01
