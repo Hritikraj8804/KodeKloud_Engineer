@@ -43,7 +43,7 @@ ssh peter@172.16.239.10
 ssh-keygen -t rsa
 
 ssh-copy-id clint@stbkp01
-![9](https://github.com/user-attachments/assets/976962ea-0404-4d5c-9128-c110df9205cd)
+![11](https://github.com/user-attachments/assets/ad78a78d-f54a-4f7a-be19-1e8975b3e4c3)
 
 ssh clint@stbkp01
-![11](https://github.com/user-attachments/assets/0677dd71-4b0f-4667-9490-9d9f054430d8)
+![12](https://github.com/user-attachments/assets/a438f3f5-d4dd-4c34-9bf8-1ad4b2c61c8d)
