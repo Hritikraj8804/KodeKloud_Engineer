@@ -30,4 +30,8 @@ Follow the screenshots
 Create a new job
 ![6](https://github.com/user-attachments/assets/b15d2075-3126-4e23-a253-0b2e5119d16c)
 
+Enter these commands: 
 
+mysqldump -u kodekloud_roy -pasdfgdsd kodekloud_db01 > db_$(date +%F).sql
+
+scp -o StrictHostKeyChecking=no db_$(date +%F).sql clint@stbkp01:/home/clint/db_backups
