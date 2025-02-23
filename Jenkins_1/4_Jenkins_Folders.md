@@ -6,3 +6,5 @@ The DevOps team of xFusionCorp Industries is planning to create a number of Jenk
 Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login using username `admin` and password `Adm!n321`.
 
 1. There are already two jobs `httpd-php` and `services`.
+
+2. Create a new `folder` called `Apache` under Jenkins UI.
