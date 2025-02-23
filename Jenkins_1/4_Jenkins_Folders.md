@@ -10,3 +10,7 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 2. Create a new `folder` called `Apache` under Jenkins UI.
 
 3. Move the above mentioned two jobs under `Apache` folder.
+
+`Note:`
+
+1. You might need to install some plugins and restart Jenkins service. So, we recommend clicking on `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`. Also, Jenkins UI sometimes gets stuck when Jenkins service restarts in the back end. In this case, please make sure to refresh the UI page.
