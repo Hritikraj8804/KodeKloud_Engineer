@@ -26,3 +26,7 @@ Create folder as New Item
 ![2](https://github.com/user-attachments/assets/f4641725-bb8f-4ea8-9bfa-042d4725bc72)
 ![3](https://github.com/user-attachments/assets/2973e025-2cb5-4e72-894e-30692d40a806)
 ![4](https://github.com/user-attachments/assets/4e6b5523-ecc4-4dc1-91b4-b35567010dbd)
+
+Move jobs to Apache folder
+![5](https://github.com/user-attachments/assets/a8652874-a5aa-45b1-b3f3-fd805aebf03c)
+![6](https://github.com/user-attachments/assets/c9f022f6-7993-40bb-8fae-2703339df5c6)
