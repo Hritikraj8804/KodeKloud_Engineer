@@ -8,3 +8,5 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 1. There are already two jobs `httpd-php` and `services`.
 
 2. Create a new `folder` called `Apache` under Jenkins UI.
+
+3. Move the above mentioned two jobs under `Apache` folder.
