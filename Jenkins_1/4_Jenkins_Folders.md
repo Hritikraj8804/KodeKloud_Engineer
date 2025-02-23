@@ -21,3 +21,8 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 
 Find Folder under Plugins and install it
 ![1](https://github.com/user-attachments/assets/d3828d9b-8649-43e9-9f85-6c300c5a250f)
+
+Create folder as New Item
+![2](https://github.com/user-attachments/assets/f4641725-bb8f-4ea8-9bfa-042d4725bc72)
+![3](https://github.com/user-attachments/assets/2973e025-2cb5-4e72-894e-30692d40a806)
+![4](https://github.com/user-attachments/assets/4e6b5523-ecc4-4dc1-91b4-b35567010dbd)
