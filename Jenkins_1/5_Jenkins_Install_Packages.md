@@ -35,3 +35,6 @@ Create a job with these parameters
 
 Configure Build Steps, the command: echo 'Bl@kW' | sudo -S yum install -y $PACKAGE
 ![4](https://github.com/user-attachments/assets/18b7afa4-e747-4b7f-b357-93d1658f21e6)
+
+Run the job
+![5](https://github.com/user-attachments/assets/57a7fdc4-f7c7-4e67-9e6a-ab70e4f05fe3)
