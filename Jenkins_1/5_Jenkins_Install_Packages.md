@@ -8,3 +8,9 @@ Create a Jenkins  job named `install-packages` and configure it to accomplish be
 
 - Add a string parameter named `PACKAGE`.
 - Configure it to install a package on the `storage server` in `Stratos Datacenter` provided to the `$PACKAGE` parameter.
+
+`Note`
+
+1. You might need to install some plugins and restart Jenkins service. So, we recommend clicking on `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`.
+ Also some times Jenkins UI gets stuck when Jenkins service restarts in 
+the back end so in such case please make sure to refresh the UI page.
