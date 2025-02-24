@@ -26,3 +26,7 @@ Connect to Jenkins, find and install ssh plugins
 
 Create ssh credentials for the storage server user
 ![1](https://github.com/user-attachments/assets/a3b47ceb-9578-4cc9-bdc8-cf6479cf959e)
+
+
+Add ssh host in Configure System, check connection, apply and save
+![2](https://github.com/user-attachments/assets/8e2ee27f-6d84-4acf-8c39-cbc0b89de53c)
