@@ -23,3 +23,6 @@ the back end so in such case please make sure to refresh the UI page.
 
 
 Connect to Jenkins, find and install ssh plugins
+
+Create ssh credentials for the storage server user
+![1](https://github.com/user-attachments/assets/a3b47ceb-9578-4cc9-bdc8-cf6479cf959e)
