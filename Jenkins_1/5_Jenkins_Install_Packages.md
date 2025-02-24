@@ -14,3 +14,7 @@ Create a Jenkins  job named `install-packages` and configure it to accomplish be
 1. You might need to install some plugins and restart Jenkins service. So, we recommend clicking on `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`.
  Also some times Jenkins UI gets stuck when Jenkins service restarts in 
 the back end so in such case please make sure to refresh the UI page.
+
+2. Make sure Jenkins job passes even on repetitive runs as validation may try to build the job multiple times.
+
+3. For these kind of scenarios requiring changes to be done in a web UI, please take screenshots so that you can share it with us for review in case your task is marked incomplete. You may also consider using a screen recording software such as [loom.com](http://loom.com/) to record and share your work.
