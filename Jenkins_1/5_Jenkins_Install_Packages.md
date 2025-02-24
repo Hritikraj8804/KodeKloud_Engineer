@@ -18,3 +18,8 @@ the back end so in such case please make sure to refresh the UI page.
 2. Make sure Jenkins job passes even on repetitive runs as validation may try to build the job multiple times.
 
 3. For these kind of scenarios requiring changes to be done in a web UI, please take screenshots so that you can share it with us for review in case your task is marked incomplete. You may also consider using a screen recording software such as [loom.com](http://loom.com/) to record and share your work.
+
+# Solution
+
+
+Connect to Jenkins, find and install ssh plugins
