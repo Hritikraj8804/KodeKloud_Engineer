@@ -32,3 +32,6 @@ Add ssh host in Configure System, check connection, apply and save
 
 Create a job with these parameters
 ![3](https://github.com/user-attachments/assets/2b745f28-d348-4fcf-b6b8-7ad7ccc04396)
+
+Configure Build Steps, the command: echo 'Bl@kW' | sudo -S yum install -y $PACKAGE
+![4](https://github.com/user-attachments/assets/18b7afa4-e747-4b7f-b357-93d1658f21e6)
