@@ -30,3 +30,8 @@ Build Steps → Execute shell
 
 Build Triggers → Build periodically
 ![3](https://github.com/user-attachments/assets/db50d8f5-efef-4fe2-a446-adfb967842f3)
+
+Check Build #1 result
+
+Check the Console Output
+![4](https://github.com/user-attachments/assets/edb0e81d-17ed-4b25-8c36-20707edcde46)
