@@ -36,7 +36,7 @@ Check Build #1 result
 Check the Console Output
 ![4](https://github.com/user-attachments/assets/edb0e81d-17ed-4b25-8c36-20707edcde46)
 
-Click New View (! Do not use My Views, more read
+Click New View (! Do not use My Views, more read [here](https://kodekloud.com/community/t/jenkins-views-error-in-validation/352413/10))
 ![5](https://github.com/user-attachments/assets/e4448e2e-1b84-4d65-881d-51b5bccef69e)
 ![6](https://github.com/user-attachments/assets/909b0945-d46b-4200-8263-b18eea75319d)
 
