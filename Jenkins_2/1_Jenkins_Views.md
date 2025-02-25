@@ -27,3 +27,6 @@ Create a new job
 
 Build Steps → Execute shell
 ![2](https://github.com/user-attachments/assets/daab295c-99e2-4802-b4e3-e265be32282f)
+
+Build Triggers → Build periodically
+![3](https://github.com/user-attachments/assets/db50d8f5-efef-4fe2-a446-adfb967842f3)
