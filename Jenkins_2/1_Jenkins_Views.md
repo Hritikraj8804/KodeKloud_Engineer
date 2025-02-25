@@ -7,3 +7,7 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 1. Create a Jenkins job named `devops-test-job`.
 
 2. Configure this job to run a simple bash command i.e `echo "hello world!!"`.
+
+3. Create a view named `devops-crons` (it must be a `global` view of type `List View`) and make sure `devops-test-job` and  `devops-cron-job` (which is already present on Jenkins) jobs are listed under this new view.
+
+4. Schedule this newly created job to build periodically at `every minute` i.e `* * * * *` (`please make sure to use the cron expression exactly same how it is mentioned here`)
