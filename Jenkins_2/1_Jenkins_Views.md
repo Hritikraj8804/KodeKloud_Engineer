@@ -43,3 +43,6 @@ Click New View (! Do not use My Views, more read
 
 Make sure you see this view, without admin
 ![7](https://github.com/user-attachments/assets/55ea96a9-562e-4aa9-be1d-0214f9b330a6)
+
+This one is incorrect, you will get the error, e.g.  `- 'nautilus-crons' view doesn't exit or job 'nautilus-test-job' is not listed under it`
+![8](https://github.com/user-attachments/assets/d78c7ddc-755c-4984-a61f-bf9b0373c659)
