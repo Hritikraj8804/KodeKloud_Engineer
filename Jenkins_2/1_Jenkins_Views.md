@@ -24,3 +24,6 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 
 Create a new job
 ![1](https://github.com/user-attachments/assets/9278c6b5-56f5-4ff0-85cb-c04c796f3de0)
+
+Build Steps → Execute shell
+![2](https://github.com/user-attachments/assets/daab295c-99e2-4802-b4e3-e265be32282f)
