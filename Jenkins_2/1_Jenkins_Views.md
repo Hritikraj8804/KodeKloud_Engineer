@@ -40,3 +40,6 @@ Click New View (! Do not use My Views, more read
 ![5](https://github.com/user-attachments/assets/e4448e2e-1b84-4d65-881d-51b5bccef69e)
 ![6](https://github.com/user-attachments/assets/909b0945-d46b-4200-8263-b18eea75319d)
 ![7](https://github.com/user-attachments/assets/80339333-f8a1-4e8c-a3bb-c3052a852866)
+
+Make sure you see this view, without admin
+![7](https://github.com/user-attachments/assets/55ea96a9-562e-4aa9-be1d-0214f9b330a6)
