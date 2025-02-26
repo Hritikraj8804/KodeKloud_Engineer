@@ -46,3 +46,8 @@ Test configuration
 
 ssh into the Storage Server: `ssh natasha@172.16.238.15`
 ![06](https://github.com/user-attachments/assets/7f2526c3-52bd-4acf-a8b3-0ef8093ab25e)
+
+Create a job
+![07](https://github.com/user-attachments/assets/63eab184-f621-43c5-889d-c674cec677b5)
+![08](https://github.com/user-attachments/assets/acb28855-46aa-4144-8255-cfd00537f0b9)
+![09](https://github.com/user-attachments/assets/ebea5262-c3d3-4319-8472-f0c219c67b75)
