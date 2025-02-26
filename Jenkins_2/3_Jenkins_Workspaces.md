@@ -29,3 +29,6 @@ Similarly, click on `Gitea` button to access the Gitea page. Login to `Gitea` se
 # Solution
 
 This is the only solution that worked for me
+
+Install Gitea and Publish Over SSH plugins
+![01](https://github.com/user-attachments/assets/9b0cb62c-e167-48e0-a7f7-944b00e5b432)
