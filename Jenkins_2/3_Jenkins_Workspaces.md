@@ -56,3 +56,6 @@ Copy the link
 ![10](https://github.com/user-attachments/assets/958435f7-8bee-4496-9b17-bcda73bb2495)
 ![11](https://github.com/user-attachments/assets/c0c04e28-dffb-442d-9c76-0e621347b4ec)
 ![12](https://github.com/user-attachments/assets/f35bcc1b-b801-4f7a-8971-4a779f70e562)
+
+Run the job, select 'version 1'. You should see `SSH: Transferred 1 file(s)`
+![13](https://github.com/user-attachments/assets/ffaaa4c3-de3d-4079-b637-31fe9312896e)
