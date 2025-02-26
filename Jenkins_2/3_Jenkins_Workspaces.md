@@ -32,3 +32,8 @@ This is the only solution that worked for me
 
 Install Gitea and Publish Over SSH plugins
 ![01](https://github.com/user-attachments/assets/9b0cb62c-e167-48e0-a7f7-944b00e5b432)
+
+Then just follow the screenshots
+![02](https://github.com/user-attachments/assets/1f3d99f3-8896-403c-887a-7972e8f1557c)
+![03](https://github.com/user-attachments/assets/f273b4fe-ef1f-47fb-9d08-9021af9c520e)
+
