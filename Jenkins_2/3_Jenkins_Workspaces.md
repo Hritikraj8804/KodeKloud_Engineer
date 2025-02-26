@@ -59,3 +59,6 @@ Copy the link
 
 Run the job, select 'version 1'. You should see `SSH: Transferred 1 file(s)`
 ![13](https://github.com/user-attachments/assets/ffaaa4c3-de3d-4079-b637-31fe9312896e)
+
+Open the App link
+![14](https://github.com/user-attachments/assets/36b01e4e-2f5d-49c4-94a2-dce8976e16bf)
