@@ -42,3 +42,7 @@ Add under Publish over SSH
 
 Test configuration
 ![05](https://github.com/user-attachments/assets/c213947a-65f2-4f02-b252-fe5ce8b0c988)
+
+
+ssh into the Storage Server: `ssh natasha@172.16.238.15`
+![06](https://github.com/user-attachments/assets/7f2526c3-52bd-4acf-a8b3-0ef8093ab25e)
