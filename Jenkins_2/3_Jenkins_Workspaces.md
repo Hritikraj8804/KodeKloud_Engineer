@@ -39,3 +39,6 @@ Then just follow the screenshots
 
 Add under Publish over SSH
 ![04](https://github.com/user-attachments/assets/3261ba7c-82a2-4a5d-82c8-169bdc45847b)
+
+Test configuration
+![05](https://github.com/user-attachments/assets/c213947a-65f2-4f02-b252-fe5ce8b0c988)
