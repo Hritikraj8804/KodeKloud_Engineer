@@ -51,3 +51,8 @@ Create a job
 ![07](https://github.com/user-attachments/assets/63eab184-f621-43c5-889d-c674cec677b5)
 ![08](https://github.com/user-attachments/assets/acb28855-46aa-4144-8255-cfd00537f0b9)
 ![09](https://github.com/user-attachments/assets/ebea5262-c3d3-4319-8472-f0c219c67b75)
+
+Copy the link
+![10](https://github.com/user-attachments/assets/958435f7-8bee-4496-9b17-bcda73bb2495)
+![11](https://github.com/user-attachments/assets/c0c04e28-dffb-442d-9c76-0e621347b4ec)
+![12](https://github.com/user-attachments/assets/f35bcc1b-b801-4f7a-8971-4a779f70e562)
