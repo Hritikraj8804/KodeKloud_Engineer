@@ -37,3 +37,5 @@ Then just follow the screenshots
 ![02](https://github.com/user-attachments/assets/1f3d99f3-8896-403c-887a-7972e8f1557c)
 ![03](https://github.com/user-attachments/assets/f273b4fe-ef1f-47fb-9d08-9021af9c520e)
 
+Add under Publish over SSH
+![04](https://github.com/user-attachments/assets/3261ba7c-82a2-4a5d-82c8-169bdc45847b)
