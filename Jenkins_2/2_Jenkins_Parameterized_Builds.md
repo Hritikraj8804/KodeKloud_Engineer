@@ -39,3 +39,7 @@ Apply → Save
 
 Open Build with Parameters and select Production, click Build
 ![5](https://github.com/user-attachments/assets/ad20375d-ef01-4499-8bcc-48c7e2bee179)
+
+Check the result
+![6](https://github.com/user-attachments/assets/c9692cdd-4ecb-42bb-8653-eea18078e46e)
+![7](https://github.com/user-attachments/assets/bac239fa-cf13-41f4-b765-cc0c3474a69e)
