@@ -20,3 +20,8 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 the back end. In this case, please make sure to refresh the UI page.
 
 2. For these kind of scenarios requiring changes to be done in a web UI, please take screenshots so that you can share it with us for review in case your task is marked incomplete. You may also consider using a screen recording software such as [loom.com](http://loom.com/) to record and share your work.
+
+# Solution
+
+Create a new job
+![1](https://github.com/user-attachments/assets/9c7204d4-48b6-4078-8cc3-34d642370316)
