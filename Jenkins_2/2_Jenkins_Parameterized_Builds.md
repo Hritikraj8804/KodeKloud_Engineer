@@ -13,3 +13,10 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 4. Configure job to execute a shell command, which should echo both parameter values (you are passing in the job).
 
 5. Build the Jenkins job at least once with choice parameter value `Production` to make sure it passes.
+
+`Note:`
+
+1. You might need to install some plugins and restart Jenkins service. So, we recommend clicking on `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`. Also, Jenkins UI sometimes gets stuck when Jenkins service restarts in 
+the back end. In this case, please make sure to refresh the UI page.
+
+2. For these kind of scenarios requiring changes to be done in a web UI, please take screenshots so that you can share it with us for review in case your task is marked incomplete. You may also consider using a screen recording software such as [loom.com](http://loom.com/) to record and share your work.
