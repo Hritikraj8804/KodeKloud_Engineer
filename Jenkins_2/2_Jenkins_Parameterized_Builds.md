@@ -28,3 +28,6 @@ Create a new job
 
 add String Parameter
 ![2](https://github.com/user-attachments/assets/366bc422-7c39-4964-b31c-2dc8aadf4be7)
+
+And Choice Parameter
+![3](https://github.com/user-attachments/assets/61affb4d-b29f-4b69-b02e-e873aec9af1a)
