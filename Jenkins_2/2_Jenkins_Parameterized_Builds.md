@@ -25,3 +25,6 @@ the back end. In this case, please make sure to refresh the UI page.
 
 Create a new job
 ![1](https://github.com/user-attachments/assets/9c7204d4-48b6-4078-8cc3-34d642370316)
+
+add String Parameter
+![2](https://github.com/user-attachments/assets/366bc422-7c39-4964-b31c-2dc8aadf4be7)
