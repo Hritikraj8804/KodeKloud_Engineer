@@ -31,3 +31,6 @@ add String Parameter
 
 And Choice Parameter
 ![3](https://github.com/user-attachments/assets/61affb4d-b29f-4b69-b02e-e873aec9af1a)
+
+And Build steps
+![4](https://github.com/user-attachments/assets/7c4b988d-82f5-4e68-8f3e-3e4cc40f5bc3)
