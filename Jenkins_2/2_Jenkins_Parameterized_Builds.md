@@ -34,3 +34,8 @@ And Choice Parameter
 
 And Build steps
 ![4](https://github.com/user-attachments/assets/7c4b988d-82f5-4e68-8f3e-3e4cc40f5bc3)
+
+Apply → Save
+
+Open Build with Parameters and select Production, click Build
+![5](https://github.com/user-attachments/assets/ad20375d-ef01-4499-8bcc-48c7e2bee179)
