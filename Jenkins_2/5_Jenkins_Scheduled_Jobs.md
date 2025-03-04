@@ -21,3 +21,9 @@ the back end. In this case please make sure to refresh the UI page.
 
 Install these plugins
 ![1](https://github.com/user-attachments/assets/ca2a0aa1-5678-4e72-be71-e28031caaf96)
+
+ssh to App Server 3 and check logs location
+
+ssh banner@stapp03
+
+sudo su
