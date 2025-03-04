@@ -47,3 +47,6 @@ Add credentials
 
 Configure ssh remote host
 ![5](https://github.com/user-attachments/assets/4a78baaf-4496-4392-ae5c-7fc45a8a1b2e)
+
+Test connection
+![6](https://github.com/user-attachments/assets/74c4d742-5e20-48cd-a62c-11e4a3dcca03)
