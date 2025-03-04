@@ -27,3 +27,10 @@ ssh to App Server 3 and check logs location
 ssh banner@stapp03
 
 sudo su
+
+cd /var/
+
+cd log
+
+cd httpd
+![2](https://github.com/user-attachments/assets/2fb0d246-9a56-4029-a81e-564e8f0e68e0)
