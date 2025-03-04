@@ -8,3 +8,11 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 1. Create a Jenkins jobs named `copy-logs`.
 
 2. Configure it to periodically build `every 9 minutes` to copy the Apache logs (`both access_log and error_logs`) from `App Server 3` (`from default logs location`)  to location `/usr/src/security` on `Storage Server`.
+
+`Note:`
+
+1. You might need to install some plugins and restart Jenkins service. So, we recommend clicking on `Restart Jenkins when installation is complete and no jobs are running` on plugin installation/update page i.e `update centre`. Also, Jenkins UI sometimes gets stuck when Jenkins service restarts in 
+the back end. In this case please make sure to refresh the UI page.
+
+2. Please make sure to define you cron expression like this `*/10 * * * *` (this is just an example to run job every 10 minutes).
+
