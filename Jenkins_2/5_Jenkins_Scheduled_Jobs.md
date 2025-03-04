@@ -60,3 +60,4 @@ Add scp /var/log/httpd/* natasha@ststor01:/usr/src/security
 
 Click Build Now
 ![010](https://github.com/user-attachments/assets/0cfdaf67-522c-44c5-a310-f07664b54040)
+![011](https://github.com/user-attachments/assets/c902dd36-499e-463e-a633-5bcfe1c3e6cb)
