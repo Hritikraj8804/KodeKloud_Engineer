@@ -34,3 +34,10 @@ cd log
 
 cd httpd
 ![2](https://github.com/user-attachments/assets/2fb0d246-9a56-4029-a81e-564e8f0e68e0)
+
+[banner@stapp03 ~]$ ssh-keygen -t rsa
+
+cd .ssh/
+
+ssh-copy-id natasha@ststor01
+![3](https://github.com/user-attachments/assets/1e27012e-e8a0-4591-b7f4-8c6789153828)
