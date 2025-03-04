@@ -44,3 +44,6 @@ ssh-copy-id natasha@ststor01
 
 Add credentials
 ![4](https://github.com/user-attachments/assets/da450c0e-fc32-46cd-bbff-f5e71ada2e2e)
+
+Configure ssh remote host
+![5](https://github.com/user-attachments/assets/4a78baaf-4496-4392-ae5c-7fc45a8a1b2e)
