@@ -57,4 +57,6 @@ Create a job
 
 Add scp /var/log/httpd/* natasha@ststor01:/usr/src/security
 ![9](https://github.com/user-attachments/assets/6387920d-ea9d-4989-b31c-629b8a49a523)
+
+Click Build Now
 ![010](https://github.com/user-attachments/assets/0cfdaf67-522c-44c5-a310-f07664b54040)
