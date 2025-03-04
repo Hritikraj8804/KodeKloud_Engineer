@@ -41,3 +41,6 @@ cd .ssh/
 
 ssh-copy-id natasha@ststor01
 ![3](https://github.com/user-attachments/assets/1e27012e-e8a0-4591-b7f4-8c6789153828)
+
+Add credentials
+![4](https://github.com/user-attachments/assets/da450c0e-fc32-46cd-bbff-f5e71ada2e2e)
