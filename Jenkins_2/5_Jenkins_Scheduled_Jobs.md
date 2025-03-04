@@ -54,3 +54,7 @@ Test connection
 Create a job
 ![7](https://github.com/user-attachments/assets/4d1e171f-9a81-4047-9acf-0f8ed91d1ab7)
 ![8](https://github.com/user-attachments/assets/2af0924d-eda7-4036-adca-90e415accd32)
+
+Add scp /var/log/httpd/* natasha@ststor01:/usr/src/security
+![9](https://github.com/user-attachments/assets/6387920d-ea9d-4989-b31c-629b8a49a523)
+![010](https://github.com/user-attachments/assets/0cfdaf67-522c-44c5-a310-f07664b54040)
