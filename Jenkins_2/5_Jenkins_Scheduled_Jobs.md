@@ -50,3 +50,7 @@ Configure ssh remote host
 
 Test connection
 ![6](https://github.com/user-attachments/assets/74c4d742-5e20-48cd-a62c-11e4a3dcca03)
+
+Create a job
+![7](https://github.com/user-attachments/assets/4d1e171f-9a81-4047-9acf-0f8ed91d1ab7)
+![8](https://github.com/user-attachments/assets/2af0924d-eda7-4036-adca-90e415accd32)
