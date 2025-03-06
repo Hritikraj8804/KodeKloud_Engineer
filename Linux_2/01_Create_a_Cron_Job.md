@@ -18,3 +18,5 @@ ssh banner@stapp03
 Run the appropriate command based on the package manager used by your servers:`sudo yum install cronie`
 
 After installing the `cronie` package, start the `crond` service: `sudo systemctl start crond`
+
+To check if the `crond` service is running on a Nautilus app server, you can use the following command: `sudo systemctl status crond`
