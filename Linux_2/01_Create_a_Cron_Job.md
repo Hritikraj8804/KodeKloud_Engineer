@@ -16,3 +16,5 @@ ssh steve@stapp02
 ssh banner@stapp03
 
 Run the appropriate command based on the package manager used by your servers:`sudo yum install cronie`
+
+After installing the `cronie` package, start the `crond` service: `sudo systemctl start crond`
