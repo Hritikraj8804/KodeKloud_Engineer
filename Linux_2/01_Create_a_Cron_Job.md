@@ -4,3 +4,5 @@ The `Nautilus` system admins team has prepared scripts to automate several day-t
 Therefore, perform the steps below:
 
 a. Install `cronie` package on all `Nautilus` app servers and start `crond` service.
+
+b. Add a cron `*/5 * * * * echo hello > /tmp/cron_text` for `root` user.
