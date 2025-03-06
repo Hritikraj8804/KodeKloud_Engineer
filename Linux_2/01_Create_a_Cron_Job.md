@@ -29,3 +29,5 @@ Open the crontab editor for the root user by executing the following command: `s
 In the crontab editor, add the following line: `*/5 * * * * echo hello > /tmp/cron_text`
 
 Then open /tmp/ after 5min the file will appear there
+
+![2](https://github.com/user-attachments/assets/38b696ce-39c3-4a6e-ab08-5efc3d8a4d7f)
