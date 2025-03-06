@@ -24,3 +24,5 @@ To check if the `crond` service is running on a Nautilus app server, you can use
 Open the crontab editor for the root user by executing the following command: `sudo crontab -e -u root`
 
 In the crontab editor, add the following line: `*/5 * * * * echo hello > /tmp/cron_text`
+
+Then open /tmp/ after 5min the file will appear there
