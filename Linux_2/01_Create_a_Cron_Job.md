@@ -21,6 +21,9 @@ After installing the `cronie` package, start the `crond` service: `sudo systemct
 
 To check if the `crond` service is running on a Nautilus app server, you can use the following command: `sudo systemctl status crond`
 
+![1](https://github.com/user-attachments/assets/0c30c6fb-2d32-4e37-aeb9-764e8bca7734)
+
+
 Open the crontab editor for the root user by executing the following command: `sudo crontab -e -u root`
 
 In the crontab editor, add the following line: `*/5 * * * * echo hello > /tmp/cron_text`
