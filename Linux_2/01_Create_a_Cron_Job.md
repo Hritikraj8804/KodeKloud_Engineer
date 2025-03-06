@@ -10,3 +10,5 @@ b. Add a cron `*/5 * * * * echo hello > /tmp/cron_text` for `root` user.
 # Solution
 
 ssh tony@stapp01
+
+ssh steve@stapp02
