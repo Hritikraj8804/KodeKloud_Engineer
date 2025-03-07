@@ -9,3 +9,5 @@ Update the `message of the day` on all application and db servers for `Nautilus`
 scp /home/thor/nautilus_banner tony@stapp01:/tmp/
 
 scp /home/thor/nautilus_banner steve@stapp02:/tmp/
+
+scp /home/thor/nautilus_banner banner@stapp03:/tmp/
