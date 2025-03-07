@@ -21,3 +21,5 @@ ssh steve@stapp02
 ssh banner@stapp03
 
 ssh peter@stdb01
+
+ssh to each App Server
