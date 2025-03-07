@@ -15,3 +15,5 @@ scp /home/thor/nautilus_banner banner@stapp03:/tmp/
 scp /home/thor/nautilus_banner peter@stdb01:/tmp/
 
 ssh tony@stapp01
+
+ssh steve@stapp02
