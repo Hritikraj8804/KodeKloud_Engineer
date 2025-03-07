@@ -26,5 +26,6 @@ ssh to each App Server
 
 sudo mv /tmp/nautilus_banner /etc/motd
 
-
 sudo chmod +x /etc/motd
+
+![1](https://github.com/user-attachments/assets/f8ea5947-c207-4b0c-b960-2933517a9631)
