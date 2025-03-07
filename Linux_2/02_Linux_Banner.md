@@ -4,5 +4,6 @@ During the monthly compliance meeting, it was pointed out that several servers i
 
 Update the `message of the day` on all application and db servers for `Nautilus`. Make use of the approved template located at `/home/thor/nautilus_banner` on jump host
 
-
 # Solution
+
+scp /home/thor/nautilus_banner tony@stapp01:/tmp/
