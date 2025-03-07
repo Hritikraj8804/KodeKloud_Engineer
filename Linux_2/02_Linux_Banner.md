@@ -23,3 +23,5 @@ ssh banner@stapp03
 ssh peter@stdb01
 
 ssh to each App Server
+
+sudo mv /tmp/nautilus_banner /etc/motd
