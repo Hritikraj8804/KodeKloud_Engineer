@@ -22,3 +22,5 @@ Set the group ownership of the files inside the directory: `sudo chown -R :sysop
 Set the permissions of the directory to read, write, and execute for the user and group owners: `sudo chmod ug+rwx /sysops/data`
 
 Restrict access to others: `sudo chmod o-rwx /sysops/data`
+
+To verify the ownership of the directory: `ls -ld /sysops/data`
