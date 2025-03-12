@@ -24,3 +24,5 @@ Set the permissions of the directory to read, write, and execute for the user an
 Restrict access to others: `sudo chmod o-rwx /sysops/data`
 
 To verify the ownership of the directory: `ls -ld /sysops/data`
+
+This command will display the ownership and permissions of the `/sysops/data` directory. The group ownership should be set to `sysops`.
