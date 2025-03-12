@@ -26,3 +26,5 @@ Restrict access to others: `sudo chmod o-rwx /sysops/data`
 To verify the ownership of the directory: `ls -ld /sysops/data`
 
 This command will display the ownership and permissions of the `/sysops/data` directory. The group ownership should be set to `sysops`.
+
+To check the ownership and permissions of the files and subdirectories inside the `/sysops/data` directory: `sudo ls -l /sysops/data`
