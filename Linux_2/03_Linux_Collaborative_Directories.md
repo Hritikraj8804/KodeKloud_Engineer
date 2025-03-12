@@ -32,3 +32,4 @@ To check the ownership and permissions of the files and subdirectories inside th
 To verify the permissions of the directory: `stat -c "%a %n" /sysops/data`
 
 This command will display the permissions of the `/sysops/data` directory in numeric format. The expected permissions should be `770`, indicating read, write, and execute permissions for the user and group owners, and no access for others.
+![02](https://github.com/user-attachments/assets/9a5f4200-9e42-4f74-a413-21f0b841ceb7)
