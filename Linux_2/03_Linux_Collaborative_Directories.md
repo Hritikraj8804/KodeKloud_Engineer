@@ -13,3 +13,4 @@ ssh banner@stapp03
 
 Create the `/sysops/data` directory: `sudo mkdir -p /sysops/data`
 
+Set the group ownership of the directory to `sysops`: `sudo chown :sysops /sysops/data`
