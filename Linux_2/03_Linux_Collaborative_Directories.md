@@ -16,3 +16,5 @@ Create the `/sysops/data` directory: `sudo mkdir -p /sysops/data`
 Set the group ownership of the directory to `sysops`: `sudo chown :sysops /sysops/data`
 
 The `chown` command changes the group ownership of the directory to `sysops`. The `:` before `sysops` indicates that only the group ownership is being changed.
+
+Set the group ownership of the files inside the directory: `sudo chown -R :sysops /sysops/data`
