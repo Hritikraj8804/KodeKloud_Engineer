@@ -12,3 +12,4 @@ The directory should be group owned by the group `sysops` and the group should o
 ssh banner@stapp03
 
 Create the `/sysops/data` directory: `sudo mkdir -p /sysops/data`
+
