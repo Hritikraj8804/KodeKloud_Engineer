@@ -29,5 +29,6 @@ This command will display the ownership and permissions of the `/sysops/data` di
 
 To check the ownership and permissions of the files and subdirectories inside the `/sysops/data` directory: `sudo ls -l /sysops/data`
 
-
 To verify the permissions of the directory: `stat -c "%a %n" /sysops/data`
+
+This command will display the permissions of the `/sysops/data` directory in numeric format. The expected permissions should be `770`, indicating read, write, and execute permissions for the user and group owners, and no access for others.
