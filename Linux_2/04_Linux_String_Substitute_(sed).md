@@ -13,3 +13,5 @@ b.  Replace all occurrence of word  `the` to `their` and save results in `/home/
 ssh banner@stapp03
 
 sudo su -
+
+This command reads the contents of the file `/home/BSD.txt` and filters out the lines that contain the word "following", displaying them as output: `cat /home/BSD.txt |grep following`
