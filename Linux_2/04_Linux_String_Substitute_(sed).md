@@ -17,3 +17,5 @@ sudo su -
 This command reads the contents of the file `/home/BSD.txt` and filters out the lines that contain the word "following", displaying them as output: `cat /home/BSD.txt |grep following`
 
 This command uses the `sed` command to delete lines containing the word "following" from the file `/home/BSD.txt`. The filtered content is then redirected to the file `/home/BSD_DELETE.txt`: `sed '/\<following\>/d' /home/BSD.txt > /home/BSD_DELETE.txt`
+
+This command reads the contents of the file `/home/BSD_DELETE.txt` and filters out the lines that contain the word "following", displaying them as output: `cat /home/BSD_DELETE.txt |grep following`
