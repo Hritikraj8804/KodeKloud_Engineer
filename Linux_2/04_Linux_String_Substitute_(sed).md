@@ -9,3 +9,7 @@ b.  Replace all occurrence of word  `the` to `their` and save results in `/home/
 `Note:`  Let's say you are asked to replace word `to` with `from`. In that case, make sure not to alter any words containing the string itself; for example up**to**, contribu**to**r etc.
 
 # Solution
+
+ssh banner@stapp03
+
+sudo su -
