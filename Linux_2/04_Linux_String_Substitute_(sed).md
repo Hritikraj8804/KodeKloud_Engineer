@@ -23,3 +23,5 @@ This command reads the contents of the file `/home/BSD_DELETE.txt` and filters o
 This command reads the contents of the file `/home/BSD.txt` and filters out the lines that contain the word "the", displaying them as output: `cat /home/BSD.txt |grep the`
 
 This command uses the `sed` command to replace all occurrences of the word "the" (considered as a whole word) with the word "their" in the file `/home/BSD.txt`. The modified content is then redirected to the file `/home/BSD_REPLACE.tx`: `sed 's/\bthe\b/their/g' /home/BSD.txt > /home/BSD_REPLACE.txt`
+
+This command reads the contents of the file `/home/BSD_REPLACE.txt` and filters out the lines that contain the word "the", displaying them as output: `cat BSD_REPLACE.txt |grep the`
