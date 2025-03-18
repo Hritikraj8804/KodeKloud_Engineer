@@ -13,3 +13,5 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub tony@stapp01
 ssh tony@stapp01
 
 ssh-copy-id -i ~/.ssh/id_rsa.pub steve@stapp02
+
+ssh steve@stapp02
