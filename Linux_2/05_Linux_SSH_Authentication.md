@@ -19,3 +19,6 @@ ssh steve@stapp02
 ssh-copy-id -i ~/.ssh/id_rsa.pub banner@stapp03
 
 ssh banner@stapp03
+
+Follow this example
+![1](https://github.com/user-attachments/assets/a295d7df-7190-4a0b-a3e2-1e19bfe5c133)
