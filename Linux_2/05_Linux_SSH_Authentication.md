@@ -7,3 +7,5 @@ Set up a password-less authentication from user `thor` on jump host to all app s
 # Solution
 
 ssh-keygen -t rsa
+
+ssh-copy-id -i ~/.ssh/id_rsa.pub tony@stapp01
