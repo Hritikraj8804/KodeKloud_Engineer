@@ -23,3 +23,6 @@ mkdir -p /media
 find /var/www/html/media -type f -name "*.php" -exec cp --parents {} /media \;
 
 This command creates the /media directory (`mkdir -p /media`) if it doesn't exist. Then, it uses `find` to search for files with the .php extension and copies them to the /media directory while preserving the directory structure (`-exec cp --parents {} /media \;`).
+
+
+Verify that the files and their parent directory structure were copied to the /media directory: `ls -R /media`
