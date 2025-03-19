@@ -17,3 +17,5 @@ Find all files with a .php extension in the /var/www/html/media directory:`find 
 sudo su
 
 Copy the files to the /media directory on the same server while preserving the directory structure:
+
+mkdir -p /media
