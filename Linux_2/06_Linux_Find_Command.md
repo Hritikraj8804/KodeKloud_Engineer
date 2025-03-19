@@ -19,3 +19,5 @@ sudo su
 Copy the files to the /media directory on the same server while preserving the directory structure:
 
 mkdir -p /media
+
+find /var/www/html/media -type f -name "*.php" -exec cp --parents {} /media \;
