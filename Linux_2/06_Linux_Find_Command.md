@@ -5,3 +5,5 @@ During a routine security audit, the team identified an issue on the Nautilus Ap
 a. On `App Server 2` at location `/var/www/html/media` find out all files (not directories) having `.php` extension.
 
 b. Copy all those files along with their `parent directory structure` to location `/media` on same server.
+
+c. Please make sure not to copy the entire `/var/www/html/media` directory content.
