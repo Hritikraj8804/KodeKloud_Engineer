@@ -9,3 +9,5 @@ b. Copy all those files along with their `parent directory structure` to locatio
 c. Please make sure not to copy the entire `/var/www/html/media` directory content.
 
 # Solution
+
+ssh steve@stapp02
