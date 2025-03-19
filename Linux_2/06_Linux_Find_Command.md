@@ -15,3 +15,5 @@ ssh steve@stapp02
 Find all files with a .php extension in the /var/www/html/media directory:`find /var/www/html/media -type f -name "*.php"`
 
 sudo su
+
+Copy the files to the /media directory on the same server while preserving the directory structure:
