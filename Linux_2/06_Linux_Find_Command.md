@@ -11,3 +11,5 @@ c. Please make sure not to copy the entire `/var/www/html/media` directory conte
 # Solution
 
 ssh steve@stapp02
+
+Find all files with a .php extension in the /var/www/html/media directory:`find /var/www/html/media -type f -name "*.php"`
