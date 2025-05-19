@@ -1,17 +1,4 @@
 
-
-
-## About the Repository
-
-KodeKloud Engineer tasks are designed to build real-world DevOps skills through hands-on practice. This repository organizes the tasks and solutions across various tools and concepts, providing a reference for troubleshooting and learning.
-
-Each task folder contains:
-- Task description
-- Steps to complete the task
-- Commands and configurations used
-
----
-
 ## DevOps Tools
 
 This repository includes tasks related to the following tools and concepts:
