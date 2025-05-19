@@ -1,13 +1,4 @@
-- **Kubernetes**
-  - Pod creation, deployments, services, and configurations.
-- **Ansible**
-  - Playbooks, roles, and inventory management.
-- **Jenkins**
-  - CI/CD pipelines, job creation, and automation.
-- **Git**
-  - Version control, branching, and collaboration.
-- **Terraform**
-  - Infrastructure as Code (IaC), provisioning cloud resources.
+
 - **Prometheus & Grafana**
   - Monitoring and visualization.
 - **Apache/Nginx**
