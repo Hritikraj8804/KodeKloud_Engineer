@@ -12,3 +12,9 @@ This repository contains solutions and practice files for various Git tasks, pri
 * **Remote Repositories:** Collaborating and syncing with GitHub/GitLab.
 * **History Management:** Undoing changes, inspecting logs, and rebasing.
 * **Tagging & Aliases:** Marking important versions and creating shortcuts.
+
+Each directory or set of files within this repo corresponds to a specific Git concept or task, allowing for focused practice and easy review.
+
+## 🌟 Getting Started
+
+To explore or practice with these tasks, you'll need Git installed on your system.
