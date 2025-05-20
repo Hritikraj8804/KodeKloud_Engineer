@@ -37,3 +37,22 @@ To explore or practice with these tasks, you'll need Git installed on your syste
 ## 🏃 Usage / Exploring Tasks
 
 Each task or concept typically resides in its own subdirectory. You can navigate into these directories and perform the specified Git operations.
+
+**Example Workflow for a specific task (e.g., `branching-merging-challenge`):**
+
+1.  **Navigate to the task directory:**
+    ```bash
+    cd branching-merging-challenge
+    ```
+2.  **Examine the instructions (if any) or existing files.**
+3.  **Perform Git commands as per the KodeKloud lab or your understanding.**
+    * `git branch new-feature`
+    * `git checkout new-feature`
+    * `# Make some changes...`
+    * `git add .`
+    * `git commit -m "Add new feature"`
+    * `git checkout main`
+    * `git merge new-feature`
+    * etc.
+4.  **Feel free to reset or re-practice:**
+    * `git reset --hard origin/main` (Use with caution! This will revert your changes to the last pushed state of `main`.)
