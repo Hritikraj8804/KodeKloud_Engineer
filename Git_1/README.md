@@ -18,3 +18,7 @@ Each directory or set of files within this repo corresponds to a specific Git co
 ## 🌟 Getting Started
 
 To explore or practice with these tasks, you'll need Git installed on your system.
+
+### Prerequisites
+
+* `Git` (You can download it from [git-scm.com](https://git-scm.com/downloads))
