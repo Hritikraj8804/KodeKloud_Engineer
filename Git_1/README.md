@@ -22,3 +22,18 @@ To explore or practice with these tasks, you'll need Git installed on your syste
 ### Prerequisites
 
 * `Git` (You can download it from [git-scm.com](https://git-scm.com/downloads))
+
+### Installation
+
+1.  **Clone this repository:**
+    ```bash
+    git clone [https://github.com/your-username/kodekloud-git-tasks.git](https://github.com/your-username/kodekloud-git-tasks.git)
+    cd kodekloud-git-tasks
+    ```
+    *(Replace `your-username` with your GitHub username)*
+
+2.  You are now inside the repository and can navigate to specific task directories.
+
+## 🏃 Usage / Exploring Tasks
+
+Each task or concept typically resides in its own subdirectory. You can navigate into these directories and perform the specified Git operations.
