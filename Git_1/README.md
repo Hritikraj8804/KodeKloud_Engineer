@@ -56,3 +56,11 @@ Each task or concept typically resides in its own subdirectory. You can navigate
     * etc.
 4.  **Feel free to reset or re-practice:**
     * `git reset --hard origin/main` (Use with caution! This will revert your changes to the last pushed state of `main`.)
+
+## 🤝 Contributing (to your own learning!)
+
+While this is primarily a personal learning repository, you can "contribute" to it by:
+
+* **Adding more solutions:** As you tackle new KodeKloud Git labs.
+* **Refining your commands:** Finding more efficient ways to achieve tasks.
+* **Adding notes:** Documenting your understanding directly in the relevant files or a separate `NOTES.md`.
