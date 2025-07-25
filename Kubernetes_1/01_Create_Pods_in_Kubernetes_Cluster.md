@@ -23,6 +23,7 @@ spec:
   - name: nginx-container
     image: nginx:latest
     command: ["sleep", "infinity"]
-
-#then run: kubectl create -f pod.yaml
+```
+```bash
+kubectl create -f pod.yaml
 ```
