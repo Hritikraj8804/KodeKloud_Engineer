@@ -12,6 +12,10 @@ Limits: Memory: `20Mi`,  CPU: `100m`
 
 # Solution
 
+```bash
+vi httpd-pod.yaml
+```
+
 ```YAML
 apiVersion: v1
 kind: Pod
@@ -28,6 +32,7 @@ spec:
         limits:
           memory: "20Mi"
           cpu: "100m"
-
-#Create a pod with `kubectl apply -f httpd-pod.yaml` command
+```
+```bash
+kubectl apply -f httpd-pod.yaml
 ```
