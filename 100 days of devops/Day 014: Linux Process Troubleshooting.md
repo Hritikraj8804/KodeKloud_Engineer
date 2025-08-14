@@ -87,6 +87,22 @@ You can then run `sudo systemctl status httpd` to confirm it is **`active (runni
     sudo systemctl enable httpd
     ```
 
+### ✅ Final Verification
+
+The last step is to make sure the server is reachable from the outside, as required by the task.
+
+1.  **Return to the Jump Host**
+    Type `exit` in the app server terminal to go back to the jump host.
+
+2.  **Test the Connection**
+    From the jump host, run the `curl` command.
+
+    ```bash
+    curl http://stapp01:8083
+    ```
+
+You should now see the Apache test page, which will confirm the task is complete.
+
 -----
 
 ### ✅ Final Action
