@@ -20,9 +20,6 @@ Note: The kubectl utility on jump_host is configured to operate with the Ku
 
 # Solution
 
-Here is the YAML manifest and the commands needed to create the Kubernetes ReplicationController as specified.
-
------
 
 ### \#\# 📄 1. Create the ReplicationController Manifest
 
