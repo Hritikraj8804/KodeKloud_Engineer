@@ -13,11 +13,11 @@ b. Apache should serve on port 6300.
 
 
 
-c. There are two website's backups /home/thor/media and /home/thor/games on jump_host. Set them up on Apache in a way that media should work on the link http://localhost:6300/media/ and games should work on link http://localhost:6300/games/ on the mentioned app server.
+c. There are two website's backups /home/thor/media and /home/thor/games on jump_host. Set them up on Apache in a way that media should work on the link  http://localhost:6300/media/  and games should work on link  http://localhost:6300/games/  on the mentioned app server.
 
 
 
-d. Once configured you should be able to access the website using curl command on the respective app server, i.e curl http://localhost:6300/media/ and curl http://localhost:6300/games/
+d. Once configured you should be able to access the website using curl command on the respective app server, i.e curl http://localhost:6300/media/  and  curl http://localhost:6300/games/
 
 # Solution
 
