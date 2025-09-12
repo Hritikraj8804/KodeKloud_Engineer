@@ -152,3 +152,21 @@ You should see the output from the PHP script, which confirms that Nginx is corr
 ```bash
 curl http://stapp03:8093/info.php
 ```
+# Error you may face:
+[root@stapp03 ~]# yum install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+
+Last metadata expiration check: 0:01:34 ago on Fri Sep 12 15:46:57 2025.
+
+remi-release-8.rpm                                        62 kB/s |  37 kB     00:00    
+
+Error: 
+
+ Problem: conflicting requests
+
+  - nothing provides epel-release = 8 needed by remi-release-8.10-2.el8.remi.noarch from @commandline
+
+  - nothing provides system-release(releasever) = 8 needed by remi-release-8.10-2.el8.remi.noarch from @commandline
+
+(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
+
+[root@stapp03 ~]# 
