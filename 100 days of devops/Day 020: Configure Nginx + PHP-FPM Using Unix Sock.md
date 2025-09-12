@@ -170,3 +170,22 @@ Error: 
 (try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
 
 [root@stapp03 ~]# 
+
+## try this
+That's the key piece of information we needed\!
+
+The output `Package epel-release-9-10.el9.noarch is already installed` confirms your server is an **Enterprise Linux 9** system (like CentOS Stream 9, RHEL 9, Rocky 9, etc.).
+
+The problem is that you've been trying to install the Remi repository for version **8**. You need to use the link for version **9** to match your operating system.
+
+-----
+
+### \#\# The Solution
+
+Use the correct URL for Enterprise Linux 9 to install the Remi repository.
+
+```bash
+yum install -y https://rpms.remirepo.net/enterprise/remi-release-9.rpm
+```
+
+This command will install the version of the Remi repository that matches your system. After this, you can proceed with enabling the PHP module and installing `php-fpm`.
