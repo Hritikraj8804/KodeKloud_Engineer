@@ -177,3 +177,15 @@ change this part to `/var/www/html`
 
 The nginx container typically expects website files to be present in the /var/www/html directory, which serves as the default document root for nginx. Placing the index.php file in this directory ensures that nginx can serve it as the default page for the website.
 
+<img width="662" height="641" alt="image" src="https://github.com/user-attachments/assets/fb80a29f-1542-4f07-8487-9299ea77bcac" />
+
+`kubectl replace -f /tmp/nginx.yaml --force`
+
+<img width="778" height="282" alt="image" src="https://github.com/user-attachments/assets/011fe15f-1add-4df3-82bf-79af8fc02279" />
+
+
+`kubectl cp  /home/thor/index.php  nginx-phpfpm:/var/www/html -c nginx-container`
+
+
+Validate the result:
+`kubectl exec -it nginx-phpfpm -c nginx-container  -- curl -I  http://localhost:8099`
