@@ -11,9 +11,10 @@ Once issue is fixed, copy `/home/thor/index.php` file from the `jump host` to th
 # Solution
 
 `kubectl get all -o wide`
+
 <img width="1247" height="206" alt="image" src="https://github.com/user-attachments/assets/0386d564-8edd-478f-9c82-14b3a6c1619e" />
 
-kubectl describe configmap nginx-config
+`kubectl describe configmap nginx-config`
 
 <img width="567" height="640" alt="image" src="https://github.com/user-attachments/assets/0f523309-51a4-4e1a-9978-08c8f4254abd" />
 
@@ -23,3 +24,6 @@ This command retrieves the YAML definition of the nginx-phpfpm pod and saves it 
 
 This command displays the contents of the /tmp/nginx.yaml file. It helps in inspecting the pod's YAML definition to locate the mountPath for the nginx container's document root:
 `cat /tmp/nginx.yaml`
+
+<img width="945" height="131" alt="image" src="https://github.com/user-attachments/assets/3b324beb-52ad-4053-8bf6-a3fa118337ca" />
+
