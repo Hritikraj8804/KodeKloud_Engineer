@@ -189,3 +189,5 @@ The nginx container typically expects website files to be present in the /var/ww
 
 Validate the result:
 `kubectl exec -it nginx-phpfpm -c nginx-container  -- curl -I  http://localhost:8099`
+
+<img width="948" height="695" alt="image" src="https://github.com/user-attachments/assets/57fe907c-1cb5-4a75-ac5a-60cb4c5a9895" />
