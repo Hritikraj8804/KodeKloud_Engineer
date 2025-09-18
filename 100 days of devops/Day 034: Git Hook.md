@@ -38,3 +38,5 @@ You should see a similar result:
 From /opt/official
  * [new tag]         release-2024-07-09 -> release-2024-07-09
 ```
+
+<img width="882" height="421" alt="image" src="https://github.com/user-attachments/assets/9ffead37-4047-4afd-a91a-beff2b979d23" />
