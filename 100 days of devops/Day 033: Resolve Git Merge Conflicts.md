@@ -94,3 +94,10 @@ To http://git.stratos.xfusioncorp.com/sarah/story-blog.git
    1baf334..f49a42f  master -> master
 ststor01:/home/max/story-blog#
 ```
+
+
+Connect to Gitea as Sarah
+
+<img width="1116" height="465" alt="image" src="https://github.com/user-attachments/assets/f6302faa-c8ca-4ea3-b7f3-a8a3e12e3918" />
+
+<img width="1095" height="227" alt="image" src="https://github.com/user-attachments/assets/4656fda2-7e24-4524-83a1-d6456e1f1f14" />
