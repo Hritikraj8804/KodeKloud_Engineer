@@ -7,3 +7,27 @@ Create a deployment named `httpd` to deploy the application `httpd` using the im
 `Note:` The `kubectl` utility on `jump_host` has been configured to work with the kubernetes cluster.
 
 # Solution
+
+Create httpd.yaml and run `kubectl apply -f httpd.yaml`
+or
+run `kubectl create deployment httpd --image=httpd:latest`
+
+```YAML
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: httpd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: httpd
+  template:
+    metadata:
+      labels:
+        app: httpd
+    spec:
+      containers:
+        - name: httpd
+          image: httpd:latest
+```
