@@ -5,3 +5,11 @@ Nautilus project developers are planning to start testing on a new project. As p
 a.  Pull `busybox:musl` image on `App Server 1` in Stratos DC and re-tag (create new tag) this image as `busybox:news`.
 
 # Solution
+
+ssh into the App Server 1: `ssh tony@172.16.238.10`
+
+Run the following command to pull the busybox:musl image from the Docker registry: `docker pull busybox:musl`
+
+After pulling the busybox:musl image, you can create a new tag for the image using the following command: `docker tag busybox:musl busybox:news`
+
+You can verify that the new tag has been created by running the following command:  `docker images`
