@@ -30,7 +30,7 @@ services:
 
 b. Start the container using Docker Compose:
 
-Run the following command to start the container using the Docker Compose file: `docker-compose -f /opt/docker/docker-compose.yml up -d`
+Run the following command to start the container using the Docker Compose file: `docker compose -f /opt/docker/docker-compose.yml up -d`
 
 After executing these steps, the container named "httpd" will be created and running on App Server 2, with port 80 of the container mapped to port 8087 of the Docker host. The static website content shared by the development team will be hosted on the httpd web server within the container, using the mapped volume between the container and the Docker host.
 
