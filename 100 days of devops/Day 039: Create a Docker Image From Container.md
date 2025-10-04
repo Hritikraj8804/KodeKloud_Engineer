@@ -5,3 +5,10 @@ One of the Nautilus developer was working to test new changes on a container. He
 a. Create an image `blog:devops` on `Application Server 2` from a container `ubuntu_latest` that is running on same server.
 
 # Solution
+ssh into the App Server 2: `ssh steve@172.16.238.11`
+
+Check the running containers on the server to ensure that the "ubuntu_latest" container is active: `docker ps`
+
+Create an image from the "ubuntu_latest" container: `docker commit ubuntu_latest blog:devops`
+
+Verify the image creation: `docker images`
