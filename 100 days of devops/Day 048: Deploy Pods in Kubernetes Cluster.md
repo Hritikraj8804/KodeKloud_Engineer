@@ -8,3 +8,19 @@ The Nautilus DevOps team has started practicing some pods and services deploymen
 `Note:` The `kubectl` utility on `jump_host` has been configured to work with the kubernetes cluster.
 
 # Solution 
+
+```YAML
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-nginx
+  labels:
+    app: nginx_app
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx:latest
+    command: ["sleep", "infinity"]
+
+#then run: kubectl create -f pod.yaml
+```
