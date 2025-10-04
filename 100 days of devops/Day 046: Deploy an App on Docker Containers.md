@@ -32,4 +32,66 @@ e. Set MYSQL_DATABASE=`database_host` and use any custom user ( except root ) wi
 
 For more details check here.
 
+
 `Note:` Once you click on `FINISH` button, all currently running/stopped containers will be destroyed and stack will be deployed again using your compose file.
+# Solution
+
+`ssh tony@stapp01`
+
+`sudo su -`
+
+`cd /opt/security`
+
+`vi docker-compose.yml`
+
+```yaml
+version: '3'
+services:
+
+  web:
+    container_name: php_host
+    image: php:apache
+    depends_on:
+      - db
+    ports:
+      - "3003:80"
+    volumes:
+      - /var/www/html:/var/www/html
+
+  db:
+    container_name: mysql_host
+    image: mariadb:latest
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: database_host
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: MyComplexPassword123!
+      MYSQL_ROOT_PASSWORD: Password123
+```
+
+`yum install epel-release`
+
+`yum install docker-compose-plugin -y`
+
+`docker compose up -d`
+
+`curl http://localhost:3003`
+
+```bash
+[root@stapp01 security]# docker ps
+CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS          PORTS                    NAMES
+a4b88822ecb8   php:apache       "docker-php-entrypoi…"   26 seconds ago   Up 6 seconds    0.0.0.0:3003->80/tcp     php_host
+329140ec5591   mariadb:latest   "docker-entrypoint.s…"   44 seconds ago   Up 28 seconds   0.0.0.0:3306->3306/tcp   mysql_host
+[root@stapp01 security]# curl http://localhost:3003
+<html>
+    <head>
+        <title>Welcome to xFusionCorp Industries!</title>
+    </head>
+
+    <body>
+        Welcome to xFusionCorp Industries!    </body>
+</html>[root@stapp01 security]#
+```
