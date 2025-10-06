@@ -34,3 +34,9 @@ The content of `/home/thor/ansible/playbook.yml` should be:
         path: /tmp/file.txt
         state: touch
 ```
+
+
+then run: `ansible-playbook -i /home/thor/ansible/inventory /home/thor/ansible/playbook.yml`
+
+## 3. Check the result
+Double check the result: ssh steve@stapp02.stratos.xfusioncorp.com and check if there is an empty file.txt in /tmp.
