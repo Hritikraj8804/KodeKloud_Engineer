@@ -7,3 +7,15 @@ priorities that came in he has to work on other tasks. Please pick up this task 
 2. Create a playbook `/home/thor/ansible/playbook.yml` and add a task to create an empty file `/tmp/file.txt` on `App Server 2`.
 
 `Note:` Validation will try to run the playbook using command `ansible-playbook -i inventory playbook.yml` so please make sure the playbook works this way without passing any extra arguments
+
+
+# SOLUTION
+
+## 1. Inventory File Update
+The existing inventory file, located at `/home/thor/ansible/inventory`, needs to be updated to target App Server 3 within the Stratos DC group.
+
+You should modify or create the file `/home/thor/ansible/inventory` with the following content:
+
+`stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve`
+
+## 2. Playbook Creation
