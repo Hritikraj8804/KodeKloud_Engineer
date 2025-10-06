@@ -10,12 +10,12 @@ There is a deployment named `nginx-deployment`; roll it back to the previous rev
 
 `kubectl get all`
 
-
+<img width="952" height="430" alt="image" src="https://github.com/user-attachments/assets/b8909a47-d9d6-4238-a1e8-ad08a81ab5e8" />
 
 
 `kubectl describe deploy`
 
-
+<img width="1081" height="718" alt="image" src="https://github.com/user-attachments/assets/daf0181e-7bf6-40e4-9550-aa2649e43fc9" />
 
 
 To roll back a deployment named nginx-deployment to the previous revision, you can use the kubectl rollout undo command. Here's how you can do it:
@@ -28,6 +28,8 @@ After running the rollback command, you can monitor the status of the rollback p
 
 `kubectl rollout status deployment/nginx-deployment`
 
+<img width="1091" height="273" alt="image" src="https://github.com/user-attachments/assets/0a370b64-5772-4ad4-a28a-cd1f14f1d08b" />
+
 
 
 This command will display the current status of the rollback process, indicating whether the deployment has successfully rolled back to the previous revision or if the process is still in progress.
@@ -36,3 +38,4 @@ Note that the rollback process may take some time depending on the size of the d
 
 By using the `kubectl rollout undo` command, you can roll back a deployment to the previous revision and restore the previous state of the application.
 
+<img width="1108" height="662" alt="image" src="https://github.com/user-attachments/assets/91a90421-cd58-4596-871e-0a75c17069fd" />
