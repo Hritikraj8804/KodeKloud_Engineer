@@ -16,12 +16,16 @@ The existing inventory file, located at `/home/thor/ansible/inventory`, needs to
 
 You should modify or create the file `/home/thor/ansible/inventory` with the following content:
 
+`vi /home/thor/ansible/inventory`
+
 `stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve`
 
 ## 2. Playbook Creation
 Create the playbook file `/home/thor/ansible/playbook.yml` with a task that targets the specific host and uses the file module to create an empty file.
 
 The content of `/home/thor/ansible/playbook.yml` should be:
+
+`vi /home/thor/ansible/playbook.yml`
 
 ```bash
 ---
