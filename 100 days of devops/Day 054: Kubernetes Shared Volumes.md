@@ -12,3 +12,56 @@ We are working on an application that will be deployed on multiple containers wi
 `Note:` The `kubectl` utility on `jump_host` has been configured to work with the kubernetes cluster.
 
 # Solution
+
+`kubectl get services`
+
+`kubectl get pods`
+
+Create a file.yaml
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: volume-share-xfusion
+spec:
+  containers:
+    - name: volume-container-xfusion-1
+      image: debian:latest
+      command: ["sleep", "infinity"]
+      volumeMounts:
+        - name: volume-share
+          mountPath: /tmp/official
+    - name: volume-container-xfusion-2
+      image: debian:latest
+      command: ["sleep", "infinity"]
+      volumeMounts:
+        - name: volume-share
+          mountPath: /tmp/apps
+  volumes:
+    - name: volume-share
+      emptyDir: {}
+```
+
+`kubectl create -f file.yaml`
+
+To execute a command in the first container (`volume-container-xfusion-1`) and create the `official.txt` file, you can use the following command:
+`kubectl exec -it volume-share-xfusion -c volume-container-xfusion-1 -- touch /tmp/official/official.txt`
+
+To check the result, you can use the following command to get a list of running pods: `kubectl get pods`
+
+To verify if the file `official.txt` exists in both containers, you can execute the following commands:
+
+For the first container (`volume-container-xfusion-1`):
+`kubectl exec -it volume-share-xfusion -c volume-container-xfusion-1 -- ls /tmp/official`
+
+You should see the `official.txt` file listed in the output.
+
+For the second container (`volume-container-xfusion-2`):
+`kubectl exec -it volume-share-xfusion -c volume-container-xfusion-2 -- ls /tmp/apps`
+
+You should also see the `official.txt` file listed in the output.
+
+If the file exists in both containers, it confirms that the shared volume is working correctly.
+
+<img width="1123" height="218" alt="image" src="https://github.com/user-attachments/assets/262e3177-152e-4ef5-9ef2-9a173a2c9b38" />
