@@ -19,3 +19,18 @@ You should modify or create the file `/home/thor/ansible/inventory` with the fol
 `stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve`
 
 ## 2. Playbook Creation
+Create the playbook file `/home/thor/ansible/playbook.yml` with a task that targets the specific host and uses the file module to create an empty file.
+
+The content of `/home/thor/ansible/playbook.yml` should be:
+
+```bash
+---
+- name: Create empty file on App Server 2
+  hosts: stapp02
+  become: true
+  tasks:
+    - name: Create empty file
+      file:
+        path: /tmp/file.txt
+        state: touch
+```
