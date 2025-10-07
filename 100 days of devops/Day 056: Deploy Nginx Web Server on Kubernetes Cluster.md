@@ -54,4 +54,5 @@ spec:
 
 Check the result: `k get all -o wide`
 
-![image](https://github.com/janaom/KodeKloud-Engineer-2.0/assets/83917694/134f7af7-2b45-4821-9500-9e8acdaf418c)
+<img width="1122" height="338" alt="image" src="https://github.com/user-attachments/assets/2dc71014-2d0e-402a-b6b4-bc93f4420f00" />
+
