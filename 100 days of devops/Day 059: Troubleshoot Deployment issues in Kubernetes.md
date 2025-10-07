@@ -18,6 +18,7 @@ redis-deployment-6fd9d5fcb-pxfpw   0/1     ContainerCreating   0          59s
 
 Check the pod: `k describe pod redis-deployment-6fd9d5fcb-pxfpw`
 
+<img width="1110" height="121" alt="image" src="https://github.com/user-attachments/assets/582c1d41-3632-42a8-99fb-795e6fa16522" />
 
 
 Check if the ConfigMap "redis-config" actually exists in the cluster: `kubectl get configmap redis-config`
