@@ -16,3 +16,31 @@ c. `GROUP` and its value should be `Datacenter`
 2. You can check the output using `kubectl logs -f print-envars-greeting` command.
 
 `Note:` The `kubectl` utility on `jump_host` has been configured to work with the kubernetes cluster.
+
+# Solution
+
+Create pod.yaml
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: print-envars-greeting
+spec:
+  restartPolicy: Never
+  containers:
+    - name: print-env-container
+      image: bash
+      command: ["/bin/sh", "-c", 'echo "$(GREETING) $(COMPANY) $(GROUP)"']
+      env:
+        - name: GREETING
+          value: "Welcome to"
+        - name: COMPANY
+          value: "xFusionCorp"
+        - name: GROUP
+          value: "Datacenter"
+```
+
+Apply the configuration to create the pod: `kubectl apply -f pod.yaml`
+
+To check the output, you can use the following command: `kubectl logs -f print-envars-greeting`
