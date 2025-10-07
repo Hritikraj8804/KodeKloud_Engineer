@@ -10,3 +10,39 @@ We have a web server container running the nginx image. The access and error log
 5. Mount the volume `shared-logs` on both containers at location `/var/log/nginx`, all containers should be up and running.
 
 `Note:` The `kubectl` utility on `jump_host` has been configured to work with the kubernetes cluster.
+
+# Solution
+
+Create a `webserver.yaml`
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webserver
+spec:
+  volumes:
+    - name: shared-logs
+      emptyDir: {}
+  containers:
+    - name: nginx-container
+      image: nginx:latest
+      volumeMounts:
+        - name: shared-logs
+          mountPath: /var/log/nginx
+    - name: sidecar-container
+      image: ubuntu:latest
+      command: ["sh", "-c", "while true; do cat /var/log/nginx/access.log /var/log/nginx/error.log; sleep 30; done"]
+      volumeMounts:
+        - name: shared-logs
+          mountPath: /var/log/nginx
+```
+
+Create the pod using the `kubectl` command: `kubectl create -f webserver.yaml`
+
+After creating the pod, you can verify the status of the pod and the containers using: `k get pods` / `k describe pod webserver`
+
+```yaml
+NAME        READY   STATUS    RESTARTS   AGE
+webserver   2/2     Running   0          38s
+```
