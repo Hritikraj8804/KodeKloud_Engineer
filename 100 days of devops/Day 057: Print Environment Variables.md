@@ -44,3 +44,7 @@ spec:
 Apply the configuration to create the pod: `kubectl apply -f pod.yaml`
 
 To check the output, you can use the following command: `kubectl logs -f print-envars-greeting`
+
+
+<img width="616" height="121" alt="image" src="https://github.com/user-attachments/assets/e5c8f551-5f60-4d2e-b92e-a07261b5bddc" />
+
