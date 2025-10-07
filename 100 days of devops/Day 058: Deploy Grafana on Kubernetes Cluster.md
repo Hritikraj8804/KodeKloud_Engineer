@@ -11,3 +11,58 @@ The Nautilus DevOps teams is planning to set up a Grafana tool to collect and an
 `Note:` The `kubectl` on `jump_host` has been configured to work with kubernetes cluster.
 
 # Solution
+
+To accomplish the given tasks, you can follow the steps below:
+
+1. Create the Grafana deployment:
+
+Create a file named `grafana-deployment.yaml` and add the following contents:
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grafana-deployment-xfusion
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grafana
+  template:
+    metadata:
+      labels:
+        app: grafana
+    spec:
+      containers:
+        - name: grafana-container
+          image: grafana/grafana:latest
+          ports:
+            - containerPort: 3000
+```
+
+Apply the configuration to create the deployment: `kubectl apply -f grafana-deployment.yaml`
+
+2. Create a NodePort type service:
+
+Create a file named `grafana-service.yaml` and add the following contents:
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: grafana-service
+spec:
+  type: NodePort
+  selector:
+    app: grafana
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+      nodePort: 32000
+```
+
+Apply the configuration to create the service: `kubectl apply -f grafana-service.yaml`
+
+Check the result: `k get all -o wide`
+
+<img width="1117" height="225" alt="image" src="https://github.com/user-attachments/assets/8b4b6fee-4711-4f94-a1e4-3d8b8c027c3c" />
