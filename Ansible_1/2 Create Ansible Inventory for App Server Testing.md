@@ -14,6 +14,7 @@ c. The inventory hostname of the host should be the `server name` as per the wik
 
 `/home/thor/playbook/`
 
+### Inventory
 
 `vi inventory`
 
@@ -22,7 +23,9 @@ c. The inventory hostname of the host should be the `server name` as per the wik
 stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner ansible_connection=ssh
 ```
 
-`vi playbook.yaml
+### Playbook
+
+`vi playbook.yaml`
 
 ```yaml
 ---
@@ -40,6 +43,7 @@ stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner
         name: httpd
 ```
 
+## Result
 
 `ansible-playbook -i inventory playbook.yml`
 
