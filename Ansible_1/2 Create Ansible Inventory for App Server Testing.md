@@ -9,3 +9,38 @@ b. Add `App Server 3` in this inventory along with required variables that are n
 c. The inventory hostname of the host should be the `server name` as per the wiki, for example `stapp01` for `app server 1` in `Stratos DC`.
 
 `Note:` Validation will try to run the playbook using command `ansible-playbook -i inventory playbook.yml` so please make sure the playbook works this way without passing any extra arguments.
+
+# Solution
+
+`/home/thor/playbook/`
+
+
+`vi inventory`
+
+```bash
+[strapp03]
+stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner ansible_connection=ssh
+```
+
+`vi playbook.yaml
+
+```yaml
+---
+- hosts: all
+  become: yes
+  become_user: root
+  tasks:
+    - name: Install httpd package    
+      yum: 
+        name: httpd 
+        state: installed
+    
+    - name: Start service httpd
+      service:
+        name: httpd
+```
+
+
+`ansible-playbook -i inventory playbook.yml`
+
+<img width="987" height="532" alt="image" src="https://github.com/user-attachments/assets/11fe6780-4419-4d5d-b374-ca806f4662cc" />
