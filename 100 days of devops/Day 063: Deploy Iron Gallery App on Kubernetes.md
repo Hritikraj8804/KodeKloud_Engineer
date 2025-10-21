@@ -46,3 +46,175 @@ There is an iron gallery app that the Nautilus DevOps team was developing. They 
 
 1. We don't need to make connection b/w database and front-end now, if the installation page is coming up it should be enough for now.
 2. The `kubectl` on `jump_host` has been configured to work with the kubernetes cluster.
+
+
+# Solution
+
+`k get all`
+
+`k get ns`
+
+```bash
+thor@jump_host ~$ k get all
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   18m
+thor@jump_host ~$ k get ns
+NAME                 STATUS   AGE
+default              Active   18m
+kube-node-lease      Active   18m
+kube-public          Active   18m
+kube-system          Active   18m
+local-path-storage   Active   18m
+```
+
+`vi file.yaml`
+
+```yaml
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: iron-namespace-datacenter
+  labels:
+    name: iron-namespace-datacenter
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: iron-gallery-deployment-datacenter
+  namespace: iron-namespace-datacenter
+  labels:
+    app: iron-gallery
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: iron-gallery
+  template:
+    metadata:
+      labels:
+        app: iron-gallery
+    spec:
+      volumes:
+        - name: config
+          emptyDir: {}
+        - name: images
+          emptyDir: {}
+      containers:
+        - name: iron-gallery-container-datacenter
+          image: kodekloud/irongallery:2.0
+          volumeMounts:
+            - name: config
+              mountPath: /usr/share/nginx/html/data
+            - name: images
+              mountPath: /usr/share/nginx/html/uploads
+          resources:
+            limits:
+              memory: 100Mi
+              cpu: 50m
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: iron-db-deployment-datacenter
+  namespace: iron-namespace-datacenter
+  labels:
+    app: mariadb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mariadb
+  template:
+    metadata:
+      labels:
+        app: mariadb
+    spec:
+      volumes:
+        - name: db
+          emptyDir: {}
+      containers:
+        - name: iron-db-container-datacenter
+          image: kodekloud/irondb:2.0
+          env:
+            - name: MYSQL_DATABASE
+              value: database_apache
+            - name: MYSQL_ROOT_PASSWORD
+              value: admin123
+            - name: MYSQL_PASSWORD
+              value: admin123
+            - name: MYSQL_USER
+              value: kodekloud
+          volumeMounts:
+            - name: db
+              mountPath: /var/lib/mysql
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: iron-db-service-datacenter
+  namespace: iron-namespace-datacenter
+spec:
+  type: ClusterIP
+  selector:
+    app: mariadb
+  ports:
+    - port: 3306
+      targetPort: 3306
+      protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: iron-gallery-service-datacenter
+  namespace: iron-namespace-datacenter
+spec:
+  type: NodePort
+  selector:
+    app: iron-gallery
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 32678
+      protocol: TCP
+```
+
+`kubectl apply -f file.yaml`
+
+```bash
+thor@jump_host ~$ kubectl apply -f file.yaml
+namespace/iron-namespace-datacenter created
+deployment.apps/iron-gallery-deployment-datacenter created
+deployment.apps/iron-db-deployment-datacenter created
+service/iron-db-service-datacenter created
+service/iron-gallery-service-datacenter created
+```
+
+`kubectl get all --namespace iron-namespace-datacenter`
+
+```bash
+thor@jump_host ~$ kubectl get all --namespace iron-namespace-datacenter
+NAME                                                      READY   STATUS    RESTARTS   AGE
+pod/iron-db-deployment-datacenter-577c68d8b4-gvq48        1/1     Running   0          29s
+pod/iron-gallery-deployment-datacenter-676945776f-kr2vp   1/1     Running   0          29s
+
+NAME                                      TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+service/iron-db-service-datacenter        ClusterIP   10.96.144.121   <none>        3306/TCP       29s
+service/iron-gallery-service-datacenter   NodePort    10.96.83.130    <none>        80:32678/TCP   28s
+
+NAME                                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/iron-db-deployment-datacenter        1/1     1            1           29s
+deployment.apps/iron-gallery-deployment-datacenter   1/1     1            1           29s
+
+NAME                                                            DESIRED   CURRENT   READY   AGE
+replicaset.apps/iron-db-deployment-datacenter-577c68d8b4        1         1         1       29s
+replicaset.apps/iron-gallery-deployment-datacenter-676945776f   1         1         1       29s
+```
+
+In case you need to delete and recreate resources:
+
+`kubectl delete all --all --namespace iron-namespace-datacenter`
+
+`kubectl get all --namespace iron-namespace-datacenter`
+
+`kubectl delete namespace iron-namespace-datacenter`
