@@ -50,3 +50,166 @@ Finally, you can check the `guestbook app` by clicking on `App` button.
 `You can use any labels as per your choice.`
 
 `Note:` The `kubectl` utility on `jump_host` has been configured to work with the kubernetes cluster.
+
+
+
+# Solution
+
+`vi app.yaml`
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-master
+  labels:
+    app: redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: master-redis-datacenter
+        image: redis
+        ports:
+        - containerPort: 6379
+        resources:
+          requests:
+            memory: "100Mi"
+            cpu: "100m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-master
+spec:
+  selector:
+    app: redis
+  ports:
+    - protocol: TCP
+      port: 6379
+      targetPort: 6379
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-slave
+  labels:
+    app: redis-slave
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: redis-slave
+  template:
+    metadata:
+      labels:
+        app: redis-slave
+    spec:
+      containers:
+      - name: slave-redis-datacenter
+        image: gcr.io/google_samples/gb-redisslave:v3
+        ports:
+        - containerPort: 6379
+        resources:
+          requests:
+            memory: "100Mi"
+            cpu: "100m"
+        env:
+        - name: GET_HOSTS_FROM
+          value: "dns"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-slave
+spec:
+  selector:
+    app: redis-slave
+  ports:
+    - protocol: TCP
+      port: 6379
+      targetPort: 6379
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  labels:
+    app: frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: php-redis-datacenter
+        image: gcr.io/google-samples/gb-frontend@sha256:cbc8ef4b0a2d0b95965e0e7dc8938c270ea98e34ec9d60ea64b2d5f2df2dfbbf
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "100Mi"
+            cpu: "100m"
+        env:
+        - name: GET_HOSTS_FROM
+          value: "dns"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+spec:
+  type: NodePort
+  selector:
+    app: frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30009
+```
+
+`k create -f app.yaml`
+
+```bash
+thor@jumphost ~$ k get all
+NAME                                READY   STATUS    RESTARTS   AGE
+pod/frontend-b6847b798-5n4hh        1/1     Running   0          30s
+pod/frontend-b6847b798-dh7jf        1/1     Running   0          29s
+pod/frontend-b6847b798-h5h6x        1/1     Running   0          29s
+pod/redis-master-5656699db6-n42fk   1/1     Running   0          30s
+pod/redis-slave-668f85fd-5bz5n      1/1     Running   0          30s
+pod/redis-slave-668f85fd-t8zjz      1/1     Running   0          30s
+
+NAME                   TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+service/frontend       NodePort    10.96.66.134    <none>        80:30009/TCP   29s
+service/kubernetes     ClusterIP   10.96.0.1       <none>        443/TCP        79m
+service/redis-master   ClusterIP   10.96.135.210   <none>        6379/TCP       31s
+service/redis-slave    ClusterIP   10.96.96.245    <none>        6379/TCP       30s
+
+NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/frontend       3/3     3            3           30s
+deployment.apps/redis-master   1/1     1            1           31s
+deployment.apps/redis-slave    2/2     2            2           30s
+
+NAME                                      DESIRED   CURRENT   READY   AGE
+replicaset.apps/frontend-b6847b798        3         3         3       30s
+replicaset.apps/redis-master-5656699db6   1         1         1       31s
+replicaset.apps/redis-slave-668f85fd      2         2         2       30s
+```
+
+Open the App and check the result, submit any text
+
+<img width="1037" height="437" alt="image" src="https://github.com/user-attachments/assets/cf9a2c9f-1ab4-450f-beaf-532cda4711e0" />
