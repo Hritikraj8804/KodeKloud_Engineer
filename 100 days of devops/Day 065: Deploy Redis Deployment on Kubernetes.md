@@ -21,3 +21,68 @@ c. The container should expose the port 6379.
 
 Finally, redis-deployment should be in an up and running state.
 Note: The kubectl utility on jump_host has been configured to work with the kubernetes cluster.
+
+# Solution
+
+`vi file.yaml`
+
+```yaml
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: my-redis-config
+data:
+  maxmemory: 2mb
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+        - name: redis-container
+          image: redis:alpine
+          ports:
+            - containerPort: 6379
+          resources:
+            requests:
+              cpu: "1000m"
+          volumeMounts:
+            - name: data
+              mountPath: /redis-master-data
+            - name: redis-config
+              mountPath: /redis-master
+      volumes:
+      - name: data
+        emptyDir: {}
+      - name: redis-config
+        configMap:
+          name: my-redis-config
+```
+
+`kubectl create -f file.yaml`
+
+```bash
+thor@jumphost ~$ k get all
+NAME                                   READY   STATUS    RESTARTS   AGE
+pod/redis-deployment-68fbd4467-dlxrk   1/1     Running   0          16s
+
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   15m
+
+NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/redis-deployment   1/1     1            1           16s
+
+NAME                                         DESIRED   CURRENT   READY   AGE
+replicaset.apps/redis-deployment-68fbd4467   1         1         1       16s
+```
