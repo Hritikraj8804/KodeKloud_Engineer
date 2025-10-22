@@ -12,3 +12,49 @@ The DevOps team of xFusionCorp Industries is planning to setup some CI/CD pipeli
 1. For this task, ssh into the `jenkins` server using user `root` and password `S3curePass` from `jump host`.
 
 2. After installing the Jenkins server, please click on the `Jenkins` button on the top bar to access Jenkins UI and follow the on-screen instructions to create an admin user.
+
+# Solution
+
+ssh into the Jenkins server: `ssh root@jenkins`
+
+This command uses the yum package manager to install the wget utility. wget is a command-line tool used for downloading files from the web: `yum install wget -y`
+
+This command uses wget to download the Jenkins repository configuration file and save it as /etc/yum.repos.d/jenkins.repo:
+
+`wget -O /etc/yum.repos.d/jenkins.repo \
+https://pkg.jenkins.io/redhat-stable/jenkins.repo`
+
+This command lists the files in the /etc/yum.repos.d/ directory. It is used to verify that the jenkins.repo file was successfully downloaded and saved in the correct location: `ls -l /etc/yum.repos.d/`
+
+<img width="856" height="472" alt="image" src="https://github.com/user-attachments/assets/f3e28ef4-a106-46d4-adc8-bb5235b8f447" />
+
+
+
+This command imports the GPG key for the Jenkins repository. GPG keys are used to verify the authenticity and integrity of software packages. Importing the key ensures that the packages obtained from the Jenkins repository are trusted.
+
+`rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key`
+
+This command uses yum to install the Jenkins package: `yum install jenkins`
+
+This command reloads the systemd configuration: `systemctl daemon-reload`
+
+This command starts the Jenkins service using systemd: `systemctl start jenkins`
+
+his command installs OpenJDK 17, which is the Java Development Kit required by Jenkins. Jenkins is a Java-based application and requires Java to be installed on the system.
+`yum install java-17-openjdk`
+
+<img width="898" height="108" alt="image" src="https://github.com/user-attachments/assets/00f7030b-2ff9-48ee-9f59-0be8a2fa98a0" />
+
+
+
+This command starts the Jenkins service again after Java has been installed to ensure that Jenkins runs with the correct Java version: `systemctl start jenkins`
+
+This command displays the current status of the Jenkins service: `systemctl status jenkins`
+
+<img width="1097" height="241" alt="image" src="https://github.com/user-attachments/assets/b8d3b24d-3b68-4408-9c49-8aaa4028237c" />
+<img width="1082" height="392" alt="image" src="https://github.com/user-attachments/assets/78d5963f-abbc-441e-a085-31e16462f180" />
+
+
+This command displays the initial administrator password for Jenkins: `cat /var/lib/jenkins/secrets/initialAdminPassword`
+
+<img width="648" height="487" alt="image" src="https://github.com/user-attachments/assets/ab8ef76e-9bf0-4699-975c-095186dd0f10" />
