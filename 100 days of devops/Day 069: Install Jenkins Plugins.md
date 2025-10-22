@@ -13,3 +13,7 @@ Click on the Jenkins button on the top bar to access the Jenkins UI. Login using
 2. For these scenarios requiring changes to be done in a web UI, please take screenshots so you can share them with us for review in case your task is marked incomplete. You may also consider using screen recording software like [loom.com](http://loom.com/) to record and share your work.
 
 # Solution
+
+Open Jenkins link, install plugins there
+
+<img width="881" height="482" alt="image" src="https://github.com/user-attachments/assets/b951b66f-a5be-4d20-a359-c7b1943016d5" />
