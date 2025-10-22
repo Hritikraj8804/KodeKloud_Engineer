@@ -21,3 +21,29 @@ It has only a sample job for now. A new developer has joined the Nautilus applic
 2. Do not immediately click on `Finish` button if you have restarted the Jenkins service, please wait for Jenkins login page to come back before finishing your task.
 
 3. For these kind of scenarios that required changes to be done from a web UI, please take screenshots of your work so that you can share the same with us for review purpose (in case your task is marked incomplete or failed). You may also consider using a screen recording software such as `loom.com` to record and share your work.
+
+
+# Solution
+
+Create the user
+
+<img width="1227" height="543" alt="image" src="https://github.com/user-attachments/assets/84779620-6e5d-4e2a-bd86-97d4926e620e" />
+
+
+Check for Matrix Authorization Strategy in Plugins and install it
+
+<img width="1237" height="396" alt="image" src="https://github.com/user-attachments/assets/a1db9e03-807f-43ec-acb9-70d0e7fe1709" />
+
+ Now we configure the Matrix-based security. To configure it follow the below steps.
+
+Manage Jenkins -> Security -> Authorization (select Matrix-based Security)
+
+-> add user (fill username) -> give overall Read permission(as per your requirement) -> save
+
+Changes permissions, at the end click on Apply/Save
+
+<img width="1182" height="532" alt="image" src="https://github.com/user-attachments/assets/dced2fe0-e18f-460f-be3e-70dfeb97784d" />
+
+Connect as James and check if you can see the job
+
+<img width="1241" height="360" alt="image" src="https://github.com/user-attachments/assets/9628ca7b-96b6-475a-945b-30602459f469" />
