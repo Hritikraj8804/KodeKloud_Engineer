@@ -26,3 +26,57 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login u
 
 
 # Solution
+
+  
+Dashboard → Manage Jenkins → Plugins → find and install SSH, SSH Build Agents
+
+Dashboard → Manage Jenkins → Credentials → System → Global credentials (unrestricted)
+
+
+Dashboard → Manage Jenkins → Nodes
+
+Name: App_server_1
+
+Remote root dir: /home/tony/jenkins
+
+Labels: App_server_1 : stapp01
+
+Launch method: Host: stapp01
+
+Credentials: for tony
+
+Add the same for App_server_2/3
+
+Go to App_server_1 and Launch Agent
+
+```bash
+java.io.IOException: Java not found on hudson.slaves.SlaveComputer@69d0faef. Install Java 8 or Java 11 on the Agent.
+	at hudson.plugins.sshslaves.JavaVersionChecker.resolveJava(JavaVersionChecker.java:83)
+	at hudson.plugins.sshslaves.SSHLauncher.lambda$launch$0(SSHLauncher.java:460)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[06/10/24 16:40:37] Launch failed - cleaning up connection
+[06/10/24 16:40:37] [SSH] Connection closed.
+```
+
+
+`ssh tony@stapp01`
+
+`yum search java*`
+
+`sudo yum install java-17-openjdk-devel.x86_64  -y`
+
+Do that on all apps.
+
+Come back to each App and relaunch agent
+
+```bash
+<===[JENKINS REMOTING CAPACITY]===>channel started
+Remoting version: 3206.vb_15dcf73f6a_9
+Launcher: SSHLauncher
+Communication Protocol: Standard in/out
+This is a Unix agent
+Agent successfully connected and online
+```
