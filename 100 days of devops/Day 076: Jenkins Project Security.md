@@ -21,3 +21,11 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login u
 3. For these kind of scenarios requiring changes to be done in a web UI, please take screenshots so that you can share it with us for review in case your task is marked incomplete. You may also consider using a screen recording software such as loom.com to record and share your work.
 
 # Solution
+
+Dashboard → Manage Jenkins → Plugins → find and install Matrix Authorization Strategy
+
+Follow these screenshots
+
+<img width="1177" height="500" alt="image" src="https://github.com/user-attachments/assets/ca03e360-15ee-49e9-94e8-e829f37ac456" />
+
+<img width="1202" height="618" alt="image" src="https://github.com/user-attachments/assets/9e8158c8-b61a-4cfa-b735-eda642e1abf2" />
