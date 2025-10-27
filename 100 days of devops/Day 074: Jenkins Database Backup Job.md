@@ -17,3 +17,33 @@ Click on the `Jenkins` button on the top bar to access the Jenkins UI. Login usi
 3. For these kind of scenarios requiring changes to be done in a web UI, please take screenshots so that you can share it with us for review in case your task is marked incomplete. You may also consider using a screen recording software such as [loom.com](http://loom.com/) to record and share your work.
 
  # Solution
+Install these plugins
+
+
+Follow the screenshots
+
+
+Create a new job
+
+
+Enter these commands: 
+
+mysqldump -u kodekloud_roy -pasdfgdsd kodekloud_db01 > db_$(date +%F).sql
+
+scp -o StrictHostKeyChecking=no db_$(date +%F).sql clint@stbkp01:/home/clint/db_backups
+
+
+ssh peter@172.16.239.10
+
+ssh-keygen -t rsa
+
+ssh-copy-id clint@stbkp01
+
+
+ssh clint@stbkp01
+
+
+Click on Build Now
+
+
+Check the results again
