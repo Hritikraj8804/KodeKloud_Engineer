@@ -32,6 +32,9 @@ Dashboard → Manage Jenkins → Plugins → find and install SSH, SSH Build Age
 
 Dashboard → Manage Jenkins → Credentials → System → Global credentials (unrestricted)
 
+<img width="796" height="637" alt="image" src="https://github.com/user-attachments/assets/d7e60325-19ea-473b-9c8c-1bc252f74a97" />
+
+<img width="1243" height="162" alt="image" src="https://github.com/user-attachments/assets/9e3f5510-574b-4d56-ab3d-64fb6299d07c" />
 
 Dashboard → Manage Jenkins → Nodes
 
@@ -44,6 +47,8 @@ Labels: App_server_1 : stapp01
 Launch method: Host: stapp01
 
 Credentials: for tony
+
+Change it from `Known Hosts file` to `Non-verifying Verification Strategy`.
 
 Add the same for App_server_2/3
 
@@ -60,6 +65,8 @@ java.io.IOException: Java not found on hudson.slaves.SlaveComputer@69d0faef. Ins
 [06/10/24 16:40:37] Launch failed - cleaning up connection
 [06/10/24 16:40:37] [SSH] Connection closed.
 ```
+
+<img width="1247" height="272" alt="image" src="https://github.com/user-attachments/assets/7fd9b2b0-2977-4af9-baba-6eaa6252f0d3" />
 
 
 `ssh tony@stapp01`
@@ -80,3 +87,5 @@ Communication Protocol: Standard in/out
 This is a Unix agent
 Agent successfully connected and online
 ```
+
+<img width="1243" height="277" alt="image" src="https://github.com/user-attachments/assets/6ad10229-16b9-4ec4-9e3a-4c03c21a952a" />
