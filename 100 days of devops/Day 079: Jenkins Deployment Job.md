@@ -46,16 +46,19 @@ sudo systemctl restart httpd
 
 Open the App
 
+<img width="1022" height="195" alt="image" src="https://github.com/user-attachments/assets/90cbc2e5-b12e-4720-912d-117b7c88220e" />
 
 Open Jenkins go to Plugins and install these: Git, SSH, SSH Credentials, SSH Build Agents.
 
 Create a new job
 
-
+<img width="1238" height="475" alt="image" src="https://github.com/user-attachments/assets/f5b7f89d-6703-4f9f-ad52-acb042c263bb" />
 
 Use Poll SCM to run it every minute
 
+<img width="1235" height="332" alt="image" src="https://github.com/user-attachments/assets/f66fb377-579a-4538-b196-c934724dc22a" />
 
+<img width="1005" height="257" alt="image" src="https://github.com/user-attachments/assets/e8837e09-5b90-46fc-a677-380096df5157" />
 
 Connect to the Jenkins server:
 
@@ -93,7 +96,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDng22gkXs9P6pB9O1XDOa/z7uYYp911Lool2SkTtqn
 
 Go back to the Jenkins job
 
-
+<img width="1148" height="382" alt="image" src="https://github.com/user-attachments/assets/f8783b06-24ed-467d-be89-a4b40302eca6" />
 
 Go back to natasha server
 
@@ -111,7 +114,7 @@ drwxr-xr-x 3 natasha root 4096 Aug 12 13:20 html
 
 Go back to Jenkins and rebuild the job
 
-
+<img width="1231" height="582" alt="image" src="https://github.com/user-attachments/assets/ec62fb56-1650-48d5-bcd2-49521c1638ce" />
 
 ```bash
 thor@jumphost ~$ ssh sarah@ststor01
@@ -154,7 +157,8 @@ To http://git.stratos.xfusioncorp.com/sarah/web.git
 ```
 We just updated it
 
-
+<img width="1252" height="447" alt="image" src="https://github.com/user-attachments/assets/19db44b4-9b72-460b-97be-92cd2b4f4fa5" />
 
 After another run of Jenkins job the App will be updated
 
+<img width="1083" height="205" alt="image" src="https://github.com/user-attachments/assets/a13b5319-5182-4c0e-b98d-fda9d77021d5" />
