@@ -29,15 +29,16 @@ For these kind of scenarios requiring changes to be done in a web UI, please tak
 
 # Solution
 
-First,  updat manually index.html in Gitea
+## First,  updat manually index.html in Gitea
 
+![gittea](https://github.com/user-attachments/assets/6313dc53-babd-4b86-9829-146c34047a05)
 
+ install these Plugins in Jenkins:
+1. ssh
+2. Git plugin
+3. Pipeline
 
- install these Plugins in Jenkins
-
-
-
- connect to ststor01
+## connect to ststor01
 
 `ssh natasha@ststor01`
 
@@ -62,23 +63,77 @@ Welcome to xFusionCorp Industries
 [root@ststor01 html]# 
 ```
 
- create credentials
+## create credentials
 
 
  create a new Node and relaunch it
+1. **Go to Jenkins → Manage Jenkins → Manage Nodes and Clouds → New Node**.
+2. Enter:
+   - **Node name:** `Storage server` (or any name you prefer)
+   - Select **Permanent Agent** → Click **OK**.
+3. Configure the node:
+   - **Remote root directory:** `/var/www/html` (this is where the workspace will live)
+   - **Labels:** `Storage server` (important — must match `agent { label 'Storage server' }` in pipeline)
+   - **Launch method:** 
+     - If using SSH: select **Launch agents via SSH**
+       - **Host:** IP or hostname of Storage server
+       - **Credentials:** username/password for the Storage server
+     - Or **via JNLP** if you want the agent to connect itself.
+   - Leave other defaults unless required.
+4. Click **Save**.
+5. Make sure the node is **online** (green dot).
 
+![node_ruuning](https://github.com/user-attachments/assets/cd9a5d0f-c4fd-4ce6-9a25-b123917aa951)
 
+## create a job:
+1. Go to Jenkins Dashboard → New Item.
 
- create a job
+2. Name the job: `deploy-job` (must not be Multibranch).
+
+3. Choose Pipeline and click OK.
+
+4. Scroll down to Pipeline section → Definition → Pipeline script.
+
+5. Enter the pipeline script:
+
+ ```bash
+pipeline {
+    agent { label 'Storage server' }
+    stages {
+        stage('Deploy') {
+            steps {
+                git url: 'http://git.stratos.xfusioncorp.com/sarah/web.git', credentialsId: 'GIT_CREDS', branch: 'master'
+                sh '''
+                cd /var/www/html
+                git pull origin master
+                '''
+            }
+        }
+        stage('Test') {
+            steps {
+                script {
+                    def urls = ['http://stapp01:8080', 'http://stapp02:8080', 'http://stapp03:8080', 'http://stlb01:8091']
+                    urls.each { url ->
+                        sh "curl -s ${url} | grep -F 'Welcome to xFusionCorp Industries'"
+                    }
+                }
+            }
+        }
+    }
+}
+
+```
 
 
 Here are the logs
 
 ```bash
 Started by user admin
+
 [Pipeline] Start of Pipeline
 [Pipeline] node
-Running on Storage server in /var/www/html/workspace/deploy-job
+Running on Storage server
+ in /var/www/html/workspace/deploy-job
 [Pipeline] {
 [Pipeline] stage
 [Pipeline] { (Deploy)
@@ -96,12 +151,12 @@ using GIT_ASKPASS to set credentials
  > git config remote.origin.url http://git.stratos.xfusioncorp.com/sarah/web.git # timeout=10
  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
 Avoid second fetch
-Checking out Revision 73498fc65ec0097fad16dc9bead8e6b8fca80ca8 (refs/remotes/origin/master)
+Checking out Revision 02331215973f945d2025656f981f757c99219bf6 (refs/remotes/origin/master)
  > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
  > git config core.sparsecheckout # timeout=10
- > git checkout -f 73498fc65ec0097fad16dc9bead8e6b8fca80ca8 # timeout=10
+ > git checkout -f 02331215973f945d2025656f981f757c99219bf6 # timeout=10
  > git branch -a -v --no-abbrev # timeout=10
- > git checkout -b master 73498fc65ec0097fad16dc9bead8e6b8fca80ca8 # timeout=10
+ > git checkout -b master 02331215973f945d2025656f981f757c99219bf6 # timeout=10
 Commit message: "Update 'index.html'"
 First time build. Skipping changelog.
 [Pipeline] sh
@@ -109,8 +164,8 @@ First time build. Skipping changelog.
 + git pull origin master
 From http://git.stratos.xfusioncorp.com/sarah/web
  * branch            master     -> FETCH_HEAD
-   90188e6..73498fc  master     -> origin/master
-Updating 90188e6..73498fc
+   42bf207..0233121  master     -> origin/master
+Updating 42bf207..0233121
 Fast-forward
  index.html | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
@@ -118,50 +173,26 @@ Fast-forward
 [Pipeline] // stage
 [Pipeline] stage
 [Pipeline] { (Test)
-[Pipeline] withEnv
+[Pipeline] script
 [Pipeline] {
 [Pipeline] sh
-+ curl http://stapp01:8080/
++ curl -s http://stapp01:8080
 + grep -F 'Welcome to xFusionCorp Industries'
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-100    34  100    34    0     0  17000      0 --:--:-- --:--:-- --:--:-- 34000
 Welcome to xFusionCorp Industries
-+ true
 [Pipeline] sh
-+ curl http://stapp02:8080/
++ curl -s http://stapp02:8080
 + grep -F 'Welcome to xFusionCorp Industries'
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-100    34  100    34    0     0  34000      0 --:--:-- --:--:-- --:--:-- 34000
 Welcome to xFusionCorp Industries
-+ true
 [Pipeline] sh
-+ curl http://stapp03:8080/
++ curl -s http://stapp03:8080
 + grep -F 'Welcome to xFusionCorp Industries'
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-100    34  100    34    0     0  34000      0 --:--:-- --:--:-- --:--:-- 34000
 Welcome to xFusionCorp Industries
-+ true
 [Pipeline] sh
-+ curl http://stlb01:8091/
++ curl -s http://stlb01:8091
 + grep -F 'Welcome to xFusionCorp Industries'
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-100    34  100    34    0     0  34000      0 --:--:-- --:--:-- --:--:-- 34000
 Welcome to xFusionCorp Industries
-+ true
 [Pipeline] }
-[Pipeline] // withEnv
+[Pipeline] // script
 [Pipeline] }
 [Pipeline] // stage
 [Pipeline] }
@@ -170,7 +201,8 @@ Welcome to xFusionCorp Industries
 Finished: SUCCESS
 ```
 
-Check on each app, restart on each app: `sudo systemctl restart httpd`
+## Check on each app:
+restart on each app: `sudo systemctl restart httpd`
 
 ```bash
 [root@stapp01 ~]# cd /var/www/html
@@ -186,5 +218,6 @@ Welcome to xFusionCorp Industries
 Welcome to xFusionCorp Industries
 [root@stapp01 html]# 
 ```
-Check the App
+## Check the App
 
+![app_2](https://github.com/user-attachments/assets/088fcf06-9527-49c5-b0ab-ff26f611a251)
