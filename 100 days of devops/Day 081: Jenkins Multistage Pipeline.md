@@ -33,7 +33,7 @@ For these kind of scenarios requiring changes to be done in a web UI, please tak
 
 ![gittea](https://github.com/user-attachments/assets/6313dc53-babd-4b86-9829-146c34047a05)
 
- install these Plugins in Jenkins:
+## install these Plugins in Jenkins:
 1. ssh
 2. Git plugin
 3. Pipeline
