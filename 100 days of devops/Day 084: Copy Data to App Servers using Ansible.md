@@ -10,3 +10,31 @@ b. On `jump host` create a playbook  `/home/thor/ansible/playbook.yml` to copy `
 
 
 ## Solution
+
+
+
+inventory 
+
+```
+stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner ansible_connection=ssh
+stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve ansible_connection=ssh
+stapp01 anisble_host=172.16.238.10 ansible_ssh_pass=Ir0nM@n ansible_user=tony ansible_connection=ssh
+```
+
+playbook.yml
+
+```
+---
+- name: Copy index.html to application servers
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Copy index.html file
+      copy:
+        src: /usr/src/data/index.html
+        dest: /opt/data
+```
+
+
+run   `ansible-playbook -i inventory playbook.yml`s
