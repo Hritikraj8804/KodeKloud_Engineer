@@ -11,3 +11,34 @@ c. The `/tmp/web.txt` file permission must be `0755`.
 d. The user/group owner of file `/tmp/web.txt` must be `tony` on `app server 1`, `steve` on `app server 2` and `banner` on `app server 3`.
 
 `Note:` Validation will try to run the playbook using command `ansible-playbook -i inventory playbook.yml`, so please make sure the playbook works this way without passing any extra arguments.
+
+
+# Solution
+
+inventory
+
+```
+stapp01 ansible_user=tony ansible_ssh_pass=Ir0nM@n
+stapp02 ansible_user=steve ansible_ssh_pass=Am3ric@
+stapp03 ansible_user=banner ansible_ssh_pass=BigGr33n
+```
+
+
+ playbook.yml
+
+```
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: Create blank file
+    file:
+      path: /tmp/web.txt
+      state: touch
+      owner: "{{ ansible_user }}"
+      group: "{{ ansible_user }}"
+      mode: "0755"
+```
+
+
+Create the playbook and inventory and then run: `ansible-playbook -i inventory playbook.yml`
