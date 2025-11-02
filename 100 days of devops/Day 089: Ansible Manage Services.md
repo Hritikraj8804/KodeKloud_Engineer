@@ -13,3 +13,44 @@ d. Make sure user `thor` should be able to run the playbook on `jump host`.
 `Note:` Validation will try to run playbook using command `ansible-playbook -i inventory playbook.yml` so please make sure playbook works this way, without passing any extra arguments.
 
 # Solution
+
+
+`cd /home/thor/ansible`
+
+`vi playbook.yml`
+
+```yaml
+---
+- name: Install and configure httpd
+  hosts: all
+  become: true
+  tasks:
+    - name: Install httpd package
+      yum:
+        name: httpd
+        state: present
+
+    - name: Start httpd service
+      systemd:
+        name: httpd
+        enabled: yes
+        state: started
+```
+
+`ansible-playbook -i inventory playbook.yml`
+
+`ansible all -i inventory -a "rpm -q httpd"`
+
+```bash
+thor@jumphost ~/ansible$ ansible all -i inventory -a "rpm -q httpd" 
+stapp03 | CHANGED | rc=0 >>
+httpd-2.4.57-8.el9.x86_64
+stapp01 | CHANGED | rc=0 >>
+httpd-2.4.57-8.el9.x86_64
+stapp02 | CHANGED | rc=0 >>
+httpd-2.4.57-8.el9.x86_64
+```
+
+`ansible all -i inventory -a "sudo systemctl status httpd”`
+
+Or connect to each app and run: `systemctl status httpd`
