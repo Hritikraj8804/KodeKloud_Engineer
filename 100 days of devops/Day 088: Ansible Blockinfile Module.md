@@ -26,3 +26,60 @@ i. Validation will try to run the playbook using command `ansible-playbook -i in
 ii. Do not use any custom or empty `marker` for `blockinfile` module.
 
 # Solution
+
+Check inventory file
+
+```
+stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=Ir0nM@n ansible_user=tony
+stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve
+stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner
+```
+
+Create a playbook
+
+```YAML
+---
+- name: Install and configure Apache web server
+  hosts: stapp01, stapp02, stapp03
+  become: true
+
+  tasks:
+    - name: Install httpd package
+      yum:
+        name: httpd
+        state: present
+
+    - name: Start httpd service
+      service:
+        name: httpd
+        state: started
+        enabled: true
+
+    - name: Add content to index.html
+      blockinfile:
+        path: /var/www/html/index.html
+        block: |
+          Welcome to XfusionCorp!
+
+          This is Nautilus sample file, created using Ansible!
+
+          Please do not modify this file manually!
+        create: yes
+
+    - name: Set file owner and group
+      file:
+        path: /var/www/html/index.html
+        owner: apache
+        group: apache
+
+    - name: Set file permissions
+      file:
+        path: /var/www/html/index.html
+        mode: "0644"
+```
+
+<img width="922" height="632" alt="image" src="https://github.com/user-attachments/assets/9bb91fb9-9d7f-4860-ab8a-59ec7fc0d95a" />
+
+Check the result: `ansible all -a 'ls -l /var/www/html/' -i inventory`
+
+<img width="491" height="516" alt="image" src="https://github.com/user-attachments/assets/88831b1e-cd9f-43c7-a699-c4b91e9f94a8" />
