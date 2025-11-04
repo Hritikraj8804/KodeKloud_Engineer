@@ -15,3 +15,68 @@ d. The user/group owner of `/var/www/html/index.html` file must be respective 
 
 # Solution
 
+
+`cd ~/ansible`
+
+`vi playbook.yml`
+
+```yaml
+---
+- hosts: stapp03 #add host
+  become: yes
+  become_user: root
+  roles:
+    - role/httpd
+```
+
+`cd role/httpd/templates/`
+
+`vi index.html.j2`
+
+```yaml
+#add this line
+This file was created using Ansible on {{ inventory_hostname }}
+```
+
+Go to ~/ansible/role/httpd/tasks$
+
+`vi main.yml`
+
+Add additional lines
+
+```yaml
+---
+# tasks file for role/test
+
+- name: install the latest version of HTTPD
+  yum:
+    name: httpd
+    state: latest
+
+- name: Start service httpd
+  service:
+    name: httpd
+    state: started
+- name: Add index.html
+  template:
+    src: /home/thor/ansible/role/httpd/templates/index.html.j2
+    dest: /var/www/html/index.html
+    mode: '0655'
+    owner: "{{ ansible_user }}"
+    group: "{{ ansible_user }}"
+  become: yes
+  become_user: root
+```
+
+`ansible-playbook -i inventory playbook.yml`
+
+Check the result
+
+`ssh banner@stapp03`
+
+`cat /var/www/html/index.html`
+
+```bash
+[banner@stapp03 ~]$ cat /var/www/html/index.html
+This file was created using Ansible on stapp03
+```
