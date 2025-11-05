@@ -15,3 +15,118 @@ Create a playbook `/home/thor/ansible/playbook.yml` and make sure to use Ansib
 `Note:` Validation will try to run the playbook using command `ansible-playbook -i inventory playbook.yml`, so please make sure the playbook works this way without passing any extra arguments.
 
 # Solution
+
+`cd ansible/`
+
+`cat inventory`
+
+```bash
+thor@jumphost ~/ansible$ cat inventory 
+stapp01 ansible_host=172.16.238.10 ansible_ssh_pass=Ir0nM@n ansible_user=tony
+stapp02 ansible_host=172.16.238.11 ansible_ssh_pass=Am3ric@ ansible_user=steve
+stapp03 ansible_host=172.16.238.12 ansible_ssh_pass=BigGr33n ansible_user=banner
+```
+
+`ls -la /usr/src/itadmin`
+
+```bash
+thor@jumphost ~/ansible$ ls -la /usr/src/itadmin
+total 20
+drwxr-xr-x 2 root root 4096 Jun 26 09:01 .
+drwxr-xr-x 1 root root 4096 Jun 26 09:01 ..
+-rw-r--r-- 1 root root   35 Jun 26 09:00 blog.txt
+-rw-r--r-- 1 root root   22 Jun 26 09:00 media.txt
+-rw-r--r-- 1 root root   27 Jun 26 09:00 story.txt
+```
+
+`vi playbook.yml`
+
+```yaml
+- name: Copy the files to App Servers
+  hosts: all
+  become: yes
+  tasks:
+    - name: Copy blog.txt to stapp01
+      ansible.builtin.copy:
+        src: /usr/src/itadmin/blog.txt
+        dest: /opt/itadmin
+        owner: tony
+        group: tony
+        mode: "0655"
+      when: inventory_hostname == "stapp01"
+
+    - name: Copy story.txt to stapp02
+      ansible.builtin.copy:
+        src: /usr/src/itadmin/story.txt
+        dest: /opt/itadmin
+        owner: steve
+        group: steve
+        mode: "0655"
+      when: inventory_hostname == "stapp02"
+
+    - name: Copy media.txt to stapp03
+      ansible.builtin.copy:
+        src: /usr/src/itadmin/media.txt
+        dest: /opt/itadmin
+        owner: banner
+        group: banner
+        mode: "0655"
+      when: inventory_hostname == "stapp03"
+ ```
+
+`ansible-playbook -i inventory playbook.yml`
+
+```bash
+thor@jumphost ~/ansible$ ansible-playbook -i inventory playbook.yml
+
+PLAY [Copy the files to App Servers] ****************************************************************************************
+
+TASK [Gathering Facts] ******************************************************************************************************
+ok: [stapp03]
+ok: [stapp02]
+ok: [stapp01]
+
+TASK [Copy blog.txt to stapp01] *********************************************************************************************
+skipping: [stapp02]
+skipping: [stapp03]
+changed: [stapp01]
+
+TASK [Copy story.txt to stapp02] ********************************************************************************************
+skipping: [stapp01]
+skipping: [stapp03]
+changed: [stapp02]
+
+TASK [Copy media.txt to stapp03] ********************************************************************************************
+skipping: [stapp01]
+skipping: [stapp02]
+changed: [stapp03]
+
+PLAY RECAP ******************************************************************************************************************
+stapp01                    : ok=2    changed=1    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+stapp02                    : ok=2    changed=1    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+stapp03                    : ok=2    changed=1    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0
+```
+
+<img width="985" height="756" alt="image" src="https://github.com/user-attachments/assets/1b859968-57b5-4d7a-8a85-0457df55de1a" />
+
+
+`ansible all -a "ls -lart /opt/itadmin" -i inventory`
+
+```bash
+thor@jumphost ~/ansible$ ansible all -a "ls -lart /opt/itadmin" -i inventory
+stapp01 | CHANGED | rc=0 >>
+total 12
+drwxr-xr-x 1 root root 4096 Jun 26 09:01 ..
+-rw-r-xr-x 1 tony tony   35 Jun 26 09:08 blog.txt
+drwxr-xr-x 2 root root 4096 Jun 26 09:08 .
+stapp03 | CHANGED | rc=0 >>
+total 12
+drwxr-xr-x 1 root   root   4096 Jun 26 09:01 ..
+-rw-r-xr-x 1 banner banner   22 Jun 26 09:08 media.txt
+drwxr-xr-x 2 root   root   4096 Jun 26 09:08 .
+stapp02 | CHANGED | rc=0 >>
+total 12
+drwxr-xr-x 1 root  root  4096 Jun 26 09:01 ..
+-rw-r-xr-x 1 steve steve   27 Jun 26 09:08 story.txt
+drwxr-xr-x 2 root  root  4096 Jun 26 09:08 .
+```
