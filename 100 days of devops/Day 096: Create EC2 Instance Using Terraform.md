@@ -23,33 +23,22 @@ The Terraform working directory is /home/bob/terraform. Create the main.tf file 
 ### 📜 `main.tf`
 
 ```terraform
-# 1. Generate the RSA Private Key Material locally
-# This fulfills the requirement to "Create a new RSA key named xfusion-kp."
 resource "tls_private_key" "xfusion_key_gen" {
   algorithm = "RSA"
   rsa_bits  = 4096
 }
 
-# 2. Upload the Public Key to AWS
 resource "aws_key_pair" "xfusion_kp" {
   key_name   = "xfusion-kp"
   public_key = tls_private_key.xfusion_key_gen.public_key_openssh
 }
 
-# 3. Create the EC2 Instance
 resource "aws_instance" "xfusion_ec2" {
-  # AMI ID (Amazon Linux)
   ami           = "ami-0c101f26f147fa7fd"
-  
-  # Instance Type
-  instance_type = "t2.micro"
-  
-  # Key Pair Attachment
-  key_name = aws_key_pair.xfusion_kp.key_name 
 
-  # Security Group Attachment: By omitting 'vpc_security_group_ids', 
-  # Terraform attaches the instance to the default security group 
-  # of the default VPC (or the default VPC of the targeted custom VPC if one is being used).
+  instance_type = "t2.micro"
+
+  key_name = aws_key_pair.xfusion_kp.key_name 
   
   tags = {
     Name = "xfusion-ec2"
