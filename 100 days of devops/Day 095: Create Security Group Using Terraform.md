@@ -19,3 +19,62 @@ Note: Right-click under the EXPLORER section in VS Code and select Open in Integ
 ## Solution
 
 
+1. Create `variables.tf` file in vs code editor and copy paste these lines:
+
+    ```hcl
+    variable "sg_name" {
+        default = "xfusion-sg"
+    }
+
+    variable "sg_description" {
+        default = "Security group for Nautilus App Servers"
+    }
+    ```
+
+2. Now let's create the `main.tf` file and copy-paste these lines:
+
+    ```hcl
+    resource "aws_security_group" "kk_sg" {
+    name        = var.sg_name
+    description = var.sg_description
+
+    tags = {
+        Name = var.sg_name
+    }
+    }
+
+    resource "aws_vpc_security_group_ingress_rule" "allow_http" {
+    security_group_id = aws_security_group.kk_sg.id
+    cidr_ipv4         = "0.0.0.0/0"
+    from_port         = 80
+    ip_protocol       = "HTTP"
+    to_port           = 80
+    }
+
+    resource "aws_vpc_security_group_ingress_rule" "allow_ssh" {
+    security_group_id = aws_security_group.kk_sg.id
+    cidr_ipv4         = "0.0.0.0/0"
+    from_port         = 22
+    ip_protocol       = "SSH"
+    to_port           = 22
+    }
+    ```
+
+
+3. Let's open the terminal and run the following commands:
+
+    ```sh
+    terraform init
+    terraform plan
+    terraform apply -auto-approve
+    ```
+
+4. We can verify using terraform state command:
+
+    ```sh
+    terraform state list
+    ```
+<img width="807" height="357" alt="image" src="https://github.com/user-attachments/assets/98a08a54-b01f-463f-98c5-c65fcbb8546c" />
+
+    > It should give 3 resources: 1 securiy group and 2 ingress rule for the security group
+
