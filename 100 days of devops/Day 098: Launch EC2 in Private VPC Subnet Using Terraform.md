@@ -167,7 +167,8 @@ The Nautilus DevOps team is expanding their AWS infrastructure and requires the 
  `terraform apply -auto-approve`
     <img width="749" height="397" alt="Screenshot 2025-11-12 083909" src="https://github.com/user-attachments/assets/afeea8ad-5041-4af0-baa9-f8c91217d3be" />
 
-    > It will display resource names at the end:
+
+ > It will display resource names at the end:
 
     ```output
     KKE_ec2_private = "datacenter-priv-ec2"
