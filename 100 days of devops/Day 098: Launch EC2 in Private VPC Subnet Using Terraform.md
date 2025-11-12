@@ -131,15 +131,7 @@ The Nautilus DevOps team is expanding their AWS infrastructure and requires the 
         }
     }
     ```
-
-    - Here we have added: vpc, subnet, security group, ec2 instance
-    - Data source to find AMI ID Amazon Linux Image
-    - Ingress rule to allow ports: 80 and 22 access only within VPC CIDR Range
-    - Egress rule to go outbound request anywhere
-    - in subnet: we have disabled Public IP attachment
-    - Using prefix, we have set each resource name within tags
-    - Here is the full [main.tf](../files/terraform_ec2_instance_launch_private_subnet_98.tf)
-
+    
 3. Let's create the `outputs.tf` file with the following contents:
 
     ```hcl
@@ -168,11 +160,11 @@ The Nautilus DevOps team is expanding their AWS infrastructure and requires the 
 
     <img width="756" height="646" alt="Screenshot 2025-11-12 082919" src="https://github.com/user-attachments/assets/f98f1442-ec3b-40fb-a6a9-1f63f69b206b" />
 
-    again:
+ again:
     `terraform plan`
     <img width="731" height="367" alt="Screenshot 2025-11-12 083844" src="https://github.com/user-attachments/assets/458b8ea9-f521-44da-b707-6df89677e30b" />
 
-    `terraform apply -auto-approve`
+ `terraform apply -auto-approve`
     <img width="749" height="397" alt="Screenshot 2025-11-12 083909" src="https://github.com/user-attachments/assets/afeea8ad-5041-4af0-baa9-f8c91217d3be" />
 
     > It will display resource names at the end:
