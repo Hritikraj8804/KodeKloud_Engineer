@@ -162,10 +162,14 @@ The Nautilus DevOps team is expanding their AWS infrastructure and requires the 
 
  again:
     `terraform plan`
-    <img width="731" height="367" alt="Screenshot 2025-11-12 083844" src="https://github.com/user-attachments/assets/458b8ea9-f521-44da-b707-6df89677e30b" />
+
+    
+<img width="731" height="367" alt="Screenshot 2025-11-12 083844" src="https://github.com/user-attachments/assets/458b8ea9-f521-44da-b707-6df89677e30b" />
 
  `terraform apply -auto-approve`
-    <img width="749" height="397" alt="Screenshot 2025-11-12 083909" src="https://github.com/user-attachments/assets/afeea8ad-5041-4af0-baa9-f8c91217d3be" />
+
+ 
+<img width="749" height="397" alt="Screenshot 2025-11-12 083909" src="https://github.com/user-attachments/assets/afeea8ad-5041-4af0-baa9-f8c91217d3be" />
 
 
  > It will display resource names at the end:
