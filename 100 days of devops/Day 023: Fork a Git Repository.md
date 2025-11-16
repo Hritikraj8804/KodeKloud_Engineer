@@ -7,3 +7,13 @@ There is a Git server used by the Nautilus project teams. Recently a new develop
 - There you will see a Git repository `sarah/story-blog`, `fork` it under `jon` user.
 
 `Note:` For these kind of scenarios requiring changes to be done in a web UI, please take screenshots so that you can share it with us for review in case your task is marked incomplete. You may also consider using a screen recording software such as loom.com to record and share your work.
+
+# Solution
+
+Pretty simple and straight forward.
+
+1. Login into UI with given user password
+2. CLick on the repository (at right sidebar)
+3. Click on the fork option (top right)
+
+   
