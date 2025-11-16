@@ -19,3 +19,5 @@ ssh into the Nautilus Storage Server: `ssh natasha@172.16.238.15`
 
 Check the result: `ls -l`
 
+
+<img width="847" height="727" alt="image" src="https://github.com/user-attachments/assets/3e42dc6f-da8a-4295-830a-479c8399b3dc" />
