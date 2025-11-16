@@ -16,4 +16,7 @@ Pretty simple and straight forward.
 2. CLick on the repository (at right sidebar)
 3. Click on the fork option (top right)
 
-   
+<img width="1007" height="251" alt="image" src="https://github.com/user-attachments/assets/671472a4-6dcd-4cdc-86a1-c27db2747afb" />
+
+
+<img width="818" height="307" alt="image" src="https://github.com/user-attachments/assets/95520605-6de3-46c4-bffa-44c3d35eb6a3" />
