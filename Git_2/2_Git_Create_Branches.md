@@ -20,3 +20,5 @@ Nautilus developers are actively working on one of the project repositories, `/u
 `git status`
 
 `git branch -a`
+
+<img width="563" height="331" alt="image" src="https://github.com/user-attachments/assets/fb9d213e-b848-4405-a02b-752ac1916fb9" />
