@@ -30,7 +30,7 @@ This repository provides a comprehensive guide to the **100 Days of DevOps** cha
 
 > **Ready to start the official challenge?** Use this [KodeKloud link](https://linkly.link/2CeSH) - it helps support this project!
 
-<!---
+
 ## Challenge Progress
 
 ![100%](https://progress-bar.xyz/100)
@@ -39,8 +39,10 @@ This repository provides a comprehensive guide to the **100 Days of DevOps** cha
 
 **Successfully completed the 100 Days of DevOps Challenge!**
 
-![certificate of completion](https://github.com/Hritikraj8804/KodeKloud_Engineer/blob/main/100%20days%20of%20devops/screenshots/certificate.jpg)
+![Screenshot 2025-11-20 212332](https://github.com/user-attachments/assets/3a00c181-2eea-4d61-beb0-8f4458c73cd2)
 
+
+<!---
 ### Learning Modules
 
 | Module                     | Days   | Topics Covered                              | Status     |
