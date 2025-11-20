@@ -91,3 +91,4 @@ Notes:
     terraform apply -auto-approve
     ```
 
+<img width="757" height="636" alt="image" src="https://github.com/user-attachments/assets/41cd667e-6c05-4a46-a2d3-3167c589ba67" />
