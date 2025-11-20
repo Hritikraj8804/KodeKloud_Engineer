@@ -30,6 +30,7 @@ This repository provides a comprehensive guide to the **100 Days of DevOps** cha
 
 > **Ready to start the official challenge?** Use this [KodeKloud link](https://linkly.link/2CeSH) - it helps support this project!
 
+<!---
 ## Challenge Progress
 
 ![100%](https://progress-bar.xyz/100)
@@ -67,6 +68,7 @@ This repository provides a comprehensive guide to the **100 Days of DevOps** cha
 | ... | ...                                                    | ...               | ...                                                                                                       |
 | 100 | Create and Configure CloudWatch Alarms Using Terraform | IaC               | [Solution](https://github.com/Hritikraj8804/KodeKloud_Engineer/tree/main/100%20days%20of%20devops/Day100) |
 
+---> 
 ## Prerequisites
 
 * **Basic Linux knowledge** - Command line familiarity
@@ -156,4 +158,3 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 * [Official KodeKloud DevOps Course](https://linkly.link/2CeSH)
 * [Docker Documentation](https://docs.docker.com/)
 * [Kubernetes Documentation](https://kubernetes.io/docs/)
-* [Git Documentation][https://git-scm.com/doc](https://git-scm.com/doc)
