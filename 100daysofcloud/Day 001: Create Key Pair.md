@@ -39,6 +39,9 @@ Create the resources only in us-east-1 region.
 5. **Verify the Key Pair:**
 
    * In the **Key Pairs** section, check that your newly created key pair (`devops-kp`) is listed.
+  
+     ![key_created](https://github.com/user-attachments/assets/3b3177fa-17a1-4cd9-94e1-e2b0f87955f9)
+
 
 6. **Ensure you are in the Correct Region:**
 
