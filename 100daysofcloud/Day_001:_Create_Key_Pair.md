@@ -54,5 +54,6 @@ Create the resources only in us-east-1 region.
 
 ## Funny Message:
 
-*"Well, you’ve created your key pair. Congratulations, you now hold the key to the cloud—literally!"*
+*"Well, you’ve created your key pair. Congratulations, you now hold the key to the cloud literally!"*
 
+[Dev.to](https://dev.to/hritikraj8804/aws-101-the-first-step-to-the-cloud-creating-your-essential-ssh-key-pair-5f1h)
