@@ -44,7 +44,7 @@ Follow along, learn with me, or even join the challenge!
 
 
 ## 🔥 **Follow My Journey**
-* 🌐 **Blog (optional):** [](day001)
+* 🌐 **Blog :** [Dev.to](https://dev.to/hritikraj8804)
 
 ## ⚡ Let’s Go!
 
@@ -52,4 +52,3 @@ Excited to learn, build, break things (intentionally 😄), fix them, and grow e
 Here’s to the next 100 days of becoming a stronger cloud engineer! ☁️🚀
 
 
-Just tell me!
