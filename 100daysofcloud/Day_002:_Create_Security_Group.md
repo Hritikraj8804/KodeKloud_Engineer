@@ -20,12 +20,13 @@ Follow these steps using the AWS Management Console to create the required secur
 2.  Ensure you switch your region to **us-east-1 (N. Virginia)**.
 3.  Search for and select **EC2** from the Services list to go to the EC2 Dashboard.
 
-   
+   ![ec2](https://github.com/user-attachments/assets/7d71ee4e-e9c7-4184-8764-05ee64208863)
 
 #### Step 2: Access the Security Groups Section
 
 1.  In the navigation pane on the left side of the EC2 Dashboard, under **Network & Security**, click on **Security Groups**.
 
+![security grp](https://github.com/user-attachments/assets/7327b200-15b9-4249-a8e5-24fbcd2ce59a)
 
 #### Step 3: Create the Security Group
 
@@ -35,6 +36,7 @@ Follow these steps using the AWS Management Console to create the required secur
     * For **Description**, enter: `Security group for Nautilus App Servers`.
     * For **VPC**, ensure the **Default VPC** is selected (this is usually the default option).
 
+![form](https://github.com/user-attachments/assets/7e658334-517e-4fe2-b4bd-15616b6d27ad)
 
 
 #### Step 4: Configure Inbound Rules
@@ -54,6 +56,8 @@ Follow these steps using the AWS Management Console to create the required secur
 #### Step 5: Finalize Creation
 
 1.  Click the **Create security group** button at the bottom of the page.
+   
+![result](https://github.com/user-attachments/assets/7ffec882-87df-4051-bd91-2a6b957d84ce)
 
 #### Step 6: Verification
 
