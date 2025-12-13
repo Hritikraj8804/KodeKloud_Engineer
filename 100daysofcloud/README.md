@@ -21,7 +21,7 @@ Follow along, learn with me, or even join the challenge!
 | Day     | Topic / Task                                   | Status | Link         |
 | ------- | ---------------------------------------------- | ------ | ------------ |
 | Day 1   | Introduction to Cloud / KodeKloud Cloud Basics | ✔️     | [Day 001](./Day_001:_Create_Key_Pair.md)   |
-| Day 2   | TBD                                            | ⏳     | [Day 002](#)   |
+| Day 2   | TBD                                            | ⏳     | [Day 002](./Day_002:_Create_Security_Group.md)   |
 | Day 3   | TBD                                            | ⏳     | [Day 003](#)   |
 | ...     | ...                                            | ...    | ...          |
 | Day 100 | TBD                                            | ⏳      | [Day 100](#) |
