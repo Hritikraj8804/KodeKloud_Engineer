@@ -52,8 +52,8 @@ Create the resources only in us-east-1 region.
 * **Remember to save the private key file:** If you lose the `.pem` file, you won't be able to access your EC2 instances using SSH.
 * **Region-specific resources:** Ensure you are in the `us-east-1` region when creating the key pair, as resources in AWS are region-specific.
 
-## Funny Message:
+## Fun Message:
 
 *"Well, you’ve created your key pair. Congratulations, you now hold the key to the cloud literally!"*
 
-[Dev.to](https://dev.to/hritikraj8804/aws-101-the-first-step-to-the-cloud-creating-your-essential-ssh-key-pair-5f1h)
+👉[Dev.to](https://dev.to/hritikraj8804/aws-101-the-first-step-to-the-cloud-creating-your-essential-ssh-key-pair-5f1h)
