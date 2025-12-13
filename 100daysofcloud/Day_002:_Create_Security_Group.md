@@ -76,6 +76,8 @@ Here are some potential issues or common mistakes to watch out for:
 
 ---
 
-### Funny Message
+### Fun Message
 
 > Another successful security measure! Now your app servers can chat with the whole world on port 80 and let their admin friends in on port 22. Just be sure to always lock your doors (i.e., use less permissive sources in production)!
+
+👉[Dev.to](https://dev.to/hritikraj8804/aws-102-building-your-digital-bouncer-creating-an-essential-security-group-1m9n)
