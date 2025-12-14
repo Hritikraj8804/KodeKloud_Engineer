@@ -20,9 +20,9 @@ Follow along, learn with me, or even join the challenge!
 
 | Day     | Topic / Task                                   | Status | Link         |
 | ------- | ---------------------------------------------- | ------ | ------------ |
-| Day 1   | Create Key Pair | ✔️     | [Day 001](./Day_001:_Create_Key_Pair.md)   |
+| Day 1   | Create Key Pair                                               | ✔️     | [Day 001](./Day_001:_Create_Key_Pair.md)   |
 | Day 2   | Create Security Group                                         | ✔️     | [Day 002](./Day_002:_Create_Security_Group.md)   |
-| Day 3   | TBD                                            | ⏳     | [Day 003](#)   |
+| Day 3   | Create Security Group                                         | ✔️     | [Day 003](./Day_002:_Create_Security_Group.md)   |
 | ...     | ...                                            | ...    | ...          |
 | Day 100 | TBD                                            | ⏳      | [Day 100](#) |
 
