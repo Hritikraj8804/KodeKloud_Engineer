@@ -24,6 +24,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 2   | Create Security Group                                         | ✔️     | [Day 002](./Day_002:_Create_Security_Group.md)   |
 | Day 3   | Create Security Group                                         | ✔️     | [Day_003](./Day_002:_Create_Security_Group.md)   |
 | Day 4   | Allocate Elastic IP                                           | ✔️     | [Day_004](./Day_004:_Allocate_Elastic_IP.md)   |
+| Day 5   | Create GP3 Volume                                             | ✔️     | [Day_005](./Day_005:_Create_GP3_Volume.md)   |
 | ...     | ...                                            | ...    | ...          |
 | Day 100 | TBD                                            | ⏳      | [Day 100](#) |
 
