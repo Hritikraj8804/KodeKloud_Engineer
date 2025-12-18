@@ -26,6 +26,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 4   | Allocate Elastic IP                                           | ✔️     | [Day_004](./Day_004:_Allocate_Elastic_IP.md)   |
 | Day 5   | Create GP3 Volume                                             | ✔️     | [Day_005](./Day_005:_Create_GP3_Volume.md)   |
 | Day 6   | Launch EC2 Instance                                           | ✔️     | [Day_006](./Day_006:_Launch_EC2_Instance.md)   |
+| Day 7   | Change EC2 Instance Type                                      | ✔️     | [Day_007](./Day_007:_Change_EC2_Instance_Type.md)   |
 | ...     | ...                                            | ...    | ...          |
 | Day 100 | TBD                                            | ⏳      | [Day 100](#) |
 
