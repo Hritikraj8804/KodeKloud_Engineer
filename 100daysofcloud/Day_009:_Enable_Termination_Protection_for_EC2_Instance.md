@@ -67,7 +67,5 @@ Follow these steps to protect the `xfusion-ec2` instance from accidental termina
 
 > There we go! `xfusion-ec2` is now officially "un-delete-able." It's like putting your favorite mug in a glass case—everyone can see it, but nobody can throw it away by mistake. Stay safe out there!
 
-Would you like me to show you how to create a CloudWatch alarm to notify you if someone *tries* to disable this protection?
-
 
 👉[Dev.to](https://dev.to/hritikraj8804/aws-109-the-ultimate-safety-net-enabling-ec2-termination-protection-3op7)
