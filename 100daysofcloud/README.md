@@ -27,8 +27,9 @@ Follow along, learn with me, or even join the challenge!
 | Day 5   | Create GP3 Volume                                             | ✔️     | [Day_005](./Day_005:_Create_GP3_Volume.md)   |
 | Day 6   | Launch EC2 Instance                                           | ✔️     | [Day_006](./Day_006:_Launch_EC2_Instance.md)   |
 | Day 7   | Change EC2 Instance Type                                      | ✔️     | [Day_007](./Day_007:_Change_EC2_Instance_Type.md)   |
-| Day 8   | Enable Stop Protection for EC2 Instance                       | ✔️     | [Day_007](./Day_008:_Enable_Stop_Protection_for_EC2_Instance.md)   |
-| Day 9   | Enable Termination Protection for EC2 Instance                | ✔️     | [Day_007](./Day_009:_Enable_Termination_Protection_for_EC2_Instance.md)   |
+| Day 8   | Enable Stop Protection for EC2 Instance                       | ✔️     | [Day_008](./Day_008:_Enable_Stop_Protection_for_EC2_Instance.md)   |
+| Day 9   | Enable Termination Protection for EC2 Instance                | ✔️     | [Day_009](./Day_009:_Enable_Termination_Protection_for_EC2_Instance.md)   |
+| Day 10  | Attach Elastic IP to EC2 Instance                             | ✔️     | [Day_010](./Day_010:_Attach_Elastic_IP_to_EC2_Instance.md)   |
 | ...     | ...                                            | ...    | ...          |
 | Day 100 | TBD                                            | ⏳      | [Day 100](#) |
 
