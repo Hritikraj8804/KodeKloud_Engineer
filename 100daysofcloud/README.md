@@ -31,8 +31,9 @@ Follow along, learn with me, or even join the challenge!
 | Day 9   | Enable Termination Protection for EC2 Instance                | ✔️     | [Day_009](./Day_009:_Enable_Termination_Protection_for_EC2_Instance.md)   |
 | Day 10  | Attach Elastic IP to EC2 Instance                             | ✔️     | [Day_010](./Day_010:_Attach_Elastic_IP_to_EC2_Instance.md)   |
 | Day 11  | Attach Elastic Network Interface to EC2 Instance              | ✔️     | [Day_011](./Day_011:_Attach_Elastic_Network_Interface_to_EC2_Instance.md)   |
-| ...     | ...                                            | ...    | ...          |
-| Day 100 | TBD                                            | ⏳      | [Day 100](#) |
+| Day 12  | Attach Volume to EC2 Instance                                 | ✔️     | [Day_012](./Day_012:_Attach_Volume_to_EC2_Instance.md)   |
+| ...     | ...                                                           | ...    | ...          |
+| Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
 > 🔗 *Links will be updated daily as I complete each task.*
 
