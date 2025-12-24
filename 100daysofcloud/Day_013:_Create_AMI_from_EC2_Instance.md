@@ -74,3 +74,5 @@ Follow these steps to create the AMI and verify its availability:
 ### Fun Message
 
 > Say cheese! Your instance just had its professional headshot taken. Now you have a perfect "digital clone" ready to be deployed whenever you need a twin. Just don't let the two instances start arguing over who's the original!
+
+👉[Dev.to](https://dev.to/hritikraj8804/aws-113-capturing-the-moment-how-to-create-an-amazon-machine-image-ami-1cl7)
