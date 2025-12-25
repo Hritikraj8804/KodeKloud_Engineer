@@ -33,6 +33,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 11  | Attach Elastic Network Interface to EC2 Instance              | ✔️     | [Day_011](./Day_011:_Attach_Elastic_Network_Interface_to_EC2_Instance.md)   |
 | Day 12  | Attach Volume to EC2 Instance                                 | ✔️     | [Day_012](./Day_012:_Attach_Volume_to_EC2_Instance.md)   |
 | Day 13  | Create AMI from EC2 Instance                                  | ✔️     | [Day_013](./Day_013:_Create_AMI_from_EC2_Instance.md)   |
+| Day 14  | Terminate EC2 Instance                                        | ✔️     | [Day_014](./Day_014:_Terminate_EC2_Instance.md)   |
 | ...     | ...                                                           | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
