@@ -34,6 +34,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 12  | Attach Volume to EC2 Instance                                 | ✔️     | [Day_012](./Day_012:_Attach_Volume_to_EC2_Instance.md)   |
 | Day 13  | Create AMI from EC2 Instance                                  | ✔️     | [Day_013](./Day_013:_Create_AMI_from_EC2_Instance.md)   |
 | Day 14  | Terminate EC2 Instance                                        | ✔️     | [Day_014](./Day_014:_Terminate_EC2_Instance.md)   |
+| Day 15  | Create Volume Snapshot                                        | ✔️     | [Day_015](./Day_015:_Create_Volume_Snapshot.md)   |
 | ...     | ...                                                           | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
