@@ -91,3 +91,4 @@ While the Visual Editor is available, using the JSON editor ensures all specific
 
 > Look at you, crafting custom security rules like a digital blacksmith! `iampolicy_mark` is now live. It’s the perfect "look but don't touch" policy. It’s basically giving someone the keys to the museum, but locking all the display cases in bulletproof glass. Happy (and safe) viewing!
 
+👉[Dev.to](https://dev.to/hritikraj8804/aws-118-setting-the-rules-creating-a-custom-iam-policy-5694)
