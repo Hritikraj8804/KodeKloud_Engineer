@@ -36,6 +36,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 14  | Terminate EC2 Instance                                        | ✔️     | [Day_014](./Day_014:_Terminate_EC2_Instance.md)   |
 | Day 15  | Create Volume Snapshot                                        | ✔️     | [Day_015](./Day_015:_Create_Volume_Snapshot.md)   |
 | Day 16  | Create IAM User                                               | ✔️     | [Day_016](./Day_016:_Create_IAM_User.md)   |
+| Day 17  | Create IAM Group                                               | ✔️     | [Day_017](./Day_017:_Create_IAM_Group.md)   |
 | ...     | ...                                                           | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
