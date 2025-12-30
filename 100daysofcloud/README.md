@@ -38,6 +38,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 16  | Create IAM User                                               | ✔️     | [Day_016](./Day_016:_Create_IAM_User.md)   |
 | Day 17  | Create IAM Group                                              | ✔️     | [Day_017](./Day_017:_Create_IAM_Group.md)   |
 | Day 18  | Create Read-Only IAM Policy for EC2 Console Access            | ✔️     | [Day_018](./Day_018:_Create_Read-Only_IAM_Policy_for_EC2_Console_Access.md)   |
+| Day 19  | Attach IAM Policy to IAM User                                 | ✔️     | [Day_019](./Day_019:_Attach_IAM_Policy_to_IAM_User.md)   |
 | ...     | ...                                                           | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
