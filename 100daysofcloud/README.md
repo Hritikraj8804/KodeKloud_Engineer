@@ -40,6 +40,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 18  | Create Read-Only IAM Policy for EC2 Console Access            | ✔️     | [Day_018](./Day_018:_Create_Read-Only_IAM_Policy_for_EC2_Console_Access.md)   |
 | Day 19  | Attach IAM Policy to IAM User                                 | ✔️     | [Day_019](./Day_019:_Attach_IAM_Policy_to_IAM_User.md)   |
 | Day 20  | Create IAM Role for EC2 with Policy Attachment                | ✔️     | [Day_020](./Day_020:_Create_IAM_Role_for_EC2_with_Policy_Attachment.md)   |
+| Day 21  | Setting Up an EC2 Instance with an Elastic IP for Application Hosting    | ✔️     | [Day_021](./Day_021:_Setting_Up_an_EC2_Instance_with_an_Elastic_IP_for_Application_Hosting.md)   |
 | ...     | ...                                                           | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
