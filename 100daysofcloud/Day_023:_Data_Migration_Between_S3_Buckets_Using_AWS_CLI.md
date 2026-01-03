@@ -77,4 +77,4 @@ aws s3 ls s3://devops-sync-19208 --recursive --human-readable --summarize
 
 > If you are migrating millions of small files, the sync command can be slow. You can increase the concurrency by running `aws configure set default.s3.max_concurrent_requests 20` to speed up the transfer!
 
-[]()
+👉[medium](https://medium.com/@hritikraj8804/aws-%EF%B8%8F-day-023-of-100daysofcloud-aws-s3-data-migration-using-aws-cli-e743a8f3123f)
