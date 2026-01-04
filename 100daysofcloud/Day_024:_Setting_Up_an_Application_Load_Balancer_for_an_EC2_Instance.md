@@ -99,4 +99,4 @@ Make appropriate changes in the default security group attached to the EC2 insta
 
 > Think of an Application Load Balancer like a receptionist in a busy office building. Visitors (the public) only ever talk to the receptionist at the front desk (the ALB). The receptionist then directs them to the specific office (the EC2 instance) where they need to go, keeping the internal layout of the building private!
 
-[]()
+[medium](https://medium.com/@hritikraj8804/%EF%B8%8F-day-024-of-100daysofcloud-aws-application-load-balancer-58627662293e)
