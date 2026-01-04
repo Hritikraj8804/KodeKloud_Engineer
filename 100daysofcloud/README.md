@@ -43,6 +43,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 21  | Setting Up an EC2 Instance with an Elastic IP for Application Hosting    | ✔️     | [Day_021](./Day_021:_Setting_Up_an_EC2_Instance_with_an_Elastic_IP_for_Application_Hosting.md)   |
 | Day 22  | Configuring Secure SSH Access to an EC2 Instance              | ✔️     | [Day_022](./Day_022:_Configuring_Secure_SSH_Access_to_an_EC2_Instance.md)   |
 | Day 23  | Data Migration Between S3 Buckets Using AWS CLI               | ✔️     | [Day_023](./Day_023:_Data_Migration_Between_S3_Buckets_Using_AWS_CLI.md)   |
+| Day 24  | Setting Up an Application Load Balancer for an EC2 Instance   | ✔️     | [Day 024](./Day_024:_Setting_Up_an_Application_Load_Balancer_for_an_EC2_Instance.md)   |
 | ...     | ...                                                           | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
