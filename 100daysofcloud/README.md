@@ -67,7 +67,9 @@ Follow along, learn with me, or even join the challenge!
 
 
 ## 🔥 **Follow My Journey**
-* 🌐 **Blog :** [Dev.to](https://dev.to/hritikraj8804)
+### 🌐 **Blog :**
+- [Dev.to](https://dev.to/hritikraj8804)
+- [Meduim](https://medium.com/@hritikraj8804/list/100daysofcloud-7367f235a8b8) 
 
 ## ⚡ Let’s Go!
 
