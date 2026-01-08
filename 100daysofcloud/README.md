@@ -47,7 +47,8 @@ Follow along, learn with me, or even join the challenge!
 | Day 25  | Setting Up an EC2 Instance and CloudWatch Alarm               | ✔️     | [Day_025](./Day_025:_Setting_Up_an_EC2_Instance_and_CloudWatch_Alarm.md)   |
 | Day 26  | Configuring an EC2 Instance as a Web Server with Nginx        | ✔️     | [Day_026](./Day_026:_Configuring_an_EC2_Instance_as_a_Web_Server_with_Nginx.md)   |
 | Day 27  | Configuring a Public VPC with an EC2 Instance for Internet Access | ✔️     | [Day_027](./Day_027:_Configuring_a_Public_VPC_with_an_EC2_Instance_for_Internet_Access.md)   |
-| ...     | ...                                                           | ...    | ...          |
+| Day 28  | Creating a Private ECR Repository               | ✔️     | [Day_028](./Day_028:_Creating_a_Private_ECR_Repository.md)   |
+| ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
 > 🔗 *Links will be updated daily as I complete each task.*
