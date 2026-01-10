@@ -49,6 +49,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 27  | Configuring a Public VPC with an EC2 Instance for Internet Access | ✔️     | [Day_027](./Day_027:_Configuring_a_Public_VPC_with_an_EC2_Instance_for_Internet_Access.md)   |
 | Day 28  | Creating a Private ECR Repository               | ✔️     | [Day_028](./Day_028:_Creating_a_Private_ECR_Repository.md)   |
 | Day 29  | Establishing Secure Communication Between Public and Private VPCs via VPC Peering    | ✔️     | [Day 029](./Day_029:_Establishing_Secure_Communication_Between_Public_and_Private_VPCs-via_VPC_Peering.md)   |
+| Day 30  | Enable Internet Access for Private EC2 using NAT Instance        | ✔️     | [Day_030](./Day_030:_Enable_Internet_Access_for_Private_EC2_using_NAT_Instance.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
