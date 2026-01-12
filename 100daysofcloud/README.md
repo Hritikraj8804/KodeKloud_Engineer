@@ -51,6 +51,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 29  | Establishing Secure Communication Between Public and Private VPCs via VPC Peering    | ✔️     | [Day 029](./Day_029:_Establishing_Secure_Communication_Between_Public_and_Private_VPCs-via_VPC_Peering.md)   |
 | Day 30  | Enable Internet Access for Private EC2 using NAT Instance       | ✔️     | [Day_030](./Day_030:_Enable_Internet_Access_for_Private_EC2_using_NAT_Instance.md)   |
 | Day 31  | Configuring a Private RDS Instance for Application Development  | ✔️     | [Day_031](./Day_031:_Configuring_a_Private_RDS_Instance_for_Application_Development.md)   |
+| Day 32  | Snapshot and Restoration of an RDS Instance                     | ✔️     | [Day_032](./Day_032:_Snapshot_and_Restoration_of_an_RDS_Instance.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
