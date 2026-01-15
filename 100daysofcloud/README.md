@@ -54,6 +54,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 32  | Snapshot and Restoration of an RDS Instance                     | ✔️     | [Day_032](./Day_032:_Snapshot_and_Restoration_of_an_RDS_Instance.md)   |
 | Day 33  | Create a Lambda Function Using CLI                              | ✔️     | [Day_033](./Day_033:_Create_a_Lambda_Function.md)   |
 | Day 34   | Create Key Pair                                               | ✔️     | [Day 034](./Day_034:_Create_a_Lambda_Function_Using_CLI.md)   |
+| Day 35   | Deploying and Managing Applications on AWS                    | ✔️     | [Day 035](./Day_035:_Deploying_and_Managing_Applications_on_AWS.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
