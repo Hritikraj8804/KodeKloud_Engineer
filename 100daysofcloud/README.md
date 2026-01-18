@@ -52,10 +52,12 @@ Follow along, learn with me, or even join the challenge!
 | Day 30  | Enable Internet Access for Private EC2 using NAT Instance       | ✔️     | [Day_030](./Day_030:_Enable_Internet_Access_for_Private_EC2_using_NAT_Instance.md)   |
 | Day 31  | Configuring a Private RDS Instance for Application Development  | ✔️     | [Day_031](./Day_031:_Configuring_a_Private_RDS_Instance_for_Application_Development.md)   |
 | Day 32  | Snapshot and Restoration of an RDS Instance                     | ✔️     | [Day_032](./Day_032:_Snapshot_and_Restoration_of_an_RDS_Instance.md)   |
-| Day 33  | Create a Lambda Function Using CLI                              | ✔️     | [Day_033](./Day_033:_Create_a_Lambda_Function.md)   |
-| Day 34  | Create a Lambda Function Using CLI                                               | ✔️     | [Day 034](./Day_034:_Create_a_Lambda_Function_Using_CLI.md)   |
+| Day 33  | Create a Lambda Function                                        | ✔️     | [Day_033](./Day_033:_Create_a_Lambda_Function.md)   |
+| Day 34  | Create a Lambda Function Using CLI                             | ✔️     | [Day 034](./Day_034:_Create_a_Lambda_Function_Using_CLI.md)   |
 | Day 35  | Deploying and Managing Applications on AWS                    | ✔️     | [Day 035](./Day_035:_Deploying_and_Managing_Applications_on_AWS.md)   |
 | Day 36  | Load Balancing EC2 Instances with Application Load Balancer   | ✔️     | [Day 036](./Day_036:_Load_Balancing_EC2_Instances_with_Application_Load_Balancer.md)   |
+| Day 37  | Managing EC2 Access with S3 Role-based Permissions            | ✔️     | [Day 037](./Day_037:_Managing_EC2_Access_with_S3_Role-based_Permissions.md)   |
+| Day 38  | Deploying Containerized Applications with Amazon ECS          | ✔️     | [Day 038](./Day_038:_Deploying_Containerized_Applications_with_Amazon_ECS.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
