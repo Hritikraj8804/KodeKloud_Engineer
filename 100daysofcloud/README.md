@@ -59,6 +59,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 37  | Managing EC2 Access with S3 Role-based Permissions            | ✔️     | [Day 037](./Day_037:_Managing_EC2_Access_with_S3_Role-based_Permissions.md)   |
 | Day 38  | Deploying Containerized Applications with Amazon ECS          | ✔️     | [Day 038](./Day_038:_Deploying_Containerized_Applications_with_Amazon_ECS.md)   |
 | Day 39  | Hosting a Static Website on AWS S3                            | ✔️     | [Day 039](./Day_039:_Hosting_a_Static_Website_on_AWS_S3.md)   |
+| Day 40  | Troubleshooting Internet Accessibility for an EC2-Hosted Application       | ✔️     | [Day 040](./Day_040:_Troubleshooting_Internet_Accessibility_for_an_EC2-Hosted_Application.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
