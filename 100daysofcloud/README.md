@@ -61,6 +61,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 39  | Hosting a Static Website on AWS S3                            | ✔️     | [Day 039](./Day_039:_Hosting_a_Static_Website_on_AWS_S3.md)   |
 | Day 40  | Troubleshooting Internet Accessibility for an EC2-Hosted Application       | ✔️     | [Day 040](./Day_040:_Troubleshooting_Internet_Accessibility_for_an_EC2-Hosted_Application.md)   |
 | Day 41  | Securing Data with AWS KMS                                    | ✔️     | [Day_041](./Day_041:_Securing_Data_with_AWS_KMS.md)   |
+| Day 42  | Building and Managing NoSQL Databases with AWS DynamoDB        | ✔️     | [Day 042](./Day_042:_Building_and_Managing_NoSQL_Databases_with_AWS_DynamoDB.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
