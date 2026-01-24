@@ -63,6 +63,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 41  | Securing Data with AWS KMS                                    | ✔️     | [Day_041](./Day_041:_Securing_Data_with_AWS_KMS.md)   |
 | Day 42  | Building and Managing NoSQL Databases with AWS DynamoDB       | ✔️     | [Day 042](./Day_042:_Building_and_Managing_NoSQL_Databases_with_AWS_DynamoDB.md)   |
 | Day 43  | Scaling and Managing Kubernetes Clusters with Amazon EKS      | ✔️     | [Day_043](./Day_043:_Scaling_and_Managing_Kubernetes_Clusters_with_Amazon_EKS.md)   |
+| Day 44  | Implementing Auto Scaling for High Availability in AWS        | ✔️     | [Day_044](./Day_044:_Implementing_Auto_Scaling_for_High_Availability_in_AWS.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
