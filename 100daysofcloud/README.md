@@ -64,6 +64,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 42  | Building and Managing NoSQL Databases with AWS DynamoDB       | ✔️     | [Day 042](./Day_042:_Building_and_Managing_NoSQL_Databases_with_AWS_DynamoDB.md)   |
 | Day 43  | Scaling and Managing Kubernetes Clusters with Amazon EKS      | ✔️     | [Day_043](./Day_043:_Scaling_and_Managing_Kubernetes_Clusters_with_Amazon_EKS.md)   |
 | Day 44  | Implementing Auto Scaling for High Availability in AWS        | ✔️     | [Day_044](./Day_044:_Implementing_Auto_Scaling_for_High_Availability_in_AWS.md)   |
+| Day 45  |  Configure NAT Gateway for Internet Access in a Private VPC   | ✔️     | [Day_045](./Day_045:_Configure_NAT_Gateway_for_Internet_Access_in_a_Private_VPC.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
