@@ -67,6 +67,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 45  | Configure NAT Gateway for Internet Access in a Private VPC    | ✔️     | [Day_045](./Day_045:_Configure_NAT_Gateway_for_Internet_Access_in_a_Private_VPC.md)   |
 | Day 46  | Event-Driven Processing with Amazon S3 and Lambda             | ✔️     | [Day_046](./Day_046:_Event-Driven_Processing_with_Amazon_S3_and_Lambda.md)   |
 | Day 47  | Integrating AWS SQS and SNS for Reliable Messaging            | ✔️     | [Day_047](./Day_047:_Integrating_AWS_SQS_and_SNS_for_Reliable_Messaging.md)   |
+| Day 48  | Automating Infrastructure Deployment with AWS CloudFormation  | ✔️     | [Day_048](./Day_048:_Automating_Infrastructure_Deployment_with_AWS_CloudFormation.md)   |
 | ...     | ...                                                            | ...    | ...          |
 | Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
 
