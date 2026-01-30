@@ -4,6 +4,9 @@
 
 Over the next 100 days, I’ll be diving deep into Cloud, DevOps, AWS, automation, and real-world hands-on labs.
 
+![cert](https://github.com/user-attachments/assets/a02d3896-da78-48e6-8cbf-766d5858065f)
+
+
 Every day will bring:
 
 * 🌩️ New lessons
@@ -69,10 +72,7 @@ Follow along, learn with me, or even join the challenge!
 | Day 47  | Integrating AWS SQS and SNS for Reliable Messaging            | ✔️     | [Day_047](./Day_047:_Integrating_AWS_SQS_and_SNS_for_Reliable_Messaging.md)   |
 | Day 48  | Automating Infrastructure Deployment with AWS CloudFormation  | ✔️     | [Day_048](./Day_048:_Automating_Infrastructure_Deployment_with_AWS_CloudFormation.md)   |
 | Day 49  | Centralized Audit Logging with VPC Peering                    | ✔️     | [Day_049](./Day_049:_Centralized_Audit_Logging_with_VPC_Peering.md)   |
-| ...     | ...                                                            | ...    | ...          |
-| Day 100 | TBD                                                           | ⏳      | [Day 100](#) |
-
-> 🔗 *Links will be updated daily as I complete each task.*
+| Day 50  | Expanding EC2 Instance Storage for Development Needs          | ✔️     | [Day_050](./Day_50:_Expanding_EC2_Instance_Storage_for_Development_Needs.md)   |
 
 ---
 
