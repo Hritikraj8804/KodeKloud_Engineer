@@ -2,7 +2,6 @@
 
 Inspired by my earlier cloud challenge documentation, I’m now starting a brand-new journey focused on **MLOps, Machine Learning Infrastructure, Automation, Python, DevOps, and AI workflows**. 
 
-![mlops-banner](https://github.com/user-attachments/assets/example-banner-image)
 
 Over the next 100 days, I’ll be exploring:
 
