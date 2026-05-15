@@ -31,7 +31,8 @@ This repository will serve as my public learning journal throughout the challeng
 | ----- | ------------------------------------------ | ------ | ---------------------------------------------------------------- |
 | Day 1 | Create a Python Virtual Environment for ML   | ✔️     | [Day_001](./Day_001:_Create_a_Python_Virtual_Environment_for_ML.md)  |
 | Day 2 | Set Up and Configure Jupyter Notebook Server | ✔️     | [Day_002](./Day_002:_Set_Up_and_Configure_Jupyter_Notebook_Server.md) |
-| Day 3 | Coming Soon                                  | ⏳     | -                                                                |
+| Day 3 | Fix a Broken uv Lockfile Specification       | ✔️     | [Day_003](./Day_003:_Fix_a_Broken_uv_Lockfile_Specification.md) |
+| Day 4 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
 
