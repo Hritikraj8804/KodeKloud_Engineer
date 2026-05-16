@@ -44,8 +44,9 @@ Each day includes:
 | Day | Challenge | Status |
 |-----|------------|--------|
 | Day 01 | Create RSA SSH Key Pair | ✅ Completed |
-| Day 02 | Create an Azure Virtual Machine | ✅ Completed |
-| Day 03 | Coming Soon | ⏳ |
+| Day 02 | Create an Azure Virtual Machine | ✅ Completed | 
+| Day 03 | Create VM using Azure CLI | ✅ Completed |
+| Day 04 | Coming Soon | ⏳ |
 
 ---
 
