@@ -46,7 +46,8 @@ Each day includes:
 | Day 01 | Create RSA SSH Key Pair | ✅ Completed |
 | Day 02 | Create an Azure Virtual Machine | ✅ Completed | 
 | Day 03 | Create VM using Azure CLI | ✅ Completed |
-| Day 04 | Coming Soon | ⏳ |
+| Day 04 | Create a Virtual Network (VNet) in Azure | ✅ Completed |
+| Day 05 | Coming Soon | ⏳ |
 
 ---
 
