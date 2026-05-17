@@ -48,6 +48,7 @@ clean:
 all: setup data train test
 ```
 
+<img width="961" height="627" alt="makefile" src="https://github.com/user-attachments/assets/17e47fec-bfbd-4875-b5d7-b6c0a7443a50" />
 
 
 # Step-by-Step Execution
@@ -96,6 +97,7 @@ Expected execution flow:
 setup → data → train → test
 ```
 
+<img width="656" height="545" alt="result" src="https://github.com/user-attachments/assets/1ce5ec8e-c71f-4c51-8b43-dd7fad3e6178" />
 
 
 ## 5. Optional Cleanup
