@@ -48,7 +48,8 @@ Each day includes:
 | Day 03 | Create VM using Azure CLI | ✅ Completed |
 | Day 04 | Create a Virtual Network (VNet) in Azure | ✅ Completed |
 | Day 05 | Create a Virtual Network (IPv4) in Azure | ✅ Completed |
-| Day 06 | Coming Soon | ⏳ |
+| Day 06 | Create a Subnet in Azure Virtual Network | ✅ Completed |
+| Day 50 | Coming Soon | ⏳ |
 
 ---
 
