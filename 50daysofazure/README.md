@@ -49,7 +49,7 @@ Each day includes:
 | Day 04 | Create a Virtual Network (VNet) in Azure | ✅ Completed |
 | Day 05 | Create a Virtual Network (IPv4) in Azure | ✅ Completed |
 | Day 06 | Create a Subnet in Azure Virtual Network | ✅ Completed |
-| Day 07 | Configure Pre-Commit Hooks for ML Repository | ✅ Completed |
+| Day 07 | Create a Public IP Address for Azure VM | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
