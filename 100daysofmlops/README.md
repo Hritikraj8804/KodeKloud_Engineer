@@ -37,6 +37,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 6 | Set Up Code Quality Tools for ML Code        | ✔️     | [Day_006](./Day_006:_Set_Up_Code_Quality_Tools_for_ML_Code.md) |
 | Day 7 | Package an ML Project as Installable Python Package        | ✔️     | [Day_007](./Day_007:_Package_an_ML_Project_as_Installable_Python_Package.md) |
 | Day 8 | Configure Pre-Commit Hooks for ML Repository        | ✔️     | [Day_008](./Day_008:_Configure_Pre-Commit_Hooks_for_ML_Repository.md) |
+| Day 9 | Create a Custom ML Project Template with Cookiecutter        | ✔️     | [Day_009](./Day_009:_Create_a_Custom_ML_Project_Template_with_Cookiecutter.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
