@@ -51,6 +51,7 @@ Each day includes:
 | Day 06 | Create a Subnet in Azure Virtual Network | ✅ Completed |
 | Day 07 | Create a Public IP Address for Azure VM  | ✅ Completed |
 | Day 08 | Attach Managed Disk to Azure Virtual Machine  | ✅ Completed |
+| Day 09 | Attach Network Interface Card (NIC) to Azure Virtual Machine | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
