@@ -39,6 +39,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 8 | Configure Pre-Commit Hooks for ML Repository        | ✔️     | [Day_008](./Day_008:_Configure_Pre-Commit_Hooks_for_ML_Repository.md) |
 | Day 9 | Create a Custom ML Project Template with Cookiecutter        | ✔️     | [Day_009](./Day_009:_Create_a_Custom_ML_Project_Template_with_Cookiecutter.md) |
 | Day 10 | Install and Initialize DVC in an ML Project        | ✔️     | [Day_010](./Day_010:_Install_and_Initialize_DVC_in_an_ML_Project.md) |
+| Day 11 | Track a Dataset with DVC        | ✔️     | [Day_011](./Day_011:_Track_a_Dataset_with_DVC.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
