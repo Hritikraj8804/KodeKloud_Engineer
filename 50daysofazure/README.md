@@ -54,6 +54,7 @@ Each day includes:
 | Day 09 | Attach Network Interface Card (NIC) to Azure Virtual Machine | ✅ Completed |
 | Day 10 | Attach Public IP to Azure Virtual Machine | ✅ Completed |
 | Day 11 | Change Azure Virtual Machine Size Using Console | ✅ Completed |
+| Day 12 | Add and Manage Tags for Azure Virtual Machines | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
