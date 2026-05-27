@@ -56,6 +56,7 @@ Each day includes:
 | Day 11 | Change Azure Virtual Machine Size Using Console | ✅ Completed |
 | Day 12 | Add and Manage Tags for Azure Virtual Machines | ✅ Completed |
 | Day 13 | SSH into an Azure Virtual Machine | ✅ Completed |
+| Day 14 | Create and Attach Managed Disks in Azure | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
