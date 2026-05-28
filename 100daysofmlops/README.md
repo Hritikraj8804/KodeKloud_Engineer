@@ -44,6 +44,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 13 | Pull DVC-Tracked Data from Remote        | ✔️     | [Day_013](./Day_013:_Pull_DVC_Tracked_Data_from_Remote.md) |
 | Day 14 | Create a DVC Pipeline for Data Processing       | ✔️     | [Day_014](./Day_014:_Create_a_DVC_Pipeline_for_Data_Processing.md) |
 | Day 15 | Parameterize a DVC Pipeline                 | ✔️     | [Day_015](./Day_015:_Parameterize_a_DVC_Pipeline.md) |
+| Day 16 | Track ML Metrics with DVC                   | ✔️     | [Day_016](./Day_016:_Track_ML_Metrics_with_DVC.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
