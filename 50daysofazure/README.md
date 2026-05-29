@@ -58,6 +58,7 @@ Each day includes:
 | Day 13 | SSH into an Azure Virtual Machine | ✅ Completed |
 | Day 14 | Create and Attach Managed Disks in Azure | ✅ Completed |
 | Day 15 | Create and Configure Network Security Group (NSG) in Azure | ✅ Completed |
+| Day 16 | Create a Private Azure Blob Storage Container | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
