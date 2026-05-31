@@ -46,7 +46,8 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 15 | Parameterize a DVC Pipeline                 | ✔️     | [Day_015](./Day_015:_Parameterize_a_DVC_Pipeline.md) |
 | Day 16 | Track ML Metrics with DVC                   | ✔️     | [Day_016](./Day_016:_Track_ML_Metrics_with_DVC.md) |
 | Day 17 | Run and Compare DVC Experiments                | ✔️     | [Day_017](./Day_017:_Run_and_Compare_DVC_Experiments.md) |
-| Day 18 | Version Datasets and Models Across Git Branches                | ✔️     | [Day_018](./Day_018:_Version_Datasets_and_Models_Across_Git_Branches.md) |
+| Day 18 | Version Datasets and Models Across Git Branches | ✔️     | [Day_018](./Day_018:_Version_Datasets_and_Models_Across_Git_Branches.md) |
+| Day 19 | Build Complete DVC ML Pipeline with Remote Storage and Experiments | ✔️     | [Day_019](./Day_019:_Build_Complete_DVC_ML_Pipeline_with_Remote_Storage_and_Experiments.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
