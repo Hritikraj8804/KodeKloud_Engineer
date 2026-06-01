@@ -48,6 +48,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 17 | Run and Compare DVC Experiments                | ✔️     | [Day_017](./Day_017:_Run_and_Compare_DVC_Experiments.md) |
 | Day 18 | Version Datasets and Models Across Git Branches | ✔️     | [Day_018](./Day_018:_Version_Datasets_and_Models_Across_Git_Branches.md) |
 | Day 19 | Build Complete DVC ML Pipeline with Remote Storage and Experiments | ✔️     | [Day_019](./Day_019:_Build_Complete_DVC_ML_Pipeline_with_Remote_Storage_and_Experiments.md) |
+| Day 20 | Install and Start the MLflow Tracking Server                | ✔️     | [Day_020](./Day_020:_Install_and_Start_the_MLflow_Tracking_Server.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
