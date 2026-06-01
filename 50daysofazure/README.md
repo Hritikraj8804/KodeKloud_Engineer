@@ -61,6 +61,7 @@ Each day includes:
 | Day 16 | Create a Private Azure Blob Storage Container | ✅ Completed |
 | Day 17 | Create a Public Azure Blob Storage Container | ✅ Completed |
 | Day 18 | Copy Data to an Azure Blob Storage Container | ✅ Completed |
+| Day 19 | Convert Public Azure Blob Container to Private | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
