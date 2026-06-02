@@ -62,6 +62,7 @@ Each day includes:
 | Day 17 | Create a Public Azure Blob Storage Container | ✅ Completed |
 | Day 18 | Copy Data to an Azure Blob Storage Container | ✅ Completed |
 | Day 19 | Convert Public Azure Blob Container to Private | ✅ Completed |
+| Day 20 | Deploy Azure Resources Using ARM Template | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
