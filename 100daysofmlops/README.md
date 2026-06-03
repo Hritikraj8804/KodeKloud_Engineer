@@ -50,6 +50,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 19 | Build Complete DVC ML Pipeline with Remote Storage and Experiments | ✔️     | [Day_019](./Day_019:_Build_Complete_DVC_ML_Pipeline_with_Remote_Storage_and_Experiments.md) |
 | Day 20 | Install and Start the MLflow Tracking Server                | ✔️     | [Day_020](./Day_020:_Install_and_Start_the_MLflow_Tracking_Server.md) |
 | Day 21 | Log an ML Experiment to MLflow              | ✔️     | [Day_021](./Day_021:_Log_an_ML_Experiment_to_MLflow.md) |
+| Day 22 | Create and Organize MLflow Experiments            | ✔️     | [Day_022](./Day_022:_Create_and_Organize_MLflow_Experiments.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
