@@ -64,6 +64,7 @@ Each day includes:
 | Day 19 | Convert Public Azure Blob Container to Private | ✅ Completed |
 | Day 20 | Deploy Azure Resources Using ARM Template | ✅ Completed |
 | Day 21 | Assigning Public IP to Virtual Machines | ✅ Completed |
+| Day 22 | Configuring Instances with User Data | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
