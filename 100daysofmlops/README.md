@@ -51,6 +51,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 20 | Install and Start the MLflow Tracking Server                | ✔️     | [Day_020](./Day_020:_Install_and_Start_the_MLflow_Tracking_Server.md) |
 | Day 21 | Log an ML Experiment to MLflow              | ✔️     | [Day_021](./Day_021:_Log_an_ML_Experiment_to_MLflow.md) |
 | Day 22 | Create and Organize MLflow Experiments            | ✔️     | [Day_022](./Day_022:_Create_and_Organize_MLflow_Experiments.md) |
+| Day 23 | Search and Query MLflow Runs           | ✔️     | [Day_023](./Day_023:_Search_and_Query_MLflow_Runs.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
