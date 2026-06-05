@@ -65,6 +65,7 @@ Each day includes:
 | Day 20 | Deploy Azure Resources Using ARM Template | ✅ Completed |
 | Day 21 | Assigning Public IP to Virtual Machines | ✅ Completed |
 | Day 22 | Configuring Instances with User Data | ✅ Completed |
+| Day 23 | Automating User Data Configuration Using the CLI | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
