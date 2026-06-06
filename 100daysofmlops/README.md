@@ -53,6 +53,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 22 | Create and Organize MLflow Experiments            | ✔️     | [Day_022](./Day_022:_Create_and_Organize_MLflow_Experiments.md) |
 | Day 23 | Search and Query MLflow Runs           | ✔️     | [Day_023](./Day_023:_Search_and_Query_MLflow_Runs.md) |
 | Day 24 | Enable MLflow Autologging         | ✔️     | [Day_024](./Day_024:_Enable_MLflow_Autologging.md) |
+| Day 25 | Register, Version, and Manage Model Lifecycle     | ✔️     | [Day_025](./Day_025:_Register_Version_and_Manage_Model_Lifecycle.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
