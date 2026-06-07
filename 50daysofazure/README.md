@@ -67,6 +67,7 @@ Each day includes:
 | Day 22 | Configuring Instances with User Data | ✅ Completed |
 | Day 23 | Automating User Data Configuration Using the CLI | ✅ Completed |
 | Day 24 | Securing Virtual Machine SSH Access | ✅ Completed |
+| Day 25 | Expanding and Managing Disk Storage | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
