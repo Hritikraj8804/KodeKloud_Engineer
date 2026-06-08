@@ -55,6 +55,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 24 | Enable MLflow Autologging         | ✔️     | [Day_024](./Day_024:_Enable_MLflow_Autologging.md) |
 | Day 25 | Register, Version, and Manage Model Lifecycle     | ✔️     | [Day_025](./Day_025:_Register_Version_and_Manage_Model_Lifecycle.md) |
 | Day 26 | Compare Model Runs and Select the Best     | ✔️     | [Day_026](./Day_026:_Compare_Model_Runs_and_Select_the_Best.md) |
+| Day 27 | Load Model from Registry with Custom Preprocessing    | ✔️     | [Day_027](./Day_027:_Load_Model_from_Registry_with_Custom_Preprocessing.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
