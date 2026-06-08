@@ -68,6 +68,7 @@ Each day includes:
 | Day 23 | Automating User Data Configuration Using the CLI | ✅ Completed |
 | Day 24 | Securing Virtual Machine SSH Access | ✅ Completed |
 | Day 25 | Expanding and Managing Disk Storage | ✅ Completed |
+| Day 26 | Deploying Virtual Machines in a Public Virtual Network | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
