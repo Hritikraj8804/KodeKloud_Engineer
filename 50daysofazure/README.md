@@ -69,6 +69,7 @@ Each day includes:
 | Day 24 | Securing Virtual Machine SSH Access | ✅ Completed |
 | Day 25 | Expanding and Managing Disk Storage | ✅ Completed |
 | Day 26 | Deploying Virtual Machines in a Public Virtual Network | ✅ Completed |
+| Day 27 | Deploying Virtual Machines in a Private Virtual Network | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
