@@ -70,6 +70,7 @@ Each day includes:
 | Day 25 | Expanding and Managing Disk Storage | ✅ Completed |
 | Day 26 | Deploying Virtual Machines in a Public Virtual Network | ✅ Completed |
 | Day 27 | Deploying Virtual Machines in a Private Virtual Network | ✅ Completed |
+| Day 28 | Troubleshooting Public Virtual Network Configurations | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 ---
