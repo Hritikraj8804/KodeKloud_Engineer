@@ -58,6 +58,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 27 | Load Model from Registry with Custom Preprocessing    | ✔️     | [Day_027](./Day_027:_Load_Model_from_Registry_with_Custom_Preprocessing.md) |
 | Day 28 | Fix a Broken MLflow Project and Re-Run It   | ✔️     | [Day_028](./Day_028:_Fix_a_Broken_MLflow_Project_and_Re-Run_It.md) |
 | Day 29 | Configure MLflow with Remote Tracking Server and Artifact Store  | ✔️     | [Day_029](./Day_029:_Configure_MLflow_with_Remote_Tracking_Server_and_Artifact_Store.md) |
+| Day 30 | End-to-End MLflow Lifecycle: Train, Register, Serve, Monitor    | ✔️     | [Day_030](./Day_030:_End-to-End_MLflow_Lifecycle_Train_Register_Serve_Monitor.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 ---
