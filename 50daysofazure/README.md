@@ -4,7 +4,7 @@ Welcome to my **50 Days of Azure Challenge** powered by KodeKloud 🚀
 
 This repository contains my daily hands-on Azure cloud tasks, solutions, notes, and learning journey as I explore Azure services, DevOps practices, automation, security, infrastructure, and cloud engineering concepts.
 
----
+
 
 # 📌 About the Challenge
 
@@ -24,7 +24,7 @@ Each day includes:
 - Key Learnings
 - Challenges Faced
 
----
+
 
 # 🛠️ Technologies & Tools
 
@@ -37,7 +37,7 @@ Each day includes:
 - DevOps Concepts
 - Cloud Infrastructure
 
----
+
 
 # 🚀 Progress Tracker
 
@@ -74,7 +74,7 @@ Each day includes:
 | Day 29 | Working with Azure Container Registry (ACR) | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
----
+
 
 # 🎯 Learning Outcomes
 
@@ -88,7 +88,7 @@ Through this challenge, I aim to strengthen my understanding of:
 - Linux Administration
 - DevOps Practices
 
----
+
 
 # 🌟 Why This Repository?
 
@@ -99,14 +99,14 @@ This repository serves as:
 - A public proof of consistency
 - A resource for beginners learning Azure
 
----
+
 
 # 🤝 Connect With Me
 
 - GitHub: Your GitHub Profile
 - LinkedIn: Your LinkedIn Profile
 
----
+
 
 # ⭐ Support
 
@@ -116,7 +116,7 @@ If you find this repository helpful, feel free to:
 - 🍴 Fork it
 - 🛠️ Suggest improvements
 
----
+
 
 # 🔥 Fun Quote
 
