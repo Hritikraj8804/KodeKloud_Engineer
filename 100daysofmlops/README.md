@@ -23,7 +23,7 @@ Every single day will include:
 
 This repository will serve as my public learning journal throughout the challenge.
 
----
+
 
 # 📚 Daily Progress Tracker
 
@@ -61,7 +61,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 30 | End-to-End MLflow Lifecycle: Train, Register, Serve, Monitor    | ✔️     | [Day_030](./Day_030:_End-to-End_MLflow_Lifecycle_Train_Register_Serve_Monitor.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
----
+
 
 # 🛠️ Main Learning Areas
 
@@ -78,7 +78,7 @@ This repository will serve as my public learning journal throughout the challeng
 * Infrastructure as Code
 * ML Deployment Workflows
 
----
+
 
 # 📂 Repository Structure
 
