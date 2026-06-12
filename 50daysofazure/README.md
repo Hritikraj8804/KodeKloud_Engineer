@@ -72,6 +72,7 @@ Each day includes:
 | Day 27 | Deploying Virtual Machines in a Private Virtual Network | ✅ Completed |
 | Day 28 | Troubleshooting Public Virtual Network Configurations | ✅ Completed |
 | Day 29 | Working with Azure Container Registry (ACR) | ✅ Completed |
+| Day 30 | Create Azure SQL Database | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
