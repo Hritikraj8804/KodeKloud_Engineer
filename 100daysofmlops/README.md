@@ -62,6 +62,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 31 | Train a Scikit-Learn Model with Reproducible Script   | ✔️     | [Day_031](./Day_031:_Train_a_Scikit-Learn_Model_with_Reproducible_Script.md) |
 | Day 32 | Manage Training Configuration with YAML  | ✔️     | [Day_032](./Day_032:_Manage_Training_Configuration_with_YAML.md) |
 | Day 33 | Evaluate a Trained Model and Generate Classification Report  | ✔️     | [Day_033](./Day_033:_Evaluate_a_Trained_Model_and_Generate_Classification_Report.md) |
+| Day 34 | Implement Cross-Validation for Model Selection  | ✔️     | [Day_034](./Day_034:_Implement_Cross-Validation_for_Model_Selection.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
