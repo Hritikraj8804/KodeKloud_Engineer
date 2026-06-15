@@ -75,6 +75,7 @@ Each day includes:
 | Day 30 | Create Azure SQL Database | ✅ Completed |
 | Day 31 | Deploying and Managing a Web Application | ✅ Completed |
 | Day 32 | Synchronizing Containers Using the CLI | ✅ Completed |
+| Day 33 | Integrating Virtual Machines with Application Load Balancer | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
