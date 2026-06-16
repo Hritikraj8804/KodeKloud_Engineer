@@ -76,6 +76,7 @@ Each day includes:
 | Day 31 | Deploying and Managing a Web Application | ✅ Completed |
 | Day 32 | Synchronizing Containers Using the CLI | ✅ Completed |
 | Day 33 | Integrating Virtual Machines with Application Load Balancer | ✅ Completed |
+| Day 34 | Enabling Internet Connectivity for Virtual Machines | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
