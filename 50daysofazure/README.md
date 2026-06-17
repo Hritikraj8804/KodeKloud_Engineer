@@ -77,6 +77,7 @@ Each day includes:
 | Day 32 | Synchronizing Containers Using the CLI | ✅ Completed |
 | Day 33 | Integrating Virtual Machines with Application Load Balancer | ✅ Completed |
 | Day 34 | Enabling Internet Connectivity for Virtual Machines | ✅ Completed |
+| Day 35 | Configuring Virtual Network Peering | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
