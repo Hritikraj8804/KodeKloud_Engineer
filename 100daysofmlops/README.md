@@ -65,6 +65,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 34 | Implement Cross-Validation for Model Selection  | ✔️     | [Day_034](./Day_034:_Implement_Cross-Validation_for_Model_Selection.md) |
 | Day 35 | Hyperparameter Tuning with Optuna  | ✔️     | [Day_035](./Day_035:_Hyperparameter_Tuning_with_Optuna.md) |
 | Day 36 | Automated Model Selection with FLAML AutoML  | ✔️     | [Day_036](./Day_036:_Automated_Model_Selection_with_FLAML_AutoML.md) |
+| Day 37 | Distributed Model Training with Joblib Parallelization  | ✔️     | [Day_037](./Day_037:_Distributed_Model_Training_with_Joblib_Parallelization.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
