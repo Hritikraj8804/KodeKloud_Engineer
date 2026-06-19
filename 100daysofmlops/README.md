@@ -66,6 +66,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 35 | Hyperparameter Tuning with Optuna  | ✔️     | [Day_035](./Day_035:_Hyperparameter_Tuning_with_Optuna.md) |
 | Day 36 | Automated Model Selection with FLAML AutoML  | ✔️     | [Day_036](./Day_036:_Automated_Model_Selection_with_FLAML_AutoML.md) |
 | Day 37 | Distributed Model Training with Joblib Parallelization  | ✔️     | [Day_037](./Day_037:_Distributed_Model_Training_with_Joblib_Parallelization.md) |
+| Day 38 | Build Modular Training Pipeline with Config-Driven Stages  | ✔️     | [Day_038](./Day_038:_Build_Modular_Training_Pipeline_with_Config-Driven_Stages.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
