@@ -79,6 +79,7 @@ Each day includes:
 | Day 34 | Enabling Internet Connectivity for Virtual Machines | ✅ Completed |
 | Day 35 | Configuring Virtual Network Peering | ✅ Completed |
 | Day 36 | Managing Storage Lifecycle in Azure | ✅ Completed |
+| Day 37 | Setting Up MySQL on a Virtual Machine in Azure | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
