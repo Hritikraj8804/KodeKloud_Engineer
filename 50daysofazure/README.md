@@ -80,6 +80,7 @@ Each day includes:
 | Day 35 | Configuring Virtual Network Peering | ✅ Completed |
 | Day 36 | Managing Storage Lifecycle in Azure | ✅ Completed |
 | Day 37 | Setting Up MySQL on a Virtual Machine in Azure | ✅ Completed |
+| Day 38 | Running Containers on Azure Virtual Machines | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
