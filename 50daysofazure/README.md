@@ -81,6 +81,7 @@ Each day includes:
 | Day 36 | Managing Storage Lifecycle in Azure | ✅ Completed |
 | Day 37 | Setting Up MySQL on a Virtual Machine in Azure | ✅ Completed |
 | Day 38 | Running Containers on Azure Virtual Machines | ✅ Completed |
+| Day 39 | Deploying a Static Website Using Containers on Azure | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
