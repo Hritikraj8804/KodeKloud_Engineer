@@ -82,6 +82,7 @@ Each day includes:
 | Day 37 | Setting Up MySQL on a Virtual Machine in Azure | ✅ Completed |
 | Day 38 | Running Containers on Azure Virtual Machines | ✅ Completed |
 | Day 39 | Deploying a Static Website Using Containers on Azure | ✅ Completed |
+| Day 40 | Managing Secrets with Azure Key Vault | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
