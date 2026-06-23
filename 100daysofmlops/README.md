@@ -70,6 +70,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 39 | Train a PyTorch Model with GPU Support and Checkpointing  | ✔️     | [Day_039](./Day_039:_Train_a_PyTorch_Model_with_GPU_Support_and_Checkpointing.md) |
 | Day 40 | Production Training System: Tracking, Tuning, and Model Selection  | ✔️     | [Day_040](./Day_040:_Production_Training_System:_Tracking,_Tuning,_and_Model_Selection.md) |
 | Day 41 | Install and Initialize a Feast Feature Store  | ✔️     | [Day_041](./Day_041:_Install_and_Initialize_a_Feast_Feature_Store.md) |
+| Day 42 | Define Feature Views in Feast  | ✔️     | [Day_042](./Day_042:_Define_Feature_Views_in_Feast.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
