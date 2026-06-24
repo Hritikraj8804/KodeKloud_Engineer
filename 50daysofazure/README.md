@@ -84,6 +84,7 @@ Each day includes:
 | Day 39 | Deploying a Static Website Using Containers on Azure | ✅ Completed |
 | Day 40 | Managing Secrets with Azure Key Vault | ✅ Completed |
 | Day 41 | Working with Azure Table Storage | ✅ Completed |
+| Day 42 | Backup and Delete Azure Storage Blob Container | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
