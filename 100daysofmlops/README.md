@@ -72,6 +72,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 41 | Install and Initialize a Feast Feature Store  | ✔️     | [Day_041](./Day_041:_Install_and_Initialize_a_Feast_Feature_Store.md) |
 | Day 42 | Define Feature Views in Feast  | ✔️     | [Day_042](./Day_042:_Define_Feature_Views_in_Feast.md) |
 | Day 43 | Materialize Features to the Online Store  | ✔️     | [Day_043](./Day_043:_Materialize_Features_to_the_Online_Store.md) |
+| Day 44 | Store MLflow's Admin Password in HashiCorp Vault  | ✔️     | [Day_044](./Day_044:_Store_MLflow's_Admin_Password_in_HashiCorp_Vault.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
