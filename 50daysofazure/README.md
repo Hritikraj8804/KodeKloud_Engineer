@@ -86,7 +86,7 @@ Each day includes:
 | Day 41 | Working with Azure Table Storage | ✅ Completed |
 | Day 42 | Backup and Delete Azure Storage Blob Container | ✅ Completed |
 | Day 43 | Configuring Azure VM with Application Gateway | ✅ Completed |
-| Day 43 | Integrating Azure Event Hub with Virtual Machines | ✅ Completed |
+| Day 44 | Integrating Azure Event Hub with Virtual Machines | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
