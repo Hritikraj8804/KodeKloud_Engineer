@@ -87,6 +87,7 @@ Each day includes:
 | Day 42 | Backup and Delete Azure Storage Blob Container | ✅ Completed |
 | Day 43 | Configuring Azure VM with Application Gateway | ✅ Completed |
 | Day 44 | Integrating Azure Event Hub with Virtual Machines | ✅ Completed |
+| Day 45 | Azure Kubernetes Service (AKS) Setup and Management | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
