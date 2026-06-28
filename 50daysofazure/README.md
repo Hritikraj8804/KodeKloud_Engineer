@@ -88,6 +88,7 @@ Each day includes:
 | Day 43 | Configuring Azure VM with Application Gateway | ✅ Completed |
 | Day 44 | Integrating Azure Event Hub with Virtual Machines | ✅ Completed |
 | Day 45 | Azure Kubernetes Service (AKS) Setup and Management | ✅ Completed |
+| Day 46 | EventHub to Blob Storage Integration Setup | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
