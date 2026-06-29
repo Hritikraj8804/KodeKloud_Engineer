@@ -76,6 +76,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 45 | Fix a Broken Vault KV Policy for the MLflow Reader  | ✔️     | [Day_045](./Day_045:_Fix_a_Broken_Vault_KV_Policy_for_the_MLflow_Reader.md) |
 | Day 46 | Author Data-Quality Expectations with Great Expectations  | ✔️     | [Day_046](./Day_046:_Author_Data-Quality_Expectations_with_Great_Expectations.md) |
 | Day 47 | Debug a Failing Great Expectations Checkpoint  | ✔️     | [Day_047](./Day_047:_Debug_a_Failing_Great_Expectations_Checkpoint.md) |
+| Day 48 | Publish Great Expectations Data Docs as a CI Artefact  | ✔️     | [Day_048](./Day_048:_Publish_Great_Expectations_Data_Docs_as_a_CI_Artefact.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
