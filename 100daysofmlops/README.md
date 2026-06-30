@@ -77,6 +77,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 46 | Author Data-Quality Expectations with Great Expectations  | ✔️     | [Day_046](./Day_046:_Author_Data-Quality_Expectations_with_Great_Expectations.md) |
 | Day 47 | Debug a Failing Great Expectations Checkpoint  | ✔️     | [Day_047](./Day_047:_Debug_a_Failing_Great_Expectations_Checkpoint.md) |
 | Day 48 | Publish Great Expectations Data Docs as a CI Artefact  | ✔️     | [Day_048](./Day_048:_Publish_Great_Expectations_Data_Docs_as_a_CI_Artefact.md) |
+| Day 49 | Secrets + Data-Quality Integration Capstone  | ✔️     | [Day_049](./Day_049:_Secrets_+_Data-Quality_Integration_Capstone.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
