@@ -91,6 +91,7 @@ Each day includes:
 | Day 46 | EventHub to Blob Storage Integration Setup | ✅ Completed |
 | Day 47 | SQL Database Migration and Setup | ✅ Completed |
 | Day 48 | VM and ACR Integration for Storage | ✅ Completed |
+| Day 49 | VM Setup with Web Storage Integration | ✅ Completed |
 | Day 50 | Coming Soon | ⏳ |
 
 
