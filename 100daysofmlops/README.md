@@ -79,6 +79,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 48 | Publish Great Expectations Data Docs as a CI Artefact  | ✔️     | [Day_048](./Day_048:_Publish_Great_Expectations_Data_Docs_as_a_CI_Artefact.md) |
 | Day 49 | Secrets + Data-Quality Integration Capstone  | ✔️     | [Day_049](./Day_049:_Secrets_+_Data-Quality_Integration_Capstone.md) |
 | Day 50 | Create Docker Image for ML Training Environment  | ✔️     | [Day_050](./Day_050:_Create_Docker_Image_for_ML_Training_Environment.md) |
+| Day 51 | Create Multi-Stage Docker Build for ML Serving  | ✔️     | [Day_051](./Day_051:_Create_Multi-Stage_Docker_Build_for_ML_Serving.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
