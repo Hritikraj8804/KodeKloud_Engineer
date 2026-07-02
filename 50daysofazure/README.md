@@ -92,7 +92,7 @@ Each day includes:
 | Day 47 | SQL Database Migration and Setup | ✅ Completed |
 | Day 48 | VM and ACR Integration for Storage | ✅ Completed |
 | Day 49 | VM Setup with Web Storage Integration | ✅ Completed |
-| Day 50 | Coming Soon | ⏳ |
+| Day 50 | VM Setup and Configuration for Azure Application Gateway | ✅ Completed |
 
 
 
