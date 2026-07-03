@@ -80,6 +80,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 49 | Secrets + Data-Quality Integration Capstone  | ✔️     | [Day_049](./Day_049:_Secrets_+_Data-Quality_Integration_Capstone.md) |
 | Day 50 | Create Docker Image for ML Training Environment  | ✔️     | [Day_050](./Day_050:_Create_Docker_Image_for_ML_Training_Environment.md) |
 | Day 51 | Create Multi-Stage Docker Build for ML Serving  | ✔️     | [Day_051](./Day_051:_Create_Multi-Stage_Docker_Build_for_ML_Serving.md) |
+| Day 52 | Set Up Local ML Dev Environment with Docker Compose  | ✔️     | [Day_052](./Day_052:_Set_Up_Local_ML_Dev_Environment_with_Docker_Compose.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
