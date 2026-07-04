@@ -81,6 +81,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 50 | Create Docker Image for ML Training Environment  | ✔️     | [Day_050](./Day_050:_Create_Docker_Image_for_ML_Training_Environment.md) |
 | Day 51 | Create Multi-Stage Docker Build for ML Serving  | ✔️     | [Day_051](./Day_051:_Create_Multi-Stage_Docker_Build_for_ML_Serving.md) |
 | Day 52 | Set Up Local ML Dev Environment with Docker Compose  | ✔️     | [Day_052](./Day_052:_Set_Up_Local_ML_Dev_Environment_with_Docker_Compose.md) |
+| Day 53 | Create GPU-Enabled Docker Image for Deep Learning  | ✔️     | [Day_053](./Day_053:_Create_GPU-Enabled_Docker_Image_for_Deep_Learning.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
