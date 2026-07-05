@@ -4,7 +4,7 @@ Welcome to my **50 Days of Azure Challenge** powered by KodeKloud 🚀
 
 This repository contains my daily hands-on Azure cloud tasks, solutions, notes, and learning journey as I explore Azure services, DevOps practices, automation, security, infrastructure, and cloud engineering concepts.
 
-
+<img width="1101" height="782" alt="cert" src="https://github.com/user-attachments/assets/3a114ed5-f188-4f58-ae93-2a64b8b3dfd8" />
 
 # 📌 About the Challenge
 
