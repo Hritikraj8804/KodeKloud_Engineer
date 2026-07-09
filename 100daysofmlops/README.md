@@ -86,6 +86,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 55 | Add Health Checks and Graceful Shutdown to ML Containers  | ✔️     | [Day_055](./Day_055:_Add_Health_Checks_and_Graceful_Shutdown_to_ML_Containers.md) |
 | Day 56 | Automate ML Docker Image Building in CI Pipeline  | ✔️     | [Day_056](./Day_056:_Automate_ML_Docker_Image_Building_in_CI_Pipeline.md) |
 | Day 57 | Serve an ML Model with Flask  | ✔️     | [Day_057](./Day_057:_Serve_an_ML_Model_with_Flask.md) |
+| Day 58 | Serve an ML Model with FastAPI  | ✔️     | [Day_058](./Day_058:_Serve_an_ML_Model_with_FastAPI.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
