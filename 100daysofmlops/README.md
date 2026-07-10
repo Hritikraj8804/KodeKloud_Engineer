@@ -87,6 +87,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 56 | Automate ML Docker Image Building in CI Pipeline  | ✔️     | [Day_056](./Day_056:_Automate_ML_Docker_Image_Building_in_CI_Pipeline.md) |
 | Day 57 | Serve an ML Model with Flask  | ✔️     | [Day_057](./Day_057:_Serve_an_ML_Model_with_Flask.md) |
 | Day 58 | Serve an ML Model with FastAPI  | ✔️     | [Day_058](./Day_058:_Serve_an_ML_Model_with_FastAPI.md) |
+| Day 59 | Run Batch Predictions on a Dataset  | ✔️     | [Day_059](./Day_059:_Run_Batch_Predictions_on_a_Dataset.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
