@@ -89,6 +89,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 58 | Serve an ML Model with FastAPI  | ✔️     | [Day_058](./Day_058:_Serve_an_ML_Model_with_FastAPI.md) |
 | Day 59 | Run Batch Predictions on a Dataset  | ✔️     | [Day_059](./Day_059:_Run_Batch_Predictions_on_a_Dataset.md) |
 | Day 60 | Package a Model as a BentoML Service  | ✔️     | [Day_060](./Day_060:_Package_a_Model_as_a_BentoML_Service.md) |
+| Day 61 | Deploy a Model-Serving Container via Portainer  | ✔️     | [Day_06](./Day_061:_Deploy_a_Model-Serving_Container_via_Portainer.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
