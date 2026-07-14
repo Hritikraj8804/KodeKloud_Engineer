@@ -91,6 +91,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 60 | Package a Model as a BentoML Service  | ✔️     | [Day_060](./Day_060:_Package_a_Model_as_a_BentoML_Service.md) |
 | Day 61 | Deploy a Model-Serving Container via Portainer  | ✔️     | [Day_061](./Day_061:_Deploy_a_Model-Serving_Container_via_Portainer.md) |
 | Day 62 | Implement A/B Testing for Model Deployment  | ✔️     | [Day_062](./Day_062:_Implement_A/B_Testing_for_Model_Deployment.md) |
+| Day 63 | Async Predictions with a Redis-Backed Worker  | ✔️     | [Day_063](./Day_063:_Async_Predictions_with_a_Redis-Backed_Worker.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
