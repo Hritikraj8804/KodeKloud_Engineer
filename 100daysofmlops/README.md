@@ -92,6 +92,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 61 | Deploy a Model-Serving Container via Portainer  | ✔️     | [Day_061](./Day_061:_Deploy_a_Model-Serving_Container_via_Portainer.md) |
 | Day 62 | Implement A/B Testing for Model Deployment  | ✔️     | [Day_062](./Day_062:_Implement_A/B_Testing_for_Model_Deployment.md) |
 | Day 63 | Async Predictions with a Redis-Backed Worker  | ✔️     | [Day_063](./Day_063:_Async_Predictions_with_a_Redis-Backed_Worker.md) |
+| Day 64 | Serve Multiple Models Behind Unified API Gateway  | ✔️     | [Day_064](./Day_064:_Serve_Multiple_Models_Behind_Unified_API_Gateway.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
