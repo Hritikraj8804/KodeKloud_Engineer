@@ -93,6 +93,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 62 | Implement A/B Testing for Model Deployment  | ✔️     | [Day_062](./Day_062:_Implement_A/B_Testing_for_Model_Deployment.md) |
 | Day 63 | Async Predictions with a Redis-Backed Worker  | ✔️     | [Day_063](./Day_063:_Async_Predictions_with_a_Redis-Backed_Worker.md) |
 | Day 64 | Serve Multiple Models Behind Unified API Gateway  | ✔️     | [Day_064](./Day_064:_Serve_Multiple_Models_Behind_Unified_API_Gateway.md) |
+| Day 65 | Simulate a Canary Rollout for Model Updates  | ✔️     | [Day_065](./Day_065:_Simulate_a_Canary_Rollout_for_Model_Updates.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
