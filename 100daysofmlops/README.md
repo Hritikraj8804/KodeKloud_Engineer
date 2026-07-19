@@ -96,6 +96,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 65 | Simulate a Canary Rollout for Model Updates  | ✔️     | [Day_065](./Day_065:_Simulate_a_Canary_Rollout_for_Model_Updates.md) |
 | Day 66 | Production Model Serving with Docker Compose  | ✔️     | [Day_066](./Day_066:_Production_Model_Serving_with_Docker_Compose.md) |
 | Day 67 | Add Prometheus as a Grafana Data Source  | ✔️     | [Day_067](./Day_067:_Add_Prometheus_as_a_Grafana_Data_Source.md) |
+| Day 68 | Build a Grafana Time-Series Panel for Prediction Accuracy  | ✔️     | [Day_068](./Day_068:_Build_a_Grafana_Time-Series_Panel_for_Prediction_Accuracy.md) |
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
