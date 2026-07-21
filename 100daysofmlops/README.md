@@ -98,6 +98,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 67 | Add Prometheus as a Grafana Data Source  | ✔️     | [Day_067](./Day_067:_Add_Prometheus_as_a_Grafana_Data_Source.md) |
 | Day 68 | Build a Grafana Time-Series Panel for Prediction Accuracy  | ✔️     | [Day_068](./Day_068:_Build_a_Grafana_Time-Series_Panel_for_Prediction_Accuracy.md) |
 | Day 69 | Build a Grafana Table Panel for Per-Feature Data Drift  | ✔️     | [Day_069](./Day_069:_Build_a_Grafana_Table_Panel_for_Per-Feature_Data_Drift.md)|
+| Day 70 | Enforce Accuracy Gates with an Evidently Test Suite and a Grafana Alert  | ✔️     | [Day_070](./Day_070:_Enforce_Accuracy_Gates_with_an_Evidently_Test_Suite_and_a_Grafana_Alert.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
