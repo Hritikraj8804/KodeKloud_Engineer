@@ -100,6 +100,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 69 | Build a Grafana Table Panel for Per-Feature Data Drift  | ✔️     | [Day_069](./Day_069:_Build_a_Grafana_Table_Panel_for_Per-Feature_Data_Drift.md)|
 | Day 70 | Enforce Accuracy Gates with an Evidently Test Suite and a Grafana Alert  | ✔️     | [Day_070](./Day_070:_Enforce_Accuracy_Gates_with_an_Evidently_Test_Suite_and_a_Grafana_Alert.md)|
 | Day 71 | Build a 4-Panel Model-Overview Grafana Dashboard  | ✔️     | [Day_071](./Day_071:_Build_a_4-Panel_Model-Overview_Grafana_Dashboard.md)|
+| Day 72 | Configure a Grafana Contact Point and Notification Policy  | ✔️     | [Day_072](./Day_072:_Configure_a_Grafana_Contact_Point_and_Notification_Policy.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
