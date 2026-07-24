@@ -140,4 +140,4 @@ python3 promote.py
 
 # Fun Message 😄
 
-*"Retraining creates possibilities—but evaluation creates confidence. A production alias should follow the best model, not simply the newest one! 🏆🤖"*
+*"Retraining creates possibilities but evaluation creates confidence. A production alias should follow the best model, not simply the newest one! 🏆🤖"*
