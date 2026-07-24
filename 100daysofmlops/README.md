@@ -101,6 +101,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 70 | Enforce Accuracy Gates with an Evidently Test Suite and a Grafana Alert  | ✔️     | [Day_070](./Day_070:_Enforce_Accuracy_Gates_with_an_Evidently_Test_Suite_and_a_Grafana_Alert.md)|
 | Day 71 | Build a 4-Panel Model-Overview Grafana Dashboard  | ✔️     | [Day_071](./Day_071:_Build_a_4-Panel_Model-Overview_Grafana_Dashboard.md)|
 | Day 72 | Configure a Grafana Contact Point and Notification Policy  | ✔️     | [Day_072](./Day_072:_Configure_a_Grafana_Contact_Point_and_Notification_Policy.md)|
+| Day 73 | Promote a Retrained Model via a Champion/Challenger Gate  | ✔️     | [Day_073](./Day_073:_Promote_a_Retrained_Model_via_a_Champion/Challenger_Gate.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
