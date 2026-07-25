@@ -102,6 +102,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 71 | Build a 4-Panel Model-Overview Grafana Dashboard  | ✔️     | [Day_071](./Day_071:_Build_a_4-Panel_Model-Overview_Grafana_Dashboard.md)|
 | Day 72 | Configure a Grafana Contact Point and Notification Policy  | ✔️     | [Day_072](./Day_072:_Configure_a_Grafana_Contact_Point_and_Notification_Policy.md)|
 | Day 73 | Promote a Retrained Model via a Champion/Challenger Gate  | ✔️     | [Day_073](./Day_073:_Promote_a_Retrained_Model_via_a_Champion/Challenger_Gate.md)|
+| Day 74 | Add a Custom Business Metric and a Grafana Version Variable  | ✔️     | [Day_074](./Day_074:_Add_a_Custom_Business_Metric_and_a_Grafana_Version_Variable.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
