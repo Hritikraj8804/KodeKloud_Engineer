@@ -105,6 +105,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 74 | Add a Custom Business Metric and a Grafana Version Variable  | ✔️     | [Day_074](./Day_074:_Add_a_Custom_Business_Metric_and_a_Grafana_Version_Variable.md)|
 | Day 75 | Fix and Complete an End-to-End Monitoring Stack: Prometheus, Grafana, Evidently  | ✔️     | [Day_075](./Day_075:_Fix_and_Complete_an_End-to-End_Monitoring_Stack:_Prometheus,_Grafana,_Evidently.md)|
 | Day 76 | Create CI Pipeline for ML Code Linting and Testing  | ✔️     | [Day_076](./Day_076:_Create_CI_Pipeline_for_ML_Code_Linting_and_Testing.md)|
+| Day 77 | Fix a Failing Data-Quality Job in Gitea Actions  | ✔️     | [Day_077](./Day_077:_Fix_a_Failing_Data-Quality_Job_in_Gitea_Actions.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
