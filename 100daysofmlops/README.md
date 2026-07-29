@@ -106,6 +106,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 75 | Fix and Complete an End-to-End Monitoring Stack: Prometheus, Grafana, Evidently  | ✔️     | [Day_075](./Day_075:_Fix_and_Complete_an_End-to-End_Monitoring_Stack:_Prometheus,_Grafana,_Evidently.md)|
 | Day 76 | Create CI Pipeline for ML Code Linting and Testing  | ✔️     | [Day_076](./Day_076:_Create_CI_Pipeline_for_ML_Code_Linting_and_Testing.md)|
 | Day 77 | Fix a Failing Data-Quality Job in Gitea Actions  | ✔️     | [Day_077](./Day_077:_Fix_a_Failing_Data-Quality_Job_in_Gitea_Actions.md)|
+| Day 78 | Parallelise Tests via a Gitea Actions Matrix Strategy  | ✔️     | [Day_078](./Day_078:_Parallelise_Tests_via_a_Gitea_Actions_Matrix_Strategy.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
