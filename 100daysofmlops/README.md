@@ -108,6 +108,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 77 | Fix a Failing Data-Quality Job in Gitea Actions  | ✔️     | [Day_077](./Day_077:_Fix_a_Failing_Data-Quality_Job_in_Gitea_Actions.md)|
 | Day 78 | Parallelise Tests via a Gitea Actions Matrix Strategy  | ✔️     | [Day_078](./Day_078:_Parallelise_Tests_via_a_Gitea_Actions_Matrix_Strategy.md)|
 | Day 79 | Publish CI Training Artefacts via upload-artifact  | ✔️     | [Day_079](./Day_079:_Publish_CI_Training_Artefacts_via_upload-artifact.md)|
+| Day 80 | Wire Repository Secrets into a Gitea Actions Workflow  | ✔️     | [Day_080](./Day_080:_Wire_Repository_Secrets_into_a_Gitea_Actions_Workflow.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
