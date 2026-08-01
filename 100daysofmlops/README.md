@@ -109,6 +109,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 78 | Parallelise Tests via a Gitea Actions Matrix Strategy  | ✔️     | [Day_078](./Day_078:_Parallelise_Tests_via_a_Gitea_Actions_Matrix_Strategy.md)|
 | Day 79 | Publish CI Training Artefacts via upload-artifact  | ✔️     | [Day_079](./Day_079:_Publish_CI_Training_Artefacts_via_upload-artifact.md)|
 | Day 80 | Wire Repository Secrets into a Gitea Actions Workflow  | ✔️     | [Day_080](./Day_080:_Wire_Repository_Secrets_into_a_Gitea_Actions_Workflow.md)|
+| Day 81 | Tag a Release and Publish to the Gitea Package Registry  | ✔️     | [Day_081](./Day_081:_Tag_a_Release_and_Publish_to_the_Gitea_Package_Registry.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
