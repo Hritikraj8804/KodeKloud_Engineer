@@ -110,6 +110,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 79 | Publish CI Training Artefacts via upload-artifact  | ✔️     | [Day_079](./Day_079:_Publish_CI_Training_Artefacts_via_upload-artifact.md)|
 | Day 80 | Wire Repository Secrets into a Gitea Actions Workflow  | ✔️     | [Day_080](./Day_080:_Wire_Repository_Secrets_into_a_Gitea_Actions_Workflow.md)|
 | Day 81 | Tag a Release and Publish to the Gitea Package Registry  | ✔️     | [Day_081](./Day_081:_Tag_a_Release_and_Publish_to_the_Gitea_Package_Registry.md)|
+| Day 82 | Compose Gitea Workflows via workflow_call  | ✔️     | [Day_082](./Day_082:_Compose_Gitea_Workflows_via_workflow_call.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
