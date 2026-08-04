@@ -112,6 +112,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 81 | Tag a Release and Publish to the Gitea Package Registry  | ✔️     | [Day_081](./Day_081:_Tag_a_Release_and_Publish_to_the_Gitea_Package_Registry.md)|
 | Day 82 | Compose Gitea Workflows via workflow_call  | ✔️     | [Day_082](./Day_082:_Compose_Gitea_Workflows_via_workflow_call.md)|
 | Day 83 | Revert a Broken ML Release via the Gitea Revert Button  | ✔️     | [Day_083](./Day_083:_Revert_a_Broken_ML_Release_via_the_Gitea_Revert_Button.md)|
+| Day 84 | Enforce Branch Protection on the main Branch  | ✔️     | [Day_084](./Day_084:_Enforce_Branch_Protection_on_the_main_Branch.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
