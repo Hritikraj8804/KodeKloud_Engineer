@@ -115,6 +115,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 84 | Enforce Branch Protection on the main Branch  | ✔️     | [Day_084](./Day_084:_Enforce_Branch_Protection_on_the_main_Branch.md)|
 | Day 85 | Submit Your First Argo Workflow  | ✔️     | [Day_085](./Day_085:_Submit_Your_First_Argo_Workflow.md)|
 | Day 86 | Fix a Broken Argo DAG Dependency Chain  | ✔️     | [Day_086](./Day_086:_Fix_a_Broken_Argo_DAG_Dependency_Chain.md)|
+| Day 87 | Pass Data Between Argo Steps with Output Parameters and Branching  | ✔️     | [Day_087](./Day_087:_Pass_Data_Between_Argo_Steps_with_Output_Parameters_and_Branching.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
