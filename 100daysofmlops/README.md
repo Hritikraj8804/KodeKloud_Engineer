@@ -118,6 +118,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 87 | Pass Data Between Argo Steps with Output Parameters and Branching  | ✔️     | [Day_087](./Day_087:_Pass_Data_Between_Argo_Steps_with_Output_Parameters_and_Branching.md)|
 | Day 88 | Fix a Missing @task Decorator in a Prefect Flow  | ✔️     | [Day_088](./Day_088:_Fix_a_Missing_@task_Decorator_in_a_Prefect_Flow.md)|
 | Day 89 | Parallel Model Training with Argo withParam Fan-Out  | ✔️     | [Day_089](./Day_089:_Parallel_Model_Training_with_Argo_withParam_Fan-Out.md)|
+| Day 90 | Automated Retraining with Argo CronWorkflow  | ✔️     | [Day_090](./Day_090:_Automated_Retraining_with_Argo_CronWorkflow.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
