@@ -120,6 +120,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 89 | Parallel Model Training with Argo withParam Fan-Out  | ✔️     | [Day_089](./Day_089:_Parallel_Model_Training_with_Argo_withParam_Fan-Out.md)|
 | Day 90 | Automated Retraining with Argo CronWorkflow  | ✔️     | [Day_090](./Day_090:_Automated_Retraining_with_Argo_CronWorkflow.md)|
 | Day 91 | Production ML Pipeline: Argo Workflows + MLflow on Kubernetes  | ✔️     | [Day_091](./Day_091:_Production_ML_Pipeline:_Argo_Workflows_+_MLflow_on_Kubernetes.md)|
+| Day 92 | Fix a Service targetPort Mismatch on a Kubernetes Deployment  | ✔️     | [Day_092](./Day_092:_Fix_a_Service_targetPort_Mismatch_on_a_Kubernetes_Deployment.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
