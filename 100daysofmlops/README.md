@@ -123,6 +123,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 92 | Fix a Service targetPort Mismatch on a Kubernetes Deployment  | ✔️     | [Day_092](./Day_092:_Fix_a_Service_targetPort_Mismatch_on_a_Kubernetes_Deployment.md)|
 | Day 93 | Fix a Broken HorizontalPodAutoscaler scaleTargetRef  | ✔️     | [Day_093](./Day_093:_Fix_a_Broken_HorizontalPodAutoscaler_scaleTargetRef.md)|
 | Day 94 | Fix a Broken KServe InferenceService storageUri  | ✔️     | [Day_094](./Day_094:_Fix_a_Broken_KServe_InferenceService_storageUri.md)|
+| Day 95 | Complete a Kubeflow Pipeline and Run It via the KFP UI  | ✔️     | [Day_095](./Day_095:_Complete_a_Kubeflow_Pipeline_and_Run_It_via_the_KFP_UI.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
