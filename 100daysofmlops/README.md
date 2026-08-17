@@ -125,7 +125,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 94 | Fix a Broken KServe InferenceService storageUri  | ✔️     | [Day_094](./Day_094:_Fix_a_Broken_KServe_InferenceService_storageUri.md)|
 | Day 95 | Complete a Kubeflow Pipeline and Run It via the KFP UI  | ✔️     | [Day_095](./Day_095:_Complete_a_Kubeflow_Pipeline_and_Run_It_via_the_KFP_UI.md)|
 | Day 96 | Deploy a GitOps Application via the ArgoCD NEW APP Form  | ✔️     | [Day_096](./Day_096:_Deploy_a_GitOps_Application_via_the_ArgoCD_NEW_APP_Form.md)|
-| Day 97 | Capstone (1/4): End-to-End MLOPs System — Train, Register, Serve  | ✔️     | [Day_097](./Day_097:_Capstone_(1/4)_End-to-End_MLOPs_System_Train_Register_Serve.md)|
+| Day 97 | Capstone (1/4): End-to-End MLOPs System — Train, Register, Serve  | ✔️     | [Day_097](./Day_097:_Capstone_(1.4)_End-to-End_MLOPs_System_Train_Register_Serve.md)|
 | Day 100 | Coming Soon                                  | ⏳     | -                                                                |
 
 
