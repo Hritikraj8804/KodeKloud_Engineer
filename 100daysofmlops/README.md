@@ -1,4 +1,4 @@
-# 🚀 100 Days of MLOps — KodeKloud Challenge
+# 🚀 100 Days of MLOps  KodeKloud Challenge
 
 > **100 Days. 100 Challenges. One Goal: Build Production-Ready MLOps Skills.**
 
@@ -189,10 +189,10 @@ Every day contains a dedicated Markdown document covering the challenge, impleme
 |  94 | Fix KServe InferenceService storageUri                 |    ✅   | [Day 094](./Day_094:_Fix_a_Broken_KServe_InferenceService_storageUri.md)                                 |
 |  95 | Complete and Run a Kubeflow Pipeline                   |    ✅   | [Day 095](./Day_095:_Complete_a_Kubeflow_Pipeline_and_Run_It_via_the_KFP_UI.md)                          |
 |  96 | Deploy a GitOps Application with ArgoCD                |    ✅   | [Day 096](./Day_096:_Deploy_a_GitOps_Application_via_the_ArgoCD_NEW_APP_Form.md)                         |
-|  97 | Capstone 1/4 — Train, Register & Serve                 |    ✅   | [Day 097](./Day_097:_Capstone_%281.4%29_End-to-End_MLOPs_System_Train_Register_Serve.md)                 |
-|  98 | Capstone 2/4 — Monitoring & Automated Retraining       |    ✅   | [Day 098](./Day_095:_Capstone_2.4_Monitoring_and_Automated_Retraining.md)                                |
-|  99 | Capstone 3/4 — GitOps Continuous Deployment            |    ✅   | [Day 099](./Day_099:_Capstone_3.4_GitOps_Continuous_Deployment_with_ArgoCD.md)                           |
-| 100 | Capstone 4/4 — Observability & Closed-Loop MLOps       |    ✅   | [Day 100](./Day_100:_Capstone_4.4_Close_the_Loop_with_Prometheus_Grafana_Observability.md)               |
+|  97 | Capstone 1/4  Train, Register & Serve                 |    ✅   | [Day 097](./Day_097:_Capstone_%281.4%29_End-to-End_MLOPs_System_Train_Register_Serve.md)                 |
+|  98 | Capstone 2/4  Monitoring & Automated Retraining       |    ✅   | [Day 098](./Day_095:_Capstone_2.4_Monitoring_and_Automated_Retraining.md)                                |
+|  99 | Capstone 3/4  GitOps Continuous Deployment            |    ✅   | [Day 099](./Day_099:_Capstone_3.4_GitOps_Continuous_Deployment_with_ArgoCD.md)                           |
+| 100 | Capstone 4/4  Observability & Closed-Loop MLOps       |    ✅   | [Day 100](./Day_100:_Capstone_4.4_Close_the_Loop_with_Prometheus_Grafana_Observability.md)               |
 
 # 🧠 Skills & Technologies
 
@@ -357,7 +357,7 @@ Close the loop with automated retraining, model promotion, GitOps deployment, an
 
 The final four days brought the individual concepts together into a complete MLOps workflow.
 
-## Part 1 — Train, Register & Serve
+## Part 1  Train, Register & Serve
 
 **Day 97**
 
@@ -377,7 +377,7 @@ Model Serving
 
 📄 [View Day 97](./Day_097:_Capstone_%281.4%29_End-to-End_MLOPs_System_Train_Register_Serve.md)
 
-## Part 2 — Monitoring & Automated Retraining
+## Part 2  Monitoring & Automated Retraining
 
 **Day 98**
 
@@ -399,7 +399,7 @@ New Model
 
 📄 [View Day 98](./Day_095:_Capstone_2.4_Monitoring_and_Automated_Retraining.md)
 
-## Part 3 — GitOps Continuous Deployment
+## Part 3  GitOps Continuous Deployment
 
 **Day 99**
 
@@ -417,7 +417,7 @@ ML Application
 
 📄 [View Day 99](./Day_099:_Capstone_3.4_GitOps_Continuous_Deployment_with_ArgoCD.md)
 
-## Part 4 — Close the Loop with Observability
+## Part 4  Close the Loop with Observability
 
 **Day 100**
 
@@ -635,7 +635,7 @@ That shift in perspective is probably the biggest takeaway from the challenge.
 
 A big thanks to **KodeKloud** for putting together the **100DaysOfMLOps** challenge and providing a structured path through practical MLOps concepts.
 
-The challenge was especially valuable because it wasn't only about learning tools — it involved actually **using them, troubleshooting them, and connecting them into larger systems**.
+The challenge was especially valuable because it wasn't only about learning tools  it involved actually **using them, troubleshooting them, and connecting them into larger systems**.
 
 # ⭐ If This Repository Helps You
 
