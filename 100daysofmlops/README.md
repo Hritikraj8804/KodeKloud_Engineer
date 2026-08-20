@@ -128,7 +128,7 @@ This repository will serve as my public learning journal throughout the challeng
 | Day 97 | Capstone (1/4): End-to-End MLOPs System — Train, Register, Serve  | ✔️     | [Day_097](./Day_097:_Capstone_(1.4)_End-to-End_MLOPs_System_Train_Register_Serve.md)|
 | Day 98 | Capstone (2/4): Monitoring and Automated Retraining  | ✔️     | [Day_098](./Day_095:_Capstone_2.4_Monitoring_and_Automated_Retraining.md)|
 | Day 99 | Capstone (3/4): GitOps Continuous Deployment with ArgoCD  | ✔️     | [Day_099](./Day_099:_Capstone_3.4_GitOps_Continuous_Deployment_with_ArgoCD.md)|
-| Day 100 | Coming Soon                                  | ⏳     | -                                                                |
+| Day 100 | Capstone (4/4): Close the Loop with Prometheus + Grafana Observability | ✔️     |  [Day_100](./Day_100:_Capstone_4.4_Close_the_Loop_with_Prometheus_Grafana_Observability.md)|
 
 
 
